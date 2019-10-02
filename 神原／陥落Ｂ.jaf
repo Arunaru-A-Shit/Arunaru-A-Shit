@@ -1,0 +1,33 @@
+void 神原／陥落Ｂ()
+{
+	EV("", -2147483648);
+	イベント("");
+	台詞枠(0, 0, 0);
+	顔(10, "", 1, 100);
+	'You\'ll spend the rest of your life as my sex slave.' A;
+	顔(246, "", 1, 100);
+	'Huh? Wait, I don\'t approve of that!' A;
+	顔(7, "", 1, 100);
+	'Gahahahaha.' A;
+	顔(0, "", 1, 100);
+	ト書き枠(0, 0);
+	R();
+	'　　*Squeeze* *Rub* *Rub*' A;
+	'Rance wrapped his arms around Aki and groped her chest.' A;
+	台詞枠(0, 0, 0);
+	顔(246, "", 1, 100);
+	'Eeep!' A;
+	顔(6, "", 1, 100);
+	'Mhm, nice titties.' R;
+	'I\'ll massage those plenty later.' R;
+	'Hey, take her away.' A;
+	顔(246, "", 1, 100);
+	'Wha? Wait!' A;
+	顔(7, "", 1, 100);
+	'The winner of the war takes the enemy\'s princess, everyone knows that.' R;
+	'Gahahahahaha.' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}
