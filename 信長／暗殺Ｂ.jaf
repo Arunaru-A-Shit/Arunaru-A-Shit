@@ -169,7 +169,7 @@ void 信長／暗殺Ｂ()
 	顔(96, "", 1, 100);
 	'Inconceivable!' A;
 	顔(216, "", 1, 100);
-	'True, there\'s never been a foreign lord in Nippon.' A;
+	'True, there\'s never been a foreign lord in JAPAN.' A;
 	if (キャラ確認(1048, 0, 0, 0) == 1)
 	{
 		顔(76, "", 1, 100);
@@ -186,7 +186,7 @@ void 信長／暗殺Ｂ()
 	顔(6, "", 1, 100);
 	'Hmmm... Fuck that.' R;
 	'Forget it, then.' A;
-	'Hmmm... Being reminded of what happened to Kou is painful. Maybe it\'s time to leave Nippon.' A;
+	'Hmmm... Being reminded of what happened to Kou is painful. Maybe it\'s time to leave JAPAN.' A;
 	顔(16, "", 1, 100);
 	'Yes, let\'s do that.' A;
 	顔(6, "", 1, 100);
@@ -213,7 +213,7 @@ void 信長／暗殺Ｂ()
 	顔(216, "", 1, 100);
 	'I...' A;
 	'...' A;
-	'I\'m sorry, but I have a duty to restore the Yamamoto clan. I can\'t leave Nippon.' A;
+	'I\'m sorry, but I have a duty to restore the Yamamoto clan. I can\'t leave JAPAN.' A;
 	顔(6, "", 1, 100);
 	'Huh... That sucks.' A;
 	'Anyway, 3G, that\'s that.' R;

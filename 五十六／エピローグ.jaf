@@ -9,7 +9,7 @@ void 五十六／エピローグ()
 	'Discussions of Isoroku Yamamoto and Rance\'s child taking over Oda began, but relatives of the Oda clan complained that the heir had to be related by blood.' A;
 	'As such, 3G suggested changing the name of the clan from Oda to Yamamoto.' A;
 	'Isoroku agreed as long as what had been the Oda clan wouldn\'t be destroyed as a result.' A;
-	'Nippon was then ruled by the Yamamoto clan, formerly known as the Oda clan.' A;
+	'JAPAN was then ruled by the Yamamoto clan, formerly known as the Oda clan.' A;
 	'Ten years later...' A;
 	枠閉じ(0, 0);
 	音楽(203, 0, false);
@@ -111,7 +111,7 @@ void 五十六／エピローグ()
 	台詞枠(17, 0, 0);
 	'"Of course."' A;
 	台詞枠(18, 0, 0);
-	'"All of Nippon\'s resources are focused in this army."' A;
+	'"All of JAPAN\'s resources are focused in this army."' A;
 	台詞枠(16, 0, 0);
 	'"The Monster Army is nothing we can\'t compete with!"' A;
 	台詞枠(32, 0, 0);

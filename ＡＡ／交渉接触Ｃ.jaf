@@ -155,7 +155,7 @@ void ＡＡ／交渉接触Ｃ()
 	顔(5192, "Ichirou Asakura", 1, 100);
 	'Right.' A;
 	顔(306, "", 1, 100);
-	'Any state with a foreign lord is harmful to Nippon.' A;
+	'Any state with a foreign lord is harmful to JAPAN.' A;
 	'And most importantly...' R;
 	'Well, this lack of respect toward my daughter cannot stand.' A;
 	'Declare war on Oda.' A;

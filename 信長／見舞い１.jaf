@@ -94,14 +94,14 @@ void 信長／見舞い１()
 	'You have Uesugi, Takeda, and Houjou, the three strongest clans. After that, there\'s Iga, Akashi, Mouri, and Ashikaga, I think.' A;
 	顔(6, "", 1, 100);
 	'Huh.' R;
-	'Are they all a big deal in Nippon?' A;
+	'Are they all a big deal in JAPAN?' A;
 	顔(36, "", 1, 100);
 	'They handed the gourds to what were the biggest states a long time ago, apparently, and they\'ve been passed down from generation to generation.' A;
 	'...Well... Once I can move again, I\'ll go to Tenshiism\'s headquarters in Naniwa to apologize.' A;
 	顔(6, "", 1, 100);
 	'Why?' A;
 	顔(36, "", 1, 100);
-	'Remember how I told you that Tenshiism is like Alicism in your country? It\'s the biggest organized religion in Nippon.' A;
+	'Remember how I told you that Tenshiism is like Alicism in your country? It\'s the biggest organized religion in JAPAN.' A;
 	顔(6, "", 1, 100);
 	'Mhm, now that you mention it.' A;
 	'Organized religions are kinda fishy, though.' A;
@@ -111,7 +111,7 @@ void 信長／見舞い１()
 	顔(36, "", 1, 100);
 	'Whoa now, they\'re a fine organization.' R;
 	'Also, most Japanese people believe in Tenshiism.' A;
-	'Both their leaders and their followers care about and work toward bettering Nippon.' A;
+	'Both their leaders and their followers care about and work toward bettering JAPAN.' A;
 	'Seigan-sama, the current Head Monk, isn\'t a bad guy either... If I just be honest and apologize, I bet he\'ll understand.' A;
 	'There\'s really no reason to get on the Tenshiists\' bad side.' A;
 	顔(6, "", 1, 100);

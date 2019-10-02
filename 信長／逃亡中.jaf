@@ -1,0 +1,32 @@
+void 信長／逃亡中()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(105, 0, false);
+	全部(0, 0, 9041, 2, 10020, "Forest", 1, 500, 0);
+	ＳＰ(761, 1, 500);
+	ト書き枠(0, 0);
+	'Xavier and Shikibu were running through the forest.' A;
+	台詞枠(0, 0, 0);
+	顔(766, "", 1, 100);
+	'Shikibu...' R;
+	'Are there any pursuers...?' A;
+	顔(136, "", 1, 100);
+	'WE\'RE... FINE.' A;
+	顔(766, "", 1, 100);
+	'I see...' A;
+	'No returning to the Oda clan now...' A;
+	'What to do...?' A;
+	'First come the Gourds... I will break those wretched gourds binding my body...' A;
+	'Then I will kill everyone listed in the Imperial Notebook...' A;
+	'Yes... All of them...' A;
+	'Everyone in JAPAN... Every last one of them... Heheh... Hahaha... Hahahaha...!' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	ＳＰ(0, 1, 500);
+	ト書き枠(0, 0);
+	'Xavier laughed as he ran like the wind with Shikibu.' A;
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

@@ -22,7 +22,7 @@ void 謙信／帝レースへの悩み()
 	'That doesn\'t sit well with me.' A;
 	顔(6, "", 1, 100);
 	'Then let me do it.' R;
-	'I\'ll become the emperor of Nippon.' R;
+	'I\'ll become the emperor of JAPAN.' R;
 	'Gahahahahaha.' A;
 	顔(76, "", 1, 100);
 	'Ah...' A;

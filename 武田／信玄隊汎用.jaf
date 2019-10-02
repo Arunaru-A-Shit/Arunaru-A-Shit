@@ -1,0 +1,20 @@
+void 武田／信玄隊汎用()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(106, 0, false);
+	全部(0, 0, 9200, 3, 10020, "Battleground", 1, 500, 0);
+	ＳＰ(671, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(676, "", 1, 100);
+	'Heheh... Haven\'t learned your lesson?' R;
+	'They\'re surprisingly persistent.' A;
+	'Either way, we need to unite JAPAN, so you must perish here.' A;
+	'All forces, begin the attack!' A;
+	顔(0, "", 1, 100);
+	ト書き枠(0, 0);
+	'At Shingen\'s orders, his hotwing unit attacked the Oda Army.' A;
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

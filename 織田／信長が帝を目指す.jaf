@@ -26,7 +26,7 @@ void 織田／信長が帝を目指す()
 	顔(37, "", 1, 100);
 	'Hoh... So this is one of the Three Sacred Treasures...' A;
 	顔(126, "", 1, 100);
-	'Yes. Ishimaru Fujiwara and Takauji Ashikaga once used them to rule Nippon, I believe.' A;
+	'Yes. Ishimaru Fujiwara and Takauji Ashikaga once used them to rule JAPAN, I believe.' A;
 	'If you have the Three Sacred Treasures, the Japanese people cannot defy you, they say.' A;
 	顔(37, "", 1, 100);
 	'No matter what your orders, I take it...?' A;
@@ -38,9 +38,9 @@ void 織田／信長が帝を目指す()
 	'Heh heh...' R;
 	'Perhaps this is a sign...' A;
 	顔(126, "", 1, 100);
-	'It means you have it in you to rule Nippon, I\'m sure.' A;
+	'It means you have it in you to rule JAPAN, I\'m sure.' A;
 	顔(37, "", 1, 100);
-	'Heh heh... Me, as the emperor of Nippon, hm...?' A;
+	'Heh heh... Me, as the emperor of JAPAN, hm...?' A;
 	'Not a bad idea...' A;
 	'If I order them to die,' R;
 	'they would all kill themselves...' R;

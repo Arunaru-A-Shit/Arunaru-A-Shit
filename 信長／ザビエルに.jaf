@@ -7,7 +7,7 @@ void 信長／ザビエルに()
 	ト書き枠(0, 0);
 	'Several months later...' A;
 	'The war with the Monster Army was coming to an end.' A;
-	'All the people of Nippon submitted to Empress Kenshin and joined the Oda clan.' A;
+	'All the people of JAPAN submitted to Empress Kenshin and joined the Oda clan.' A;
 	'Even those forced to fight in the Monster Army came to Oda\'s side.' A;
 	枠閉じ(0, 0);
 	音楽(109, 0, false);
@@ -142,7 +142,7 @@ void 信長／ザビエルに()
 	顔(766, "", 1, 100);
 	'Wh-What...?' A;
 	顔(75, "", 1, 100);
-	'I\'m the empress of Nippon and its people... Including you. Kneel.' A;
+	'I\'m the empress of JAPAN and its people... Including you. Kneel.' A;
 	顔(86, "", 1, 100);
 	'Huh?' A;
 	顔(766, "", 1, 100);

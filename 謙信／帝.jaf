@@ -130,7 +130,7 @@ void 謙信／帝()
 	'First, Kenshin picked up the Imperial Sword she already had.' A;
 	台詞枠(0, 0, 0);
 	顔(79, "", 1, 100);
-	'I want to make Nippon into a country without war.' A;
+	'I want to make JAPAN into a country without war.' A;
 	顔(0, "", 1, 100);
 	ト書き枠(0, 0);
 	'Next, she put on the Imperial Ring.' A;
@@ -278,7 +278,7 @@ void 謙信／帝()
 	'I flew here soon as I heard from Edge.' A;
 	顔(96, "", 1, 100);
 	'Oooh...' R;
-	'So this is Nippon\'s sovereign...' A;
+	'So this is JAPAN\'s sovereign...' A;
 	顔(98, "", 1, 100);
 	'Wonderful...' A;
 	顔(86, "", 1, 100);

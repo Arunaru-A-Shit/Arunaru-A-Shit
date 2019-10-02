@@ -96,7 +96,7 @@ void ザビエルの最後の作戦()
 	'That is exactly why I will do it...' A;
 	顔(777, "", 1, 100);
 	'No... Don\'t!' R;
-	'It\'ll destroy Nippon!' A;
+	'It\'ll destroy JAPAN!' A;
 	顔(768, "", 1, 100);
 	'That is my goal, girl...' A;
 	'Cry...' A;
@@ -141,7 +141,7 @@ void ザビエルの最後の作戦()
 	顔(777, "", 1, 100);
 	'Ngh...' A;
 	顔(768, "", 1, 100);
-	'Tremble, people of Nippon...' R;
+	'Tremble, people of JAPAN...' R;
 	'Taste your own powerlessness, suffer, and die...' A;
 	'Heh heh heh...' R;
 	'Hahaha...!' A;
@@ -242,7 +242,7 @@ void ザビエルの最後の作戦()
 	'I can see you feel that way from your face.' A;
 	顔(36, "", 1, 100);
 	'Hahaha...' R;
-	'Can\'t hide anything from Nippon\'s best tactician.' A;
+	'Can\'t hide anything from JAPAN\'s best tactician.' A;
 	'I\'m sure a tactician like you would understand this, but Xavier used my body for no small number of atrocities.' A;
 	'If I were to rule over those people, I\'d do more to strike fear into them than anything.' A;
 	'That\'s another reason I decided to step down.' A;
@@ -280,8 +280,8 @@ void ザビエルの最後の作戦()
 	顔(6, "", 1, 100);
 	'Orochi???' A;
 	顔(86, "", 1, 100);
-	'It\'s a legendary creature said to be holding up all of Nippon.' A;
-	'They say Orochi sheds its skin every hundred years, which results in giant earthquakes in Nippon once a century.' A;
+	'It\'s a legendary creature said to be holding up all of JAPAN.' A;
+	'They say Orochi sheds its skin every hundred years, which results in giant earthquakes in JAPAN once a century.' A;
 	顔(6, "", 1, 100);
 	'Why\'s Xavier in that legendary creature\'s pit?' A;
 	顔(86, "", 1, 100);
@@ -299,7 +299,7 @@ void ザビエルの最後の作戦()
 	顔(6, "", 1, 100);
 	'And then what happens?' A;
 	顔(36, "", 1, 100);
-	'Nippon\'ll fall apart... I guess.' A;
+	'JAPAN\'ll fall apart... I guess.' A;
 	顔(86, "", 1, 100);
 	'In its entirety, at that.' A;
 	顔(77, "", 1, 100);

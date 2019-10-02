@@ -1,0 +1,38 @@
+void 江戸／黄金熊Ａ()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(101, 0, false);
+	全部(0, 0, 9000, 1, 10020, "Edo", 1, 500, 0);
+	ト書き枠(0, 0);
+	'Edo was the largest city in East JAPAN.' A;
+	'Outside of it, there was a vast plain, some of which was used for farming.' A;
+	'Much about the city still had room to expand, but...' A;
+	'There was one major problem.' R;
+	'Edo was periodically attacked by a gang of gold bears.' A;
+	台詞枠(0, 0, 0);
+	顔(5251, "Old man", 1, 100);
+	'Don\'t assume the gold bears are like your regular old bear or panda. These are on another level.' A;
+	顔(5102, "Rowdy Ass Kid", 1, 100);
+	'Gold bears are cool!' R;
+	'I\'ll beat them one day.' A;
+	顔(5411, "Daikon-Selling Granny", 1, 100);
+	'Just stay away from them, sonny. Think of them as a disaster, like a typhoon or earthquake, and stay indoors until they\'re gone.' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	ＳＰ(1, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(6, "", 1, 100);
+	'...And that\'s what the people in this city say.' A;
+	'Not even the Houjou clan that used to rule this place could do anything about them. Useless.' A;
+	'My supreme army can tear down anything, bear or gold.' A;
+	顔(5161, "Rance's Subordinate", 1, 100);
+	'They\'re here!' R;
+	'The gold bears are here!' A;
+	顔(6, "", 1, 100);
+	'Alright, let\'s do this!' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

@@ -1,0 +1,35 @@
+void 傾国／合戦工作()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(115, 0, false);
+	全部(0, 0, 9140, -1, 10020, ＴＴ勢力() + " Castle", 1, 500, 0);
+	ト書き枠(0, 0);
+	S(ＴＴ勢力());
+	' was filled with anti-Oda sentiment.' A;
+	'The Monster Army and Oda were working together to destroy JAPAN.' A;
+	'The leader of the Monster Army was supposedly Nobunaga Oda himself.' A;
+	'They were cooperating behind the scenes, merely pretending to fight each other.' A;
+	'Such rumors spread throughout ' S(ＴＴ勢力());
+	', leaving them no choice but to declare war on Oda and the Monster Army.' A;
+	枠閉じ(0, 0);
+	黒転換();
+	全部(0, 0, 9040, -1, 10020, "Forest", 1, 500, 0);
+	ＳＰ(801, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(806, "", 1, 100);
+	'Hahaha!' R;
+	'All done.' A;
+	'Seriously, people are too susceptible to rumors. This was so simple that it was almost boring.' A;
+	顔(911, "", 1, 100);
+	'But isn\'t the chaos fun?' A;
+	顔(806, "", 1, 100);
+	'Heheh, of course.' A;
+	'Now, think I\'ll relax in the hot spring and plan my next steps.' A;
+	顔(911, "", 1, 100);
+	'Understood.' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

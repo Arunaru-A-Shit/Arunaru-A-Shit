@@ -79,7 +79,7 @@ void ウルザ／花火大会()
 	'"Hey.' R;
 	' Good job getting a spot."' A;
 	台詞枠(96, 0, 0);
-	'"All these people told me that in Nippon, it\'s usually the man who grabs a spot to watch fireworks from."' A;
+	'"All these people told me that in JAPAN, it\'s usually the man who grabs a spot to watch fireworks from."' A;
 	台詞枠(1, 0, 0);
 	'"Who cares who does it?' R;
 	' Gahahahaha."' A;
@@ -142,7 +142,7 @@ void ウルザ／花火大会()
 	台詞枠(96, 0, 0);
 	'"Mm... Nice and sweet."' A;
 	台詞枠(1, 0, 0);
-	'"Yeah, it\'s good. Cotton candy comes from Nippon, apparently. I\'ve eaten tons and never even knew."' A;
+	'"Yeah, it\'s good. Cotton candy comes from JAPAN, apparently. I\'ve eaten tons and never even knew."' A;
 	台詞枠(96, 0, 0);
 	'"So do fireworks."' A;
 	台詞枠(1, 0, 0);

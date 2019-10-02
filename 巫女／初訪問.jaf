@@ -508,7 +508,7 @@ void 巫女／初訪問()
 	'Hohohoh...' A;
 	'That was good.' R;
 	'There really is a paradise.' R;
-	'Nippon\'s a real great place.' A;
+	'JAPAN\'s a real great place.' A;
 	顔(0, "", 1, 100);
 	枠閉じ(0, 0);
 	音楽(0, 500, false);

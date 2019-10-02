@@ -1,0 +1,36 @@
+void 謙信／政宗の事()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(101, 0, false);
+	全部(0, 0, 9455, 1, 10020, "Oda Castle", 1, 500, 0);
+	ＳＰ(71, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(6, "", 1, 100);
+	'We\'re currently fighting the Youkai Kingdom. Their boss is Masamune Dokuganryu. Isn\'t he in the Imperial Notebook?' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	帝ノート閲覧();
+	台詞枠(0, 0, 0);
+	顔(76, "", 1, 100);
+	'He is, yes.' A;
+	顔(6, "", 1, 100);
+	'Let\'s take them down and beat him up.' A;
+	顔(76, "", 1, 100);
+	'Is destroying the Youkai Kingdom the only way to fight him?' A;
+	顔(86, "", 1, 100);
+	'Probably.' A;
+	顔(76, "", 1, 100);
+	'I\'m also not sure I can beat the Youkai King.' A;
+	顔(6, "", 1, 100);
+	'Come on, they call you the strongest in JAPAN.' C;
+	R();
+	'Well, I\'m actually the strongest now, but you\'re second best.' A;
+	'Anyway, let\'s corner and defeat Masamune. Level up as much as possible before then.' A;
+	顔(76, "", 1, 100);
+	'Right.' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

@@ -20,7 +20,7 @@ void ６大秘宝()
 	顔(96, "", 1, 100);
 	'Gadzooks...' A;
 	顔(98, "", 1, 100);
-	'We\'ve collected all of Nippon\'s Six Treasures.' A;
+	'We\'ve collected all of JAPAN\'s Six Treasures.' A;
 	顔(6, "", 1, 100);
 	'Hoh.' A;
 	顔(97, "", 1, 100);
@@ -38,7 +38,7 @@ void ６大秘宝()
 	顔(98, "", 1, 100);
 	'The Gold Seal...' R;
 	'It\'s a golden stamp.' A;
-	'It was once used as a stamp by the ruler of Nippon.' A;
+	'It was once used as a stamp by the ruler of JAPAN.' A;
 	顔(96, "", 1, 100);
 	'The Cola Bottle...' R;
 	'The treasure of the Africa region.' A;

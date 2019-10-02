@@ -94,7 +94,7 @@ void ウルザ／魔法電話()
 	顔(746, "", 1, 100);
 	'Yes.' A;
 	顔(999, "Gandhi", 1, 100);
-	'I did send you there to see the state of things in Nippon, but...' A;
+	'I did send you there to see the state of things in JAPAN, but...' A;
 	'What\'s more important is that you help Rance.' A;
 	'If he\'s the one spoken of in Lucy\'s prophecy,' R;
 	'then he must not die.' A;

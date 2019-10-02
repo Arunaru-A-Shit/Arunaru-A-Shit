@@ -50,7 +50,7 @@ void 信長／帝()
 	'The Three Sacred Treasures floated around Amaterasu.' A;
 	台詞枠(0, 0, 0);
 	顔(887, "", 1, 100);
-	'I declare you the third ruler of Nippon.' A;
+	'I declare you the third ruler of JAPAN.' A;
 	'Take the Three Sacred Treasures.' A;
 	顔(0, "", 1, 100);
 	ト書き枠(0, 0);
@@ -198,7 +198,7 @@ void 信長／帝()
 	'Women, kill the children...!' A;
 	'Strong, abuse the weak...!' A;
 	'And...' A;
-	'And all of Nippon, perish...!' A;
+	'And all of JAPAN, perish...!' A;
 	'Hahaha...' R;
 	'Haaaaaaaaahahahahahaha...!' A;
 	顔(0, "", 1, 100);

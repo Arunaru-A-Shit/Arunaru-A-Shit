@@ -540,9 +540,9 @@ void 謙信／帝ソード()
 	'What are those?' A;
 	顔(79, "", 1, 100);
 	'Divine treasures said to be used by the ancient Japanese hero Ishimaru Fujiwara, as well as Takauji Ashikaga.' A;
-	'Whoever possesses them becomes the emperor of Nippon, and gains absolute power over all Japanese people... Or so they say.' A;
+	'Whoever possesses them becomes the emperor of JAPAN, and gains absolute power over all Japanese people... Or so they say.' A;
 	顔(887, "", 1, 100);
-	'The Three Sacred Treasures are required to rule Nippon.' A;
+	'The Three Sacred Treasures are required to rule JAPAN.' A;
 	'Only by possessing all three of them may you suppress Orochi and control this country.' A;
 	'The Sacred Treasures are the Sword, the Headband, and the Ring.' A;
 	'All three of them are now in someone\'s possession.' A;
@@ -560,7 +560,7 @@ void 謙信／帝ソード()
 	顔(6, "", 1, 100);
 	'Looks like there\'s a lot of them.' A;
 	顔(887, "", 1, 100);
-	'Whoever obtains 100 points first will be granted all of the Three Sacred Treasures and be made ruler of Nippon.' A;
+	'Whoever obtains 100 points first will be granted all of the Three Sacred Treasures and be made ruler of JAPAN.' A;
 	顔(0, "", 1, 100);
 	枠閉じ(0, 0);
 	ＳＰ(0, 1, 2000);
@@ -582,7 +582,7 @@ void 謙信／帝ソード()
 	顔(6, "", 1, 100);
 	'What\'s wrong?' A;
 	顔(79, "", 1, 100);
-	'Me, rule Nippon?' A;
+	'Me, rule JAPAN?' A;
 	'I don\'t know about that...' A;
 	顔(6, "", 1, 100);
 	'Take up the challenge, obviously.' R;
@@ -610,7 +610,7 @@ void 謙信／帝ソード()
 	'Nobunaga was shown the vision of Amaterasu as well.' A;
 	台詞枠(0, 0, 0);
 	顔(37, "", 1, 100);
-	'I see... So becoming emperor of Nippon is not so simple...' A;
+	'I see... So becoming emperor of JAPAN is not so simple...' A;
 	顔(126, "", 1, 100);
 	'Apparently not.' A;
 	顔(37, "", 1, 100);

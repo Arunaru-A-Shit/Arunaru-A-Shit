@@ -1,0 +1,33 @@
+void 天満橋を渡るＢ()
+{
+	EV("", -2147483648);
+	イベント("");
+	台詞枠(0, 0, 0);
+	顔(6, "", 1, 100);
+	'Eh, whatever, let\'s go home.' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	ＳＰ(11, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(16, "", 1, 100);
+	'Huh? Master Rance...' R;
+	'What about the Oda clan???' A;
+	顔(6, "", 1, 100);
+	'I\'m tired of them.' R;
+	'They\'ll figure something out.' R;
+	'I wanna go home.' A;
+	'You\'d rather stay, Sill?' A;
+	顔(16, "", 1, 100);
+	'No, but...' A;
+	'...Ah, wait, Master Rance.' R;
+	'Please don\'t leave me behind.' A;
+	顔(0, "", 1, 100);
+	音楽(0, 500, false);
+	枠閉じ(0, 0);
+	ＳＰ(0, 1, 500);
+	ト書き枠(0, 0);
+	'And so, Rance abruptly left JAPAN.' A;
+	'They didn\'t live happily ever after at all, but that brought an end to this story.' A;
+	枠閉じ(0, 0);
+	黒画面(1, 500, 0);
+}

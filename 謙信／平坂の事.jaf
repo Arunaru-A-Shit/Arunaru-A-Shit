@@ -1,0 +1,36 @@
+void 謙信／平坂の事()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(101, 0, false);
+	全部(0, 0, 9455, 1, 10020, "Oda Castle", 1, 500, 0);
+	ＳＰ(71, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(97, "", 1, 100);
+	'Mogami Hirasaka, one of the people in the Imperial Notebook, has been located.' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	帝ノート閲覧();
+	台詞枠(0, 0, 0);
+	顔(98, "", 1, 100);
+	'He\'s currently one of the top five sohei in JAPAN.' A;
+	顔(96, "", 1, 100);
+	'Over 200 assassins and challengers have attacked him...' A;
+	顔(97, "", 1, 100);
+	'Every one of them was defeated.' A;
+	顔(96, "", 1, 100);
+	'He\'s LV63, with remarkable skills. A formidable adversary, it seems.' A;
+	顔(98, "", 1, 100);
+	'If he can be avoided,' R;
+	'that may be for the best.' A;
+	顔(6, "", 1, 100);
+	'Nah, let\'s do this.' R;
+	'Kenshin won\'t lose to this guy.' R;
+	'Right, Kenshin?' A;
+	顔(76, "", 1, 100);
+	'Right.' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}
