@@ -101,7 +101,7 @@ void 織田／比叡山焼き討ち()
 	顔(97, "", 1, 100);
 	'The Tenshiist headquarters in Naniwa has declared war on the Oda clan!' A;
 	顔(98, "", 1, 100);
-	'And to make matters worse, they\'ve ordered their followers throughout Nippon to fight against Nobunaga.' A;
+	'And to make matters worse, they\'ve ordered their followers throughout JAPAN to fight against Nobunaga.' A;
 	顔(46, "", 1, 100);
 	'...We assumed this would happen...' A;
 	顔(97, "", 1, 100);
@@ -110,9 +110,9 @@ void 織田／比叡山焼き討ち()
 	'It\'s just some religion, right?' R;
 	'What\'s the big deal?' A;
 	顔(97, "", 1, 100);
-	'Maybe you don\'t know this across the bridge, but Tenshiism isn\'t simply a religion in Nippon. It\'s a massive organization!' A;
+	'Maybe you don\'t know this across the bridge, but Tenshiism isn\'t simply a religion in JAPAN. It\'s a massive organization!' A;
 	顔(96, "", 1, 100);
-	'The branches of this organization all throughout Nippon are now against us!' A;
+	'The branches of this organization all throughout JAPAN are now against us!' A;
 	顔(98, "", 1, 100);
 	'There are many Tenshiists not just in enemy states, but among our own people in Owari.' A;
 	顔(6, "", 1, 100);

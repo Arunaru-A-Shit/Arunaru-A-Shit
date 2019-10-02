@@ -1,0 +1,40 @@
+void 魔軍／３Ｇの助言()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(101, 0, false);
+	全部(0, 0, 9456, 1, 10020, "Oda Camp", 1, 500, 0);
+	ＳＰ(1, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(6, "", 1, 100);
+	'Alright, time to beat down all the states that the monsters took over.' A;
+	'We\'ll blow through them fast to drive Xavier into a corner.' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	ＳＰ(91, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(97, "", 1, 100);
+	'We\'re the ones being cornered.' A;
+	顔(98, "", 1, 100);
+	'Our territory is surrounded by the Monster Army.' A;
+	顔(96, "", 1, 100);
+	'This is an extremely dangerous situation.' A;
+	顔(97, "", 1, 100);
+	'If we try to fight them all, there\'ll be no end to it.' A;
+	顔(98, "", 1, 100);
+	'We believe Xavier is somewhere in Africa.' A;
+	顔(96, "", 1, 100);
+	'What used to be the Shimazu clan\'s territory.' A;
+	顔(6, "", 1, 100);
+	'Oh, so the westernmost part of JAPAN?' A;
+	顔(97, "", 1, 100);
+	'Yes, so just defend against the enemies in the east, while gradually advancing toward Africa in the west. That would be wise.' A;
+	顔(6, "", 1, 100);
+	'First, we\'ll take care of these enemies right here.' A;
+	'Alrighty, blow the horn.' R;
+	'Let the battle begin.' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

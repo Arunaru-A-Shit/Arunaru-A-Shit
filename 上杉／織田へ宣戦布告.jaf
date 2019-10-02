@@ -1,0 +1,31 @@
+void 上杉／織田へ宣戦布告()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(108, 0, false);
+	全部(0, 0, 9495, 5, 10020, "Uesugi Castle", 1, 500, 0);
+	ＳＰ(81, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(86, "", 1, 100);
+	'The Oda clan\'s rampage is more than I can tolerate.' A;
+	'They not only wage war on everyone, but that foreigner seems to engage in obscene acts with the women.' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	ＳＰ(71, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(76, "", 1, 100);
+	'My god...' A;
+	顔(86, "", 1, 100);
+	'The foreigner is having his way with JAPAN. I think it\'s about time we decide what to do about this.' A;
+	顔(76, "", 1, 100);
+	'...Right.' A;
+	'We can\'t let someone from across the bridge do what he pleases in JAPAN any longer.' A;
+	'Ai, let\'s move out.' R;
+	'We\'ll use of all the Uesugi clan\'s power to crush the Oda clan.' A;
+	顔(86, "", 1, 100);
+	'Yes, Kenshin-sama.' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

@@ -46,7 +46,7 @@ void 今川／義元と接触Ａ()
 	顔(7, "", 1, 100);
 	'Gahahaha.' R;
 	'Well, yeah.' R;
-	'I\'m not from Nippon.' A;
+	'I\'m not from JAPAN.' A;
 	顔(346, "", 1, 100);
 	'Huh?' A;
 	顔(6, "", 1, 100);

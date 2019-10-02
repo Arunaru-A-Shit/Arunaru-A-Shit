@@ -1,0 +1,33 @@
+void 鈴女／合戦前／汎用()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(103, 0, false);
+	全部(0, 0, 9456, 1, 10020, "Oda Camp", 1, 500, 0);
+	ＳＰ(21, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(7, "", 1, 100);
+	'Gahahahaha.' R;
+	'Another good day for a battle.' A;
+	顔(26, "", 1, 100);
+	'Yeeeah!' R;
+	'I\'m all ready to toss some shurikens!' A;
+	顔(6, "", 1, 100);
+	'Suzume, in the future,' R;
+	'I want you to be my personal home ninja.' A;
+	顔(26, "", 1, 100);
+	'Sounds sweet.' A;
+	顔(6, "", 1, 100);
+	'I have a guard dog named Athena 2.0 already, but I\'m sure you\'ll get along.' A;
+	顔(26, "", 1, 100);
+	'Muhohoh.' R;
+	'I look forward to it.' A;
+	'But first,' R;
+	'let\'s trash JAPAN!' A;
+	'Ninja Battle Formation!' R;
+	'Nin nin nin!' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

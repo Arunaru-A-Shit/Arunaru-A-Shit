@@ -1,0 +1,129 @@
+void UpdateItemBoxes()
+{
+	string desc = "";
+	array@string list;
+	desc = "Contains: ";
+	list.Free();
+	list.PushBack("Menko cards");
+	if (ＧＦ[39] == 1)
+	{
+		list.PushBack("a tengu mask");
+	}
+	if (ＧＦ[40] == 1)
+	{
+		list.PushBack("a sex candle");
+	}
+	if (ＧＦ[41] == 1)
+	{
+		list.PushBack("a death hallucinogen");
+	}
+	if (ＧＦ[89] == 1)
+	{
+		list.PushBack("a slutification drug");
+	}
+	if (ＧＦ[91] == 1)
+	{
+		list.PushBack("a Kanami sex ticket");
+	}
+	if (ＧＦ[49] == 1)
+	{
+		list.PushBack("a nautilus shell");
+	}
+	if (ＧＦ[50] == 1)
+	{
+		list.PushBack("a broken China shell");
+	}
+	if (ＧＦ[51] == 1)
+	{
+		list.PushBack("a JAPAN shell");
+	}
+	if (ＧＦ[175] == 1)
+	{
+		list.PushBack("an ukiyo-e painting");
+	}
+	アイテム[2].説明 = desc + CombineWithCommas(list) + ".";
+	desc = "Contains: ";
+	list.Free();
+	list.PushBack("Tofu");
+	if (ＧＦ[54] == 1)
+	{
+		list.PushBack("takuan");
+	}
+	if (ＧＦ[57] == 1)
+	{
+		list.PushBack("a bitter persimmon");
+	}
+	if (ＧＦ[58] == 1)
+	{
+		list.PushBack("marimo");
+	}
+	if (ＧＦ[59] == 1)
+	{
+		list.PushBack("a crab");
+	}
+	if (ＧＦ[60] == 1)
+	{
+		list.PushBack("a melon");
+	}
+	if (ＧＦ[61] == 1)
+	{
+		list.PushBack("jingisukan");
+	}
+	if (ＧＦ[98] == 1)
+	{
+		list.PushBack("twenty pearls");
+	}
+	if (ＧＦ[99] == 1)
+	{
+		list.PushBack("testicles");
+	}
+	if (ＧＦ[139] == 1)
+	{
+		list.PushBack("a rice coupon");
+	}
+	アイテム[3].説明 = desc + CombineWithCommas(list) + ".";
+	desc = "Contains: ";
+	list.Free();
+	list.PushBack("Broken glasses");
+	if (ＧＦ[38] == 1)
+	{
+		list.PushBack("a Takauji folding screen");
+	}
+	if (ＧＦ[103] == 1)
+	{
+		list.PushBack("a coil");
+	}
+	if (ＧＦ[104] == 1)
+	{
+		list.PushBack("an iron pipe");
+	}
+	if (ＧＦ[105] == 1)
+	{
+		list.PushBack("cellophane tape");
+	}
+	if (ＧＦ[122] == 1)
+	{
+		list.PushBack("★The Echizen Crab");
+	}
+	if (ＧＦ[121] == 1)
+	{
+		list.PushBack("★The Lone Fear");
+	}
+	if (ＧＦ[120] == 1)
+	{
+		list.PushBack("★The Giant Pearl");
+	}
+	if (ＧＦ[119] == 1)
+	{
+		list.PushBack("★The Hiragumo");
+	}
+	if (ＧＦ[118] == 1)
+	{
+		list.PushBack("★The Gold Seal");
+	}
+	if (ＧＦ[117] == 1)
+	{
+		list.PushBack("★The Cola Bottle");
+	}
+	アイテム[4].説明 = desc + CombineWithCommas(list) + ".";
+}

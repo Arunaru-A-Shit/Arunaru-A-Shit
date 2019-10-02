@@ -1,0 +1,40 @@
+void 織田／義勇団２()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(101, 0, false);
+	全部(0, 0, 9455, 1, 10020, "Oda Castle", 1, 500, 0);
+	ＳＰ(1, 1, 500);
+	ト書き枠(0, 0);
+	'Commanders from outside Oda territory gathered and bowed before Rance.' A;
+	台詞枠(0, 0, 0);
+	顔(5365, "Volunteer Army", 1, 100);
+	'Good day to you, Rance-dono.' A;
+	'We do not work for the Oda clan, but believe that given the current threat to JAPAN, we should not concern ourselves with borders.' A;
+	'If you allow us to participate in the fight against the Monster Army, we would be grateful.' A;
+	顔(97, "", 1, 100);
+	'Gadzooks, how gallant.' A;
+	顔(98, "", 1, 100);
+	'We greatly appreciate the offer.' A;
+	顔(96, "", 1, 100);
+	'Don\'t we, Rance-dono?' A;
+	顔(10, "", 1, 100);
+	'Mhm, sure.' R;
+	'First thing\'s first, let\'s get to know each other through sex.' A;
+	顔(5365, "Volunteer Army", 1, 100);
+	'Uh...' A;
+	顔(97, "", 1, 100);
+	'H-He\'s kidding!' A;
+	顔(96, "", 1, 100);
+	'Our lord is quite the comedian.' A;
+	顔(98, "", 1, 100);
+	'Don\'t mind him.' A;
+	顔(10, "", 1, 100);
+	'But I\'m serious.' A;
+	顔(99, "", 1, 100);
+	'Quiet!×3' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

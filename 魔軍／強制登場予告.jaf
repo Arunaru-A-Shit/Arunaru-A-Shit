@@ -1,0 +1,33 @@
+void 魔軍／強制登場予告()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(105, 0, false);
+	全部(0, 0, 9100, 0, 10020, "Honnoji Temple", 1, 500, 0);
+	ＳＰ(32, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(37, "", 1, 100);
+	'He did not meet my expectations...' A;
+	'I have grown accustomed to this body...' R;
+	'Now I can move freely...' A;
+	'I do not need him anymore...' A;
+	'I will make Oda... No, all of JAPAN mine...' ルビS;
+	ルビE();
+	A();
+	'And then... I will enact my vengeance on them all...' A;
+	'Perish, JAPAN...' R;
+	'You will all be corpses soon...' A;
+	'Heh heh... Heh heh heh...' A;
+	顔(136, "", 1, 100);
+	'AH... AAAH...' A;
+	顔(126, "", 1, 100);
+	'Isn\'t that nice, Shikibu.' R;
+	'We get to do our thing now.' A;
+	顔(136, "", 1, 100);
+	'UH... YEAH... YEAH...' R;
+	'EHEH... HEH... HEHEH...' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

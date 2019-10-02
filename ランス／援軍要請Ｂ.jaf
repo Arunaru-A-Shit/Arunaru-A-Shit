@@ -1,0 +1,40 @@
+void ランス／援軍要請Ｂ()
+{
+	EV("", -2147483648);
+	イベント("");
+	台詞枠(0, 0, 0);
+	顔(8, "", 1, 100);
+	'Siiill!' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	ＳＰ(11, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(16, "", 1, 100);
+	'Y-Yes, Master Rance?' A;
+	顔(6, "", 1, 100);
+	'Write a letter!' A;
+	顔(16, "", 1, 100);
+	'Okay.' A;
+	顔(10, "", 1, 100);
+	'These are orders from me, Rance.' R;
+	'Send over a special someone.' R;
+	'Ladies only.' A;
+	顔(16, "", 1, 100);
+	'Hello, this is Rance.' A;
+	'I\'ve run into a bit of trouble. Would you be willing to send a capable fighter to Owari, JAPAN?' A;
+	'If possible, a woman would be nice.' R;
+	'Thank you very much.' A;
+	'Master Rance, I\'m done.' A;
+	顔(6, "", 1, 100);
+	'Alright, hand it off to the mailman.' A;
+	顔(16, "", 1, 100);
+	'Okay.' A;
+	顔(6, "", 1, 100);
+	'Make it express mail.' A;
+	顔(16, "", 1, 100);
+	'Okay.' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

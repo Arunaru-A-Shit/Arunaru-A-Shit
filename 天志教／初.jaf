@@ -5,14 +5,14 @@ void 天志教／初()
 	音楽(0, 500, false);
 	全部(0, 0, 9000, 14, 10020, "Naniwa", 1, 500, 0);
 	ト書き枠(0, 0);
-	'Naniwa was under the dominion of Nippon\'s largest religion, Tenshiism.' ルビS;
+	'Naniwa was under the dominion of JAPAN\'s largest religion, Tenshiism.' ルビS;
 	ルビE();
 	A();
 	'Thought they were a religious organization, they held power similar to that of a major clan.' C;
 	R();
 	'In fact, you could say they had even more.' A;
 	'Half of the Japanese population was Tenshiist.' A;
-	'They accrued so much in donations that they were the wealthiest organization in all of Nippon.' A;
+	'They accrued so much in donations that they were the wealthiest organization in all of JAPAN.' A;
 	'They had a Self Defense Force charged with protecting temples, and it had tens of thousands of troops.' A;
 	'In the center of Naniwa, you could find Tenshiism\'s headquarters.' A;
 	枠閉じ(0, 0);

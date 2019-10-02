@@ -78,7 +78,7 @@ void 香姫／死亡()
 	'Thanks.' A;
 	'It\'s sad that Kou died, but after we\'ve come this far, there\'s nowhere for the Oda clan to go but forward.' A;
 	'For Kou to rest in peace,' R;
-	'we must unite Nippon.' A;
+	'we must unite JAPAN.' A;
 	'Rance, you\'ve done well.' R;
 	'I\'m still not in the best condition.' A;
 	'I think I\'ll get better soon enough...' R;
@@ -327,7 +327,7 @@ void 香姫／死亡()
 	顔(6, "", 1, 100);
 	'Huh?' A;
 	顔(216, "", 1, 100);
-	'A fiend named Xavier once attacked Nippon, but he was divided into eight pieces and sealed away.' A;
+	'A fiend named Xavier once attacked JAPAN, but he was divided into eight pieces and sealed away.' A;
 	'If just one piece of his soul somehow entered and possessed Nobunaga-sama...' A;
 	'Perhaps it would be hard for even Chaos-dono to notice.' A;
 	顔(6, "", 1, 100);

@@ -1,0 +1,42 @@
+void 織田／汎用会話２１()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(101, 0, false);
+	全部(0, 0, 9000, 1, 10020, "Oda Castle Town", 1, 500, 0);
+	ト書き枠(0, 0);
+	'Around the castle town, the foreign warrior named Rance had become the biggest topic of discussion.' A;
+	台詞枠(0, 0, 0);
+	顔(5211, "Peasant 1", 1, 100);
+	'I hear he\'s hella strong.' A;
+	顔(5245, "Villager 1", 1, 100);
+	'I\'ve been told that he\'s Kouhime-sama\'s lover.' A;
+	顔(5172, "Peasant 2", 1, 100);
+	'He\'s an assassin from the Continent looking to conquer JAPAN, from what I\'ve been told.' A;
+	顔(5242, "Farmer Kotokura", 1, 100);
+	'...' A;
+	顔(5211, "Peasant 1", 1, 100);
+	'Well, whatever he is...' A;
+	顔(5245, "Villager 1", 1, 100);
+	'Quite the interesting foreigner came to Oda.' A;
+	顔(5242, "Farmer Kotokura", 1, 100);
+	'...' A;
+	顔(5211, "Peasant 1", 1, 100);
+	'Eh, Kotokura?' A;
+	顔(5242, "Farmer Kotokura", 1, 100);
+	'Y-Yes...' A;
+	顔(5245, "Villager 1", 1, 100);
+	'What\'s wrong?' R;
+	'You seem down.' A;
+	顔(5242, "Farmer Kotokura", 1, 100);
+	'I-It\'s nothing.' R;
+	'Nothing at all.' A;
+	思考枠(0, 0, 0);
+	'Ugh, I can\'t tell them...' R;
+	'I can\'t mention how Rance raped my daughter.' A;
+	'The Oda clan told me I must never mention it, but he\'s a bad guy... A real bad guy...' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

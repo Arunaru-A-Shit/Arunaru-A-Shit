@@ -1,0 +1,33 @@
+void 織田／義勇団１()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(101, 0, false);
+	全部(0, 0, 9455, 1, 10020, "Oda Castle", 1, 500, 0);
+	ＳＰ(1, 1, 500);
+	ト書き枠(0, 0);
+	'Commanders from outside Oda territory gathered and bowed before Rance.' A;
+	台詞枠(0, 0, 0);
+	顔(5212, "Volunteer Army", 1, 100);
+	'We are not retainers to the Oda clan, but given the threat to JAPAN, we have come to assist Owari.' A;
+	'Allow our volunteer army to aide in the fight with the Monster Army.' A;
+	顔(97, "", 1, 100);
+	'Oooh, thank you.' A;
+	顔(98, "", 1, 100);
+	'We greatly appreciate the offer.' A;
+	顔(96, "", 1, 100);
+	'Don\'t we, Rance-dono?' A;
+	顔(6, "", 1, 100);
+	'Mhm, sure.' R;
+	'Alrighty then, you can die for me.' A;
+	顔(5212, "Volunteer Army", 1, 100);
+	'I\'m afraid if we die, it will be for JAPAN,' R;
+	'not you.' A;
+	'Remember, Rance-dono, we ask that when you fight the Monster Army, you allow us to join in.' A;
+	顔(6, "", 1, 100);
+	'Sure thing.' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

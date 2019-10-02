@@ -1,0 +1,618 @@
+void シナリオ／勢力トップ(lint ii2)
+{
+	lint rr = 0;
+	lint loop = 0;
+	lint iic = 0;
+	lint iic2 = 0;
+	lint aa = 0;
+	lint bb = 0;
+	lint iim = 0;
+	lint ▲武田攻勢未発動 = 0;
+	lint ▲補充制限 = 0;
+	lint ▲合戦制限 = 0;
+	lint ▲行動回数 = 0;
+	lint ▲元気武将数 = 0;
+	lint ▲武田大攻勢勝ち数 = 0;
+	◆ターン勢力 = ii2;
+	LOG_TADA("■　" + 勢力[ii2].名前 + "　ｔｕｒｎ　■\n");
+	▲行動回数 = RAND(勢力[ii2].自動行動回数);
+	if (勢力[ii2].状態 == 1)
+	{
+		▲行動回数 = 1;
+	}
+	if (勢力[ii2].状態 == 3)
+	{
+		▲行動回数 = 0;
+	}
+	if (勢力[ii2].混乱状態 == 1)
+	{
+		Ｐ勢力看板(ii2, "Political chaos is preventing action", iim, false);
+		ＧＦ[167] = 0;
+		▲行動回数 = 0;
+	}
+	if (ii2 == 15 && EV("タクガ／死国門封鎖Ｂ", -2147483648) == true)
+	{
+		if (◆予備０５ == 0)
+		{
+			Ｐ勢力看板(ii2, "Locked into Shikokalamity and unable to act", iim, false);
+		}
+		▲行動回数 = 0;
+	}
+	for (; ; )
+	{
+		if (平均兵数％(ii2) < 40)
+		{
+			if (◆予備０５ == 0)
+			{
+				Ｐ勢力看板(ii2, "Healing wounded troops (Big)", 0, false);
+			}
+			aa = 勢力兵数補充(ii2, 20);
+			Ｐ勢力看板／更新();
+			break;
+		}
+		if (平均兵数％(ii2) < 70)
+		{
+			if (◆予備０５ == 0)
+			{
+				Ｐ勢力看板(ii2, "Healing wounded troops (Medium)", 0, false);
+			}
+			aa = 勢力兵数補充(ii2, 10);
+			Ｐ勢力看板／更新();
+			break;
+		}
+		if (◆予備０５ == 0)
+		{
+			Ｐ勢力看板(ii2, "Healing wounded troops (Small)", 0, false);
+		}
+		aa = 勢力兵数補充(ii2, 5);
+		Ｐ勢力看板／更新();
+		break;
+	}
+	if (◆ターン % 3 == 0 && ii2 == 2 && キャラ数(ii2) < 55 && EV("魂縛り／始まり", -2147483648) == true && EV("魂縛り／解放", -2147483648) == false)
+	{
+		if (◆予備０５ == 0)
+		{
+			Ｐ勢力看板(ii2, "More Soul Binder victims joined the Monster Army", 0, false);
+		}
+		乱武将登録(ii2, 25, 0, "", 0);
+		Ｐ勢力看板／更新();
+	}
+	for (iic = 1; iic < 61; iic++)
+	{
+		if (gs[ii2][iic].兵種 == 7)
+		{
+			Ｃ兵数補充(9999, iic, ii2);
+		}
+	}
+	for (; ; )
+	{
+		if (▲行動回数 == 0)
+		{
+			break;
+		}
+		if (◆予備０５ == 1)
+		{
+			マップ_地域更新();
+		}
+		if (ii2 == 3 && ＧＦ[167] == 1 && EV("信長ｖｓ馬場", -2147483648) == false)
+		{
+			Ｃ行動変更(1, 1056, ii2);
+			Ｃ行動変更(1, 1054, ii2);
+			Ｃ行動変更(1, 1053, ii2);
+			Ｃ行動変更(1, 1055, ii2);
+			▲武田大攻勢勝ち数 = 0;
+			▲武田攻勢未発動 = 0;
+			for (ＧＦ[6] = 1; ＧＦ[6] < 5; ＧＦ[6]++)
+			{
+				LOG_TADA("　武田大攻勢（" + string(ＧＦ[6]) + "）\n");
+				勢力隣接状況再計算(ii2);
+				iim = 勢力ｖｓ織田国取得(ii2);
+				if (iim == 0)
+				{
+					▲武田攻勢未発動 = 1;
+					break;
+				}
+				ＧＦ[144] = 0;
+				敵ターン攻撃戦(ii2, iim);
+				if (ＧＦ[144] == 1)
+				{
+					▲武田大攻勢勝ち数++;
+				}
+			}
+			ＧＦ[167] = 0;
+			ＧＦ[6] = 0;
+			▲行動回数 = 0;
+			if (▲武田攻勢未発動 == 1)
+			{
+				continue;
+			}
+			if (EV("武田／大攻勢撃退", -2147483648) == false && ▲武田大攻勢勝ち数 == 4 && クリアフラグ(16, 0) == 1)
+			{
+				武田／大攻勢撃退();
+				continue;
+			}
+			if (EV("織田／武田大攻勢の後", -2147483648) == false)
+			{
+				織田／武田大攻勢の後();
+			}
+			continue;
+		}
+		if (ii2 == 3 && EV("武田／大攻勢前", -2147483648) == true && ＧＦ[167] == 0 && (◆◆ == 3 && 勢力元気武将数(ii2) > 29 || EV("武田／高坂隊１", -2147483648) == false))
+		{
+			Ｐ勢力看板(ii2, "The Takeda Army is assembling", iim, false);
+			ＧＦ[167] = 1;
+			▲行動回数 = 0;
+			continue;
+		}
+		if (◆ルート == 1 && ii2 == 2 && EV("織田／美樹保護", -2147483648) == false && 国[28].支配国 == 2 && 失った土地(28) != 0)
+		{
+			iim = 28;
+			敵ターン防衛戦(ii2, iim);
+		}
+		if (ＧＦ[27] == 1 && RAND(2) == 1)
+		{
+			▲合戦制限 = 1;
+		}
+		if (ＧＦ[27] > 1)
+		{
+			▲合戦制限 = 1;
+		}
+		▲元気武将数 = 勢力元気武将数(ii2);
+		勢力隣接状況再計算(ii2);
+		aa = 0;
+		iim = 勢力不足土地国取得(ii2);
+		if (iim != 0 && RAND(3) != 1 && ▲元気武将数 > 9 && ▲合戦制限 == 0)
+		{
+			aa = 1;
+		}
+		if (ii2 == 2 && ＡＣ(1020, 9999) == 1 && 国[28].支配国 == 2 && 失った土地(28) != 0 && ◆ルート != 10)
+		{
+			iim = 28;
+			aa = 1;
+		}
+		if (aa == 1 && 勢力[ii2].状態 == 2)
+		{
+			▲行動回数--;
+			if (ＧＦ[84] == 0 && ＧＦ[169] == 0)
+			{
+				▲合戦制限 = 1;
+			}
+			敵ターン防衛戦(ii2, iim);
+			continue;
+		}
+		aa = 0;
+		iim = 勢力ｖｓ織田国取得(ii2);
+		if (iim != 0 && RAND(3) != 1 && ▲元気武将数 > 19 && ▲合戦制限 == 0)
+		{
+			aa = 1;
+		}
+		if (ii2 == 14 && ◆ターン % 2 == 0)
+		{
+			aa = 0;
+		}
+		if (ii2 == 2 && 国[27].支配国 == 1 && 国[28].支配国 == 2)
+		{
+			iim = 27;
+		}
+		if (aa == 1 && 勢力[ii2].状態 == 2)
+		{
+			▲行動回数--;
+			if (ＧＦ[84] == 0 && ＧＦ[169] == 0)
+			{
+				▲合戦制限 = 1;
+			}
+			敵ターン攻撃戦(ii2, iim);
+			continue;
+		}
+		aa = 8;
+		if (勢力[ii2].状態 == 2)
+		{
+			aa = 4;
+		}
+		if (勢力[ii2].状態 == 2 && キャラ数(ii2) < 30)
+		{
+			aa = 2;
+		}
+		if (勢力[ii2].残追加武将 != 0 && キャラ数(ii2) < 60 && RAND(aa) == 1 && ▲補充制限 == 0)
+		{
+			if (ii2 == 2 && EV("魔軍／魔物参入", -2147483648) == false)
+			{
+				if (◆予備０５ == 0)
+				{
+					Ｐ勢力看板(ii2, "Everyone is too scared to apply as a commander", 0, false);
+				}
+				continue;
+			}
+			▲補充制限 = 1;
+			▲行動回数--;
+			敵ターン武将補充(ii2);
+			continue;
+		}
+		if (平均兵数％(ii2) < 90 && RAND(2) == 1 && (ii2 != 2 || EV("魔軍／魔物参入", -2147483648) == true))
+		{
+			▲行動回数--;
+			if (◆予備０５ == 0)
+			{
+				Ｐ勢力看板(ii2, "Healing wounded troops (Medium)", 0, false);
+			}
+			勢力兵数補充(ii2, 10);
+			Ｐ勢力看板／更新();
+			continue;
+		}
+		iic = 乱キャラ取得(ii2, 0, 0);
+		aa = 4;
+		if (◆ターン > 59)
+		{
+			aa = 2;
+		}
+		if (gs[ii2][iic].兵数最大 < ベース兵力取得(999, 100) * 2 && RAND(aa) == 1)
+		{
+			▲行動回数--;
+			if (◆予備０５ == 0)
+			{
+				Ｐ勢力看板(ii2, "Increased max troops of %s's squad" % gs[ii2][iic].名前, 0, false);
+			}
+			Ｃ兵数追加(ベース兵力取得(999, 100) / 5, iic, ii2);
+			Ｐ勢力看板／更新();
+			continue;
+		}
+		▲行動回数--;
+		if (◆予備０５ == 1)
+		{
+			continue;
+		}
+		if (ii2 == 2)
+		{
+			if (EV("魔軍／美樹が支配者", -2147483648) == true)
+			{
+				Ｐ勢力看板(ii2, "Miki's mad", 0, false);
+				continue;
+			}
+			Ｐ勢力看板(ii2, "Mass murdering prisoners", 0, false);
+			continue;
+		}
+		if (ii2 == 5)
+		{
+			if (ＧＦ[19] == 1)
+			{
+				Ｐ勢力看板(ii2, "The Uesugi clan is taking action", 0, false);
+				continue;
+			}
+			if (敵Ｃ確認(ii2, 1048, 0, 0, 0) == 0)
+			{
+				Ｐ勢力看板(ii2, "Kensei is abusing female commanders", 0, false);
+				continue;
+			}
+			if (RAND(3) == 1)
+			{
+				Ｐ勢力看板(ii2, "Women's athletics meet underway", 0, false);
+				continue;
+			}
+			if (RAND(2) == 1)
+			{
+				Ｐ勢力看板(ii2, "Kenshin Uesugi is engrossed in a book on the Buddha's teachings", 0, false);
+				continue;
+			}
+			Ｐ勢力看板(ii2, "Kenshin Uesugi is praying to Bishamonten", 0, false);
+			continue;
+		}
+		if (ii2 == 17)
+		{
+			if (RAND(3) == 1)
+			{
+				Ｐ勢力看板(ii2, "Oh no! The imagawayaki was stolen!", 0, false);
+				continue;
+			}
+			Ｐ勢力看板(ii2, "The hannies are having fun", 0, false);
+			continue;
+		}
+		if (ii2 == 19)
+		{
+			if (ＧＦ[21] == 1)
+			{
+				Ｐ勢力看板(ii2, "The Mouri clan is taking action", 0, false);
+				continue;
+			}
+			if (敵Ｃ確認(ii2, 1035, 0, 0, 0) == 0)
+			{
+				Ｐ勢力看板(ii2, "Searching for the Tentei", 0, false);
+				continue;
+			}
+			Ｐ勢力看板(ii2, "Another night of dancing around the bonfire", 0, false);
+			continue;
+		}
+		if (ii2 == 12)
+		{
+			if (ＧＦ[18] == 1)
+			{
+				Ｐ勢力看板(ii2, "The Hara clan is taking action", 0, false);
+				continue;
+			}
+			if (勢力[ii2].状態 == 3)
+			{
+				Ｐ勢力看板(ii2, "Shouji Hara is bedridden", 0, false);
+				continue;
+			}
+			if (RAND(3) == 1)
+			{
+				Ｐ勢力看板(ii2, "Akihime is napping", 0, false);
+				continue;
+			}
+			Ｐ勢力看板(ii2, "Akihime's wasteful spending continues", 0, false);
+			continue;
+		}
+		if (ii2 == 11)
+		{
+			if (ＧＦ[17] == 1)
+			{
+				Ｐ勢力看板(ii2, "The Iga clan is taking action", 0, false);
+				continue;
+			}
+			if (RAND(3) == 1)
+			{
+				Ｐ勢力看板(ii2, "Woof woof woof", 0, false);
+				continue;
+			}
+			Ｐ勢力看板(ii2, "Ninjas are assessing the situation around JAPAN", 0, false);
+			continue;
+		}
+		if (ii2 == 13)
+		{
+			if (RAND(2) == 1 && 勢力[ii2].状態 == 1)
+			{
+				Ｐ勢力看板(ii2, "Demanding apologies and compensation", 0, false);
+				continue;
+			}
+			if (RAND(3) == 1)
+			{
+				Ｐ勢力看板(ii2, "The ancestral spirits are saddened", 0, false);
+				continue;
+			}
+			if (RAND(3) == 1)
+			{
+				Ｐ勢力看板(ii2, "Choushin is practicing kemari", 0, false);
+				continue;
+			}
+			Ｐ勢力看板(ii2, "The Ashikaga clan is holding Fish Appreciation Week", 0, false);
+			continue;
+		}
+		if (ii2 == 8)
+		{
+			if (EV("ＡＡ／テキサス大地震", -2147483648) == true)
+			{
+				Ｐ勢力看板(ii2, "Earthquake damage is causing chaos", 0, false);
+				continue;
+			}
+			if (RAND(2) == 1)
+			{
+				Ｐ勢力看板(ii2, "It's snowing", 0, false);
+				continue;
+			}
+			if (RAND(3) == 1)
+			{
+				Ｐ勢力看板(ii2, "Everything's bigger in Texas, boy howdy", 0, false);
+				continue;
+			}
+			ＧＦ[166]++;
+			Ｐ勢力看板(ii2, "Yoshikage had a %s child" % TH(ＧＦ[166]), 0, false);
+			continue;
+		}
+		if (ii2 == 7)
+		{
+			if (RAND(3) == 1)
+			{
+				Ｐ勢力看板(ii2, "A miko's underwear was stolen", 0, false);
+				continue;
+			}
+			Ｐ勢力看板(ii2, "It's another busy day at the shrine", 0, false);
+			continue;
+		}
+		if (ii2 == 3)
+		{
+			if (ＧＦ[20] == 1)
+			{
+				Ｐ勢力看板(ii2, "The Takeda clan is taking action", 0, false);
+				continue;
+			}
+			if (EV("地獄の穴／封鎖／ラスト", -2147483648) == false && EV("地獄の穴／初めて", -2147483648) == true)
+			{
+				Ｐ勢力看板(ii2, "Sealing a Hell Hole in Shingen Tsutsumi", 0, false);
+				continue;
+			}
+			if (RAND(3) == 1)
+			{
+				Ｐ勢力看板(ii2, "Shingen Takeda made an appearance to observe a town", 0, false);
+				continue;
+			}
+			if (RAND(3) == 1 && 勢力[ii2].状態 == 1)
+			{
+				Ｐ勢力看板(ii2, "The Fundoshi Festival is underway in Shinano", 0, false);
+				continue;
+			}
+			if (RAND(3) == 1)
+			{
+				Ｐ勢力看板(ii2, "A quality hotwing was born", 0, false);
+				continue;
+			}
+			Ｐ勢力看板(ii2, "Under heaven and earth, I alone am feared", 0, false);
+			continue;
+		}
+		if (ii2 == 18)
+		{
+			if (RAND(5) == 1)
+			{
+				Ｐ勢力看板(ii2, "Ieyasu is doting on his cuckoo bird", 0, false);
+				continue;
+			}
+			if (RAND(2) == 1)
+			{
+				Ｐ勢力看板(ii2, "The Tokugawa Tanuki Festival is underway", 0, false);
+				continue;
+			}
+			Ｐ勢力看板(ii2, "Ieyasu Tokugawa is eating tempura", 0, false);
+			continue;
+		}
+		if (ii2 == 4)
+		{
+			if (ＧＦ[22] == 1)
+			{
+				Ｐ勢力看板(ii2, "The Houjou clan is taking action", 0, false);
+				continue;
+			}
+			if (敵Ｃ確認(ii2, 1050, 0, 0, 0) == 0)
+			{
+				Ｐ勢力看板(ii2, "Everyone loves Masako", 0, false);
+				continue;
+			}
+			Ｐ勢力看板(ii2, "Subjugating oni around JAPAN", 0, false);
+			continue;
+		}
+		if (ii2 == 14)
+		{
+			if (EV("性眼／仕官", -2147483648) == true)
+			{
+				Ｐ勢力看板(ii2, "Striving to represent Seigan", 0, false);
+				continue;
+			}
+			if (RAND(3) == 1)
+			{
+				Ｐ勢力看板(ii2, "A young monk ran away", 0, false);
+				continue;
+			}
+			Ｐ勢力看板(ii2, "Seigan is praying", 0, false);
+			continue;
+		}
+		if (ii2 == 10)
+		{
+			if (RAND(3) == 1)
+			{
+				Ｐ勢力看板(ii2, "Kazemaru is practicing the military arts", 0, false);
+				continue;
+			}
+			if (RAND(3) == 1)
+			{
+				Ｐ勢力看板(ii2, "Kazemaru remembered his older brother and started crying", 0, false);
+				continue;
+			}
+			if (RAND(3) == 1)
+			{
+				Ｐ勢力看板(ii2, "Kazemaru has trouble learning penmanship", 0, false);
+				continue;
+			}
+			Ｐ勢力看板(ii2, "Kazemaru's dinner was akashiyaki", 0, false);
+			continue;
+		}
+		if (ii2 == 9)
+		{
+			if (RAND(3) == 1)
+			{
+				Ｐ勢力看板(ii2, "The katana smiths are whining", 0, false);
+				continue;
+			}
+			Ｐ勢力看板(ii2, "Boom! Some workshop exploded", 0, false);
+			continue;
+		}
+		if (ii2 == 15)
+		{
+			if (敵Ｃ確認(ii2, 1031, 0, 0, 0) == 0)
+			{
+				Ｐ勢力看板(ii2, "Oni are attacking", 0, false);
+				continue;
+			}
+			Ｐ勢力看板(ii2, "Ryouma is sitting in a tree and thinking", 0, false);
+			continue;
+		}
+		if (ii2 == 6)
+		{
+			if (EV("地獄の穴／封鎖／ラスト", -2147483648) == false && EV("地獄の穴／初めて", -2147483648) == true && RAND(2) == 1)
+			{
+				Ｐ勢力看板(ii2, "Sealing Hell Holes in the area", 0, false);
+				continue;
+			}
+			if (EV("島津／４兄妹の降参", -2147483648) == true)
+			{
+				Ｐ勢力看板(ii2, "Agireda's hardships continue", 0, false);
+				continue;
+			}
+			Ｐ勢力看板(ii2, "The boys are planning something huge", 0, false);
+			continue;
+		}
+	}
+	rr = 0;
+	if (ii2 == 2)
+	{
+		rr = 勢力トップ／魔軍(0);
+	}
+	if (ii2 == 5)
+	{
+		rr = 勢力トップ／上杉(0);
+	}
+	if (ii2 == 3)
+	{
+		rr = 勢力トップ／武田(0);
+	}
+	if (ii2 == 19)
+	{
+		rr = 勢力トップ／毛利(0);
+	}
+	if (ii2 == 4)
+	{
+		rr = 勢力トップ／北条(0);
+	}
+	if (ii2 == 11)
+	{
+		rr = 勢力トップ／伊賀(0);
+	}
+	if (ii2 == 17)
+	{
+		rr = 勢力トップ／今川(0);
+	}
+	if (ii2 == 13)
+	{
+		rr = 勢力トップ／足利(0);
+	}
+	if (ii2 == 12)
+	{
+		rr = 勢力トップ／原(0);
+	}
+	if (ii2 == 10)
+	{
+		rr = 勢力トップ／明石(0);
+	}
+	if (ii2 == 15)
+	{
+		rr = 勢力トップ／拓陸(0);
+	}
+	if (ii2 == 6)
+	{
+		rr = 勢力トップ／島津(0);
+	}
+	if (ii2 == 18)
+	{
+		rr = 勢力トップ／徳川(0);
+	}
+	if (ii2 == 8)
+	{
+		rr = 勢力トップ／浅井朝倉(0);
+	}
+	if (ii2 == 7)
+	{
+		rr = 勢力トップ／巫女機関(0);
+	}
+	if (ii2 == 9)
+	{
+		rr = 勢力トップ／種子島(0);
+	}
+	if (ii2 == 14)
+	{
+		rr = 勢力トップ／天志教(0);
+	}
+	if (ii2 == 16)
+	{
+		rr = 勢力トップ／伊達(0);
+	}
+	if (rr == 0)
+	{
+		rr = 勢力トップ／全組織(ii2);
+	}
+}

@@ -63,7 +63,7 @@ void プロローグＢ()
 	顔(18, "", 1, 100);
 	'Aw... Sob...' A;
 	顔(6, "", 1, 100);
-	'It\'s nice having money to spare. I can go on a hot spring vacation to Nippon like it\'s nothing.' A;
+	'It\'s nice having money to spare. I can go on a hot spring vacation to JAPAN like it\'s nothing.' A;
 	顔(16, "", 1, 100);
 	'But Master Rance, the money we got from Zeth is going to run out eventually. We really should think more about how we spend it.' A;
 	顔(6, "", 1, 100);
@@ -231,7 +231,7 @@ void プロローグＢ()
 	顔(16, "", 1, 100);
 	'Huh...' A;
 	顔(10, "", 1, 100);
-	'My next target\'s either Princess Sheila of Helman or Kouhime of Nippon!' A;
+	'My next target\'s either Princess Sheila of Helman or Kouhime of JAPAN!' A;
 	'I\'m taking both their virginities by traveling from one end of the Continent to the other!' A;
 	'That\'s my goal!' A;
 	顔(16, "", 1, 100);
@@ -501,7 +501,7 @@ void プロローグＢ()
 	'Nobunaga, stop handing those out!' A;
 	顔(36, "", 1, 100);
 	'What\'s the problem?' R;
-	'I want all of Nippon to see how cute you are.' A;
+	'I want all of JAPAN to see how cute you are.' A;
 	顔(47, "", 1, 100);
 	'I told you I don\'t want that!' A;
 	顔(36, "", 1, 100);

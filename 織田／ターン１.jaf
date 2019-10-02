@@ -159,13 +159,13 @@ void 織田／ターン１()
 	顔(6, "", 1, 100);
 	'Huh, I see.' A;
 	顔(7, "", 1, 100);
-	'Well, leave everything to me. Once I conquer all of Nippon, Nobunaga can die without any regrets. Gahahahaha.' A;
+	'Well, leave everything to me. Once I conquer all of JAPAN, Nobunaga can die without any regrets. Gahahahaha.' A;
 	顔(46, "", 1, 100);
 	'...' A;
 	'I... I suppose...' A;
 	顔(6, "", 1, 100);
 	'Oh, just kidding, he won\'t die.' R;
-	'After I unite Nippon,' R;
+	'After I unite JAPAN,' R;
 	'I\'ll find a good doctor for him!' A;
 	顔(46, "", 1, 100);
 	'...' A;
@@ -279,7 +279,7 @@ void 織田／ターン１()
 	'Huh... But he\'s a youkai.' R;
 	'Why\'s he helping humans?' A;
 	顔(46, "", 1, 100);
-	'It\'s not that unusual to see in Nippon.' R;
+	'It\'s not that unusual to see in JAPAN.' R;
 	'There are all types of youkai, just like humans.' R;
 	'Some of them get along with other races.' A;
 	'The more friendly youkai can be like a clan\'s guardian deity for generations.' A;
@@ -344,7 +344,7 @@ void 織田／ターン１()
 	ＳＰ(0, 1, 500);
 	思考枠(0, 0, 0);
 	顔(6, "", 1, 100);
-	'Now I\'ve got a weird youkai to deal with, but all the Nippon conquering and princess fucking should be something to look forward to.' A;
+	'Now I\'ve got a weird youkai to deal with, but all the JAPAN conquering and princess fucking should be something to look forward to.' A;
 	'And if Kou grows up nicely in the meantime, I can take her.' A;
 	顔(10, "", 1, 100);
 	'Heh heh heh...' R;

@@ -1,0 +1,40 @@
+void 香姫／疲れて寝ているＢ()
+{
+	EV("", -2147483648);
+	イベント("");
+	台詞枠(0, 0, 0);
+	顔(6, "", 1, 100);
+	'Well, whatever, I\'ll leave her alone.' A;
+	顔(96, "", 1, 100);
+	'Kouhime-sama has been working herself too hard.' A;
+	顔(98, "", 1, 100);
+	'She takes up too much of the burden on her own.' A;
+	顔(97, "", 1, 100);
+	'I believe she wants to take personal responsibility for some things.' A;
+	顔(96, "", 1, 100);
+	'Her own brother became a fiend who brought disorder to JAPAN.' A;
+	顔(98, "", 1, 100);
+	'And then there\'s what happened to Sill-dono...' A;
+	顔(6, "", 1, 100);
+	'Hmmmm...' R;
+	'I told her not to worry about that, though.' A;
+	顔(97, "", 1, 100);
+	'She can\'t help it.' R;
+	'That\'s just how Kou-sama is.' A;
+	顔(6, "", 1, 100);
+	'Just have to let her do what she wants for a while.' A;
+	'I\'ll get rid of the cause of her worries soon enough.' A;
+	顔(98, "", 1, 100);
+	'How very kind...' A;
+	顔(7, "", 1, 100);
+	'Gahahahaha.' R;
+	'Of course I am.' R;
+	'She\'ll be my woman one day.' A;
+	顔(99, "", 1, 100);
+	'Not on my watch!' R;
+	'I would sooner die!×3' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

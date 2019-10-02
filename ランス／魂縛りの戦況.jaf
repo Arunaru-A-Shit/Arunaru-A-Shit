@@ -1,0 +1,42 @@
+void ランス／魂縛りの戦況()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(101, 0, false);
+	全部(0, 0, 9455, 1, 10020, "Oda Castle", 1, 500, 0);
+	ＳＰ(1, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(596, "", 1, 100);
+	'That Soul Binder curse is some scary stuff!' A;
+	'It could infect and kill all of JAPAN at this rate.' A;
+	'From what I hear, the citizens of towns and villages in the Monster Army\'s territory are being infected one after another.' A;
+	顔(8, "", 1, 100);
+	'Ugh, I know.' C;
+	R();
+	'I\'ve been told this a million times by now.' C;
+	R();
+	'I\'ll do something about it.' A;
+	顔(6, "", 1, 100);
+	'Hmph...' A;
+	顔(0, "", 1, 100);
+	ト書き枠(0, 0);
+	'Rance jumped up from his seat.' A;
+	台詞枠(0, 0, 0);
+	顔(596, "", 1, 100);
+	'Hey, where are you heading off to?' A;
+	顔(6, "", 1, 100);
+	'I\'m gonna fuck Sill, be back in a bit.' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	ＳＰ(0, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(596, "", 1, 100);
+	'...Man.' A;
+	思考枠(0, 0, 0);
+	'He seems frustrated.' R;
+	'Well... This situation is pretty frustrating.' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

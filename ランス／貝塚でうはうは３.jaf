@@ -15,7 +15,7 @@ void ランス／貝塚でうはうは３()
 	顔(6, "", 1, 100);
 	'Oooooooooh...' R;
 	'Wh-What\'s this?!' A;
-	'It\'s the legendary Nippon shell.' R;
+	'It\'s the legendary JAPAN shell.' R;
 	'Rad!' A;
 	'Look at this amazing thing.' R;
 	'See how it\'s like it has the Japanese flag on it?' R;
@@ -23,7 +23,7 @@ void ランス／貝塚でうはうは３()
 	顔(16, "", 1, 100);
 	'Neat...' A;
 	顔(6, "", 1, 100);
-	'Guheheh... A Nippon shell...' R;
+	'Guheheh... A JAPAN shell...' R;
 	'Wonderful... Heheh... Heheheh...' A;
 	顔(0, "", 1, 100);
 	ト書き枠(0, 0);

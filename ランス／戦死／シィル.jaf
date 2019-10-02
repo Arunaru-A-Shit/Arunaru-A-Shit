@@ -1,0 +1,24 @@
+void ランス／戦死／シィル()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(114, 0, false);
+	全部(0, 0, 9300, 1, 10020, "At Rance's Grave", 1, 500, 0);
+	ト書き枠(0, 0);
+	'Days later...' A;
+	'Rance\'s funeral had ended.' A;
+	枠閉じ(0, 0);
+	ＳＰ(11, 1, 500);
+	ト書き枠(0, 0);
+	'Sill was visiting Rance\'s grave.' A;
+	台詞枠(0, 0, 0);
+	顔(18, "", 1, 100);
+	'Master Rance...' A;
+	'In JAPAN, when a woman loses the man she loves, she\'s supposed to become a nun and spend her life praying for the dead.' A;
+	'I suppose I\'m going to be a nun.' R;
+	'Rest in peace...' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	黒画面(1, 500, 0);
+}

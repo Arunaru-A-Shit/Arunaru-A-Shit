@@ -1,0 +1,613 @@
+void システム情報()
+{
+	lint ii2 = 0;
+	lint rr = 0;
+	lint loop = 0;
+	lint aa = 0;
+	lint ii = 1;
+	lint iic = 0;
+	lint iim = 0;
+	string 文字列 = "";
+	lint pp = 0;
+	lint a1 = 0;
+	lint a2 = 0;
+	lint a3 = 0;
+	lint a4 = 0;
+	lint a5 = 0;
+	lint a6 = 0;
+	string 文字１ = "";
+	string 文字２ = "";
+	string 文字３ = "";
+	string 文字４ = "";
+	string 文字５ = "";
+	string 文字６ = "";
+	pp = 0;
+	if (◆封印瓢箪 != 8 && ◆封印瓢箪 != 0)
+	{
+		pp = 1;
+	}
+	a1 = 0;
+	a2 = 0;
+	a3 = 0;
+	a4 = 0;
+	a5 = 0;
+	a6 = 0;
+	if (EV("オロチと対決Ｄ", -2147483648) == true)
+	{
+		a1 = 1;
+	}
+	a2 = 0;
+	for (iic = 1; iic < 31; iic++)
+	{
+		if (gs[ii][iic].番号 != 0 && Ｃ昆布取得(iic, 999) == 1)
+		{
+			a2++;
+		}
+	}
+	if (a2 > 49)
+	{
+		a2 = 49;
+	}
+	if (EV("伊達／ラストバトルＢ", -2147483648) == true || EV("伊達／ラストバトル謙信Ｂ", -2147483648) == true)
+	{
+		a3 = 1;
+	}
+	if (ＧＦ[143] > 299)
+	{
+		a4 = 1;
+	}
+	if (EV("６大秘宝", -2147483648) == true)
+	{
+		a5 = 1;
+	}
+	if (総最大兵数(1, 0) > 29999)
+	{
+		a6 = 1;
+	}
+	aa = 0;
+	文字１ = "";
+	文字２ = "";
+	文字３ = "";
+	文字４ = "";
+	文字５ = "";
+	文字６ = "";
+	if (◆ルート == 0)
+	{
+		文字列 = "";
+		for (; ; )
+		{
+			文字列 = "Using the Oda clan to conquer nearby states.";
+			if (EV("煉獄／登場", -2147483648) == true)
+			{
+				文字列 = "Nobunaga (possessed by a fiend) is waiting for his full revival in Honnoji Temple.";
+				break;
+			}
+			if (EV("織田／天志教事件開始", -2147483648) == true)
+			{
+				文字列 = "Nobunaga is recovering from his illness in Honnoji Temple.";
+				break;
+			}
+			if (EV("織田／信長と瓢箪", -2147483648) == true)
+			{
+				文字列 = "Nobunaga is ill after inhaling smoke from the gourd.";
+				break;
+			}
+			break;
+		}
+		情報Ａ(文字列, 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+		if (EV("織田／第５の瓢箪", -2147483648) == false && ＡＣ(1019, 9999) == 1 && ＡＣ(1020, 9999) == 0)
+		{
+			情報Ａ("Apostle Rengoku revived to support Fiend Nobunaga.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+		}
+		if (EV("織田／第５の瓢箪", -2147483648) == false && ＡＣ(1019, 9999) == 1 && ＡＣ(1020, 9999) == 1)
+		{
+			情報Ａ("Apostle Shikibu revived to support Fiend Nobunaga.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+		}
+	}
+	if (◆ルート == 1 && EV("香姫／助ける", -2147483648) == true)
+	{
+		文字列 = "";
+		for (; ; )
+		{
+			文字列 = "Kouhime's working hard.";
+			if (EV("織田／織田家分裂", -2147483648) == true)
+			{
+				文字列 = "Kouhime became the new lord of Oda.";
+				break;
+			}
+			if (EV("本能寺の変Ａ", -2147483648) == true)
+			{
+				文字列 = "Defeated Fiend Nobunaga at Honnoji Temple.";
+				break;
+			}
+			if (EV("織田／信長抹殺計画", -2147483648) == true)
+			{
+				文字列 = "Discovered Nobunaga is now a fiend, plotting to beat him.";
+				break;
+			}
+			if (EV("香姫／助ける", -2147483648) == true)
+			{
+				文字列 = "Currently investigating Nobunaga.";
+				break;
+			}
+			break;
+		}
+		情報Ａ(文字列, 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (◆ルート == 20)
+	{
+		文字列 = "";
+		for (; ; )
+		{
+			文字列 = "Isoroku's working hard.";
+			if (EV("五十六／懐妊", -2147483648) == true)
+			{
+				文字列 = "Isoroku's pregnant.";
+				break;
+			}
+			if (EV("五十六／傾国追放後Ａ", -2147483648) == true)
+			{
+				文字列 = "Isoroku's serious about conception.";
+				break;
+			}
+			if (EV("五十六／傾国追放", -2147483648) == true)
+			{
+				文字列 = "Banish Keikoku!";
+				break;
+			}
+			if (EV("五十六／日本丸誕生", -2147483648) == true)
+			{
+				文字列 = "Inheritor of the Oda clan, JAPANmaru, was born.";
+				break;
+			}
+			if (EV("五十六／傾国の懐妊", -2147483648) == true)
+			{
+				文字列 = "Keikoku is pregnant with Rance's child.";
+				break;
+			}
+			if (EV("信長／暗殺Ａ", -2147483648) == true)
+			{
+				文字列 = "The next lord of the Oda clan will be Rance's kid?";
+				break;
+			}
+			if (EV("香姫／死亡", -2147483648) == true)
+			{
+				文字列 = "Nobunaga is a fiend, currently residing in Honnoji Temple.";
+				break;
+			}
+			break;
+		}
+		情報Ａ(文字列, 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (◆ルート == 30)
+	{
+		文字列 = "";
+		for (; ; )
+		{
+			if (EV("蘭／傾国の居場所", -2147483648) == true)
+			{
+				文字列 = "Keikoku is in Sekimei's Tomb.";
+				break;
+			}
+			if (EV("蘭／地獄の穴が開いた", -2147483648) == true)
+			{
+				aa = 0;
+				for (iim = 1; iim < 33; iim++)
+				{
+					if (国[iim].地獄の穴 == 1)
+					{
+						aa++;
+					}
+				}
+				文字列 = string(aa) + " Hell Hole";
+				if (aa != 1)
+				{
+					文字列 += "s are ";
+				}
+				else
+				{
+					文字列 += " is ";
+				}
+				文字列 += "open across JAPAN.";
+				break;
+			}
+			if (EV("蘭／傾国出奔", -2147483648) == true)
+			{
+				文字列 = "Keikoku has taken Souun and gone missing.";
+				break;
+			}
+			if (EV("蘭／傾国の噂", -2147483648) == true)
+			{
+				文字列 = "Rumor has it that Keikoku is evil.";
+				break;
+			}
+			if (EV("蘭／傾国登場", -2147483648) == true)
+			{
+				文字列 = "Keikoku arrived to be Souun's personal doctor.";
+				break;
+			}
+			if (EV("蘭／本能寺の後", -2147483648) == true)
+			{
+				文字列 = "Ran no longer fears the apostle.";
+				break;
+			}
+			if (EV("蘭／信長が魔人？", -2147483648) == true && EV("蘭／本能寺Ａ", -2147483648) == false)
+			{
+				文字列 = "Nobunaga is a fiend, currently residing in Honnoji Temple.";
+				break;
+			}
+			if (EV("蘭／ルートスタート", -2147483648) == true)
+			{
+				文字列 = "Tricked Souun into thinking Ran is Rance's girlfriend.";
+				break;
+			}
+			if (EV("早雲／石油穴で発見Ｃ", -2147483648) == true)
+			{
+				文字列 = "Souun is on the verge of death.";
+				break;
+			}
+			break;
+		}
+		情報Ａ(文字列, 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+		if (EV("蘭／本能寺Ａ", -2147483648) == true)
+		{
+			情報Ａ("Xavier has been sealed.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+		}
+	}
+	if (◆ルート == 10)
+	{
+		文字列 = "";
+		for (; ; )
+		{
+			if (EV("ザビエルの最後の作戦", -2147483648) == true)
+			{
+				文字列 = "Xavier is in Orochi's Pit.";
+				break;
+			}
+			if (EV("謙信／帝", -2147483648) == true)
+			{
+				文字列 = "Kenshin became the empress.";
+				break;
+			}
+			if (EV("謙信／帝ソード", -2147483648) == true)
+			{
+				int points = ＧＦ[114];
+				文字列 = "Kenshin is taking part in the Imperial Race. (" + string(points) + " Point";
+				if (points != 1)
+				{
+					文字列 += "s";
+				}
+				文字列 += ")";
+				break;
+			}
+			break;
+		}
+		情報Ａ(文字列, 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+		if (ＣＳレベル取得(1048, 999) < 30)
+		{
+			情報Ａ("Kenshin came down with the mumps, returning her level to 1.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+		}
+		if (EV("謙信／帝", -2147483648) == false && EV("謙信／鈴谷の事", -2147483648) == true && 帝レース[10] == 1)
+		{
+			情報Ａ("Musou Suzuya should be in Naniwa.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+		}
+		if (EV("謙信／帝", -2147483648) == false && EV("謙信／熊野の事", -2147483648) == true && 帝レース[11] == 1)
+		{
+			情報Ａ("Gorou Kumano should be in Saitama.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+		}
+	}
+	if (◆特殊 == 1)
+	{
+		情報Ａ("Miki is on a rampage, must be found before it's too late.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (EV("石爺／始まり", -2147483648) == true)
+	{
+		for (; ; )
+		{
+			if (EV("石爺／経過３", -2147483648) == true)
+			{
+				情報Ａ("Stone Geezer is on Tenma Bridge, 1 turn until JAPAN falls.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+				break;
+			}
+			if (EV("石爺／経過２", -2147483648) == true)
+			{
+				情報Ａ("Stone Geezer is on Tenma Bridge, 2 turns until JAPAN falls.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+				break;
+			}
+			if (EV("石爺／経過１", -2147483648) == true)
+			{
+				情報Ａ("Stone Geezer is on Tenma Bridge, 3 turns until JAPAN falls.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+				break;
+			}
+			情報Ａ("Stone Geezer is on Tenma Bridge, 4 turns until JAPAN falls.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+			break;
+		}
+	}
+	if (◆特殊 == 3)
+	{
+		情報Ａ("The Imagawa clan (Haniho!) is on its way to Kyo. (Aiya!)", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (◆特殊 == 4)
+	{
+		情報Ａ("Out of hirami lemons, Miki is in danger.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (◆特殊 == 5)
+	{
+		情報Ａ("Kouhime is missing.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (ＡＣＦ(1001, 9999) == 1)
+	{
+		情報Ａ("Sill is frozen.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (ＡＣＦ(1003, 9999) == 100)
+	{
+		情報Ａ("Kentarou Ogawa became a fiend.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (EV("健太郎／合戦前の魔王話", -2147483648) == true && EV("健太郎／怪我をする", -2147483648) == false)
+	{
+		情報Ａ("The Archfiend (Miki Kurusu) is under our care.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (勢力[2].状態 == 2)
+	{
+		情報Ａ("At war with the Monster Army. (Fiend Nobunaga)", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+		if (ＡＣ(1021, 9999) == 1 || ＡＣ(1020, 9999) == 1 || ＡＣ(1022, 9999) == 1)
+		{
+			array@string apostles;
+			if (ＡＣ(1021, 9999) == 1)
+			{
+				apostles.PushBack("Madou");
+			}
+			if (ＡＣ(1022, 9999) == 1)
+			{
+				apostles.PushBack("Gigai");
+			}
+			if (ＡＣ(1020, 9999) == 1)
+			{
+				apostles.PushBack("Shikibu");
+			}
+			文字列 = "Apostle";
+			if (apostles.Numof() > 1)
+			{
+				文字列 += "s";
+			}
+			文字列 += " " + CombineWithCommas(apostles);
+			文字列 += " ";
+			if (apostles.Numof() > 1)
+			{
+				文字列 += "are";
+			}
+			else
+			{
+				文字列 += "is";
+			}
+			文字列 += " currently active.";
+			情報Ａ(文字列, 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+		}
+	}
+	if (ＧＦ[12] == 11 || ＧＦ[12] == 12 || ＧＦ[12] == 13)
+	{
+		情報Ａ("Requesting reinforcements from the Kingdom of Leazas.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (ＧＦ[12] == 21 || ＧＦ[12] == 22 || ＧＦ[12] == 23)
+	{
+		情報Ａ("Requesting reinforcements from the Kingdom of Zeth.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (勢力[14].状態 == 2)
+	{
+		情報Ａ("Tenshiists have been ordered to overthrow the Oda clan.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (EV("夕張／オロチの話", -2147483648) == true && EV("名取／オロチの説明", -2147483648) == false && EV("オロチと対決Ａ", -2147483648) == false)
+	{
+		文字列 = "Defeat Orochi and save the mikos.";
+		if (EV("名取／オロチの説明", -2147483648) == true && EV("黄泉平坂／帝の剣", -2147483648) == false)
+		{
+			文字列 = "%s(Requires the Imperial Sword)" % 文字列;
+		}
+		情報Ａ(文字列, 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (キャラ確認(1026, 0, 0, 0) == 1)
+	{
+		for (; ; )
+		{
+			if (EV("五十六／山本家の村", -2147483648) == false)
+			{
+				情報Ａ("Promised to take Isoroku Yamamoto to Ashikaga's hidden village.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+				break;
+			}
+			if (EV("五十六／初エッチ", -2147483648) == false)
+			{
+				情報Ａ("Isoroku Yamamoto is seeking a husband to rebuild the Yamamoto clan.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+				break;
+			}
+			break;
+		}
+	}
+	if (キャラ確認(1079, 0, 0, 0) == 1 && EV("夕張／武将初", -2147483648) == true && EV("夕張／初エッチ", -2147483648) == false)
+	{
+		情報Ａ("Fuuka Tamagushi promised sex after Oda controls at least four territories.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (キャラ確認(1004, 0, 0, 0) == 1 && EV("かなみ／エッチ", -2147483648) == false)
+	{
+		情報Ａ("Kanami Kentou will have sex if presented with permission from Queen Lia.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (EV("三河／宇宙人１", -2147483648) == true && EV("三河／宇宙人３", -2147483648) == false)
+	{
+		情報Ａ("Princess Kaguya wants a coil, an iron pipe, and cellophane tape.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (キャラ確認(1076, 0, 0, 0) == 1 && EV("アギレダ／セックスの条件", -2147483648) == true && EV("アギレダ／セックス", -2147483648) == false)
+	{
+		情報Ａ("Agireda will have sex if the Shimazu brothers are defeated.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (Ｃ確認(1024, 0, 0, 0) == 1 && EV("阿樹／部下会話／信頼へ", -2147483648) == true && EV("阿樹／部下エッチ１", -2147483648) == false)
+	{
+		情報Ａ("If Akihime gets a Takauji Folding Screen...", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (キャラ確認(1031, 0, 0, 0) == 1 && EV("龍馬／ランスとエッチ", -2147483648) == false)
+	{
+		for (; ; )
+		{
+			if (EV("龍馬／妖怪なめくじ情報", -2147483648) == true && ＡＣＦ(1031, 9999) == 0)
+			{
+				情報Ａ("The youkai that cursed Ryouma is in Kazusa 2000.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+				break;
+			}
+			if (EV("龍馬／信頼", -2147483648) == true && ＡＣＦ(1031, 9999) == 0)
+			{
+				情報Ａ("Sex with Ryouma Sakamoto after confirming they're a girl.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+				break;
+			}
+			break;
+		}
+	}
+	if (EV("てばさき牧場３", -2147483648) == false && EV("てばさき牧場／汎用", -2147483648) == true)
+	{
+		情報Ａ("Mokko wants to see an army with 3000 cavalry troops.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (EV("竜宮城エロ３", -2147483648) == false && EV("竜宮城エロ１", -2147483648) == true)
+	{
+		情報Ａ("Can't win Otohime's bukkake game at Ryugu Castle without more semen.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (キャラ確認(1072, 0, 0, 0) == 1 && EV("戦姫／愛情条件", -2147483648) == true && EV("戦姫／愛情", -2147483648) == false)
+	{
+		情報Ａ("Senhime wants to experience multiple thrilling losses.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (キャラ確認(1051, 0, 0, 0) == 1 && EV("蘭／約束", -2147483648) == false && EV("蘭／武将初", -2147483648) == true)
+	{
+		情報Ａ("Ran Nanjou is searching for Souun.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (キャラ確認(1051, 0, 0, 0) == 1 && EV("蘭／約束", -2147483648) == true && EV("早雲／石油穴で発見Ａ", -2147483648) == false)
+	{
+		情報Ａ("Ran Nanjou wants to save Souun at Petroleum Pit soon.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (キャラ確認(1052, 0, 0, 0) == 1 && EV("小松／信頼", -2147483648) == true && EV("小松／愛情", -2147483648) == false)
+	{
+		情報Ａ("Komatsu Daidouji wants all onmyouji driven out of Oda.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (Ｃ確認(1036, 0, 0, 0) == 1 && EV("てる／信頼", -2147483648) == true && EV("てる／愛情", -2147483648) == false)
+	{
+		情報Ａ("If Teru Mouri gets a Death Hallucinogen...", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (キャラ確認(1037, 0, 0, 0) == 1 && EV("きく／信頼", -2147483648) == true && EV("きく／愛情", -2147483648) == false)
+	{
+		情報Ａ("Kiku Kikkawa wouldn't mind having sex if Rance can defeat her dad.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (EV("てばさき牧場／汎用", -2147483648) == true && EV("てばさき牧場２", -2147483648) == false)
+	{
+		情報Ａ("Mokko will have sex if shown a 20000 cavalry squad.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (EV("足利／要求Ｂ", -2147483648) == true && 勢力[13].状態 == 1)
+	{
+		情報Ａ("The Ashikaga clan is making absurd demands.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (EV("今川／上洛計画４Ａ", -2147483648) == true && EV("のぞみ／京で遊ぶ", -2147483648) == false && Ｃ確認(1001, 1078, 0, 0) == 1)
+	{
+		情報Ａ("The Shinsengumi (Hannies) is pretending to keep the peace in Kyo.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (EV("伊達／妖怪帝国について聞く", -2147483648) == true && EV("坂上田村麻呂／撃破", -2147483648) == false && 勢力[16].状態 == 1)
+	{
+		情報Ａ("You must become the shogun to attack Dokuganryu.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (勢力[19].状態 == 2 && EV("元就／妖怪の秘密／竜馬", -2147483648) == true && ＧＦ[7] == 0)
+	{
+		情報Ａ("Motonari's curse came from Daidara. (dwells in Yomotsu Hirasaka)", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (EV("天志教／陥落／信長", -2147483648) == true && EV("性眼／未熟", -2147483648) == false && ◆章 == 2)
+	{
+		情報Ａ("Seigan is laying low somewhere.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (EV("タクガ／死国門封鎖Ｂ", -2147483648) == true && 勢力[15].状態 != 9)
+	{
+		情報Ａ("Shikokalamity Gate was sealed, locking Takuga out.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (勢力[3].状態 == 2)
+	{
+		情報Ａ("At war with the Takeda clan.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (勢力[5].状態 == 2)
+	{
+		情報Ａ("At war with the Uesugi clan.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (勢力[6].状態 == 2)
+	{
+		情報Ａ("At war with the Shimazu clan.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (勢力[4].状態 == 2)
+	{
+		情報Ａ("At war with the Houjou clan.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (勢力[7].状態 == 2)
+	{
+		情報Ａ("At war with the Miko Union.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (勢力[8].状態 == 2)
+	{
+		情報Ａ("At war with the Azai-Asakura clan.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (勢力[9].状態 == 2)
+	{
+		情報Ａ("At war with the Tanegashima clan.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (勢力[10].状態 == 2)
+	{
+		情報Ａ("At war with the Akashi clan.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (勢力[11].状態 == 2)
+	{
+		情報Ａ("At war with the Iga clan.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (勢力[12].状態 == 2)
+	{
+		情報Ａ("At war with the Hara clan.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (勢力[13].状態 == 2)
+	{
+		情報Ａ("At war with the Ashikaga clan.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (勢力[14].状態 == 2)
+	{
+		情報Ａ("At war with the Tenshiists.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (勢力[15].状態 == 2)
+	{
+		情報Ａ("At war with the Takuga clan.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (勢力[15].状態 == 2 && EV("新撰組とタクガ１", -2147483648) == true)
+	{
+		情報Ａ("The Shinsengumi (Hannies)　are acting against Takuga.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (勢力[16].状態 == 2)
+	{
+		情報Ａ("At war with the Dokuganryu clan.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (勢力[17].状態 == 2)
+	{
+		情報Ａ("At war with the Imagawa clan.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (勢力[17].状態 == 2 && EV("今川／義元の秘密", -2147483648) == true && EV("今川／義元と接触Ａ", -2147483648) == false)
+	{
+		情報Ａ("Info claims that Yoshimoto Imagawa is human.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (勢力[17].状態 == 2 && EV("今川／義元と接触Ｂ", -2147483648) == true)
+	{
+		情報Ａ("Save Yoshimoto to have sex with Anko.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (勢力[18].状態 == 2)
+	{
+		情報Ａ("At war with the Tokugawa clan.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (勢力[19].状態 == 2)
+	{
+		情報Ａ("At war with the Mouri clan.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+	}
+	if (◆予備０１ == 1)
+	{
+		ii = ◆Ｐｉｉ;
+		文字１ = "%s is uniting JAPAN" % 勢力[◆Ｐｉｉ].名前;
+		文字２ = "Troop Estates (%s+%s)" % string(建築物数(ii, 1)) % string(建築物数(ii, 10));
+		文字３ = "Free Markets (%s+%s)" % string(建築物数(ii, 2)) % string(建築物数(ii, 20));
+		文字４ = "Takauchi Shops (%s+%s)" % string(建築物数(ii, 3)) % string(建築物数(ii, 30));
+		文字５ = "Field Hospitals (%s+%s)" % string(建築物数(ii, 4)) % string(建築物数(ii, 40));
+		文字６ = "Buddha Statues (%s)" % string(建築物数(ii, 5));
+	}
+	Ｐシステム情報(pp, a1, a2, a3, a4, a5, a6, 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+}

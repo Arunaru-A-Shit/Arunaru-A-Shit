@@ -1,0 +1,18 @@
+void 館＿ＴＡＤＡ()
+{
+	ト書き枠(0, 0);
+	'Haniho!' A;
+	'This is TADA.' R;
+	'Thank you for purchasing Sengoku Rance.' A;
+	'So, Sengoku Rance is actually Rance 7.' R;
+	'The setting is JAPAN, so we made it a Sengoku thing.' A;
+	'There are a lot of ways to approach it, so it\'d be cool if you found your own way to play.' A;
+	'This game probably won\'t be fun if you follow someone else\'s walkthrough.' A;
+	'Just take your time and don\'t try to be perfect. You can only recruit thirty people anyway, so you won\'t see everything in one playthrough.' A;
+	'Saving and loading is easy, but unless you\'re in an unwinnable situation, I wouldn\'t redo things because of little mistakes.' A;
+	'Sometimes you could just get unlucky. Sometimes the RNG might screw with you. But that\'s part of the fun, and I want everyone to enjoy it.' A;
+	'Rather than be a perfectionist, I\'d like you to create your very own story as you play the game.' A;
+	枠閉じ(0, 0);
+	アリスＣＧ();
+	return;
+}

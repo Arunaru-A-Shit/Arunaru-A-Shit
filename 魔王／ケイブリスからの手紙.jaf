@@ -1,0 +1,33 @@
+void 魔王／ケイブリスからの手紙()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(117, 0, false);
+	全部(0, 0, 9155, 2, 10020, "Monster Army Base", 1, 500, 0);
+	ＳＰ(53, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(766, "", 1, 100);
+	'Little Princess, a letter has arrived from Kayblis...' A;
+	顔(58, "", 1, 100);
+	'What\'s it say?' A;
+	顔(766, "", 1, 100);
+	'[Congratulations on becoming the Archfiend, oh great one.]' A;
+	'[Archfiend Little Princess, please give me your orders. I\'ll do anything you ask, promise.]' A;
+	'[Forgive all of my previous rudeness... I\'m so, so sorry. Sorry for trying to kill you and all that.]' A;
+	'Kayblis has never been one to defy the powerful...' A;
+	'Still, this is pathetic...' A;
+	'What shall we do...?' A;
+	顔(58, "", 1, 100);
+	'Ignore him.' A;
+	顔(766, "", 1, 100);
+	'As you wish...' A;
+	顔(58, "", 1, 100);
+	'After this is over, I\'ll go punch him.' R;
+	'Destroying JAPAN takes priority at the moment.' A;
+	顔(68, "", 1, 100);
+	'Yeah, Hornet\'s okay, but Kayblis is a bad guy. Let\'s punish him later!' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

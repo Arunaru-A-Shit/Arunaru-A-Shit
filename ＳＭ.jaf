@@ -1,0 +1,1326 @@
+void ＳＭ(lint aa, lint bb, lint iix)
+{
+	lint iic = 0;
+	lint ii = 0;
+	lint ii2 = 0;
+	lint ra = 0;
+	lint cg = 0;
+	lint ch = 0;
+	lint iim = 0;
+	lint loop = 0;
+	lint aa1 = 0;
+	lint aa2 = 0;
+	lint キャラ番号 = 0;
+	string 文字列 = "";
+	string 文字列２ = "";
+	string 名前 = "";
+	ii = 0;
+	cg = gs[ii][1].ＣＧ;
+	キャラ番号 = gs[ii][1].番号;
+	if (aa == 5000)
+	{
+		汎用１(1000, 999);
+		cg = gs[ii][1].ＣＧ;
+		if (bb > 4)
+		{
+			ra = RAND(3);
+			if (ra == 1)
+			{
+				文字列 = "Mhm, that's some satisfaction.";
+			}
+			if (ra == 2)
+			{
+				文字列 = "Gahahahahahahahaha.@I'm mega satisfied!";
+			}
+			if (ra == 3)
+			{
+				文字列 = "Feeling good. Great, even.@This is how things should be.";
+			}
+			効果音(117, false);
+			ＰＳＭ(6, "Satisfaction Up@\t\t%s→%s" % string(◆満足度) % string(◆満足度 + bb), 文字列, "");
+		}
+		else
+		{
+			ra = RAND(3);
+			if (ra == 1)
+			{
+				文字列 = "Heheheheheh.@Now that was good.";
+			}
+			if (ra == 2)
+			{
+				文字列 = "Hm.@Thanks, that was fun.@↑Acting mature?";
+			}
+			if (ra == 3)
+			{
+				文字列 = "That was fun.@Today was a good day.";
+			}
+			効果音(117, false);
+			ＰＳＭ(6, "Satisfaction Up@\t\t%s→%s" % string(◆満足度) % string(◆満足度 + bb), 文字列, "");
+		}
+		満足度加減(bb, 0);
+		return;
+	}
+	if (aa == 5001)
+	{
+		汎用１(1000, 999);
+		cg = gs[ii][1].ＣＧ;
+		効果音(122, false);
+		ＰＳＭ(6, "Satisfaction Down@\t\t%s→%s" % string(◆満足度) % string(◆満足度 - bb), "I'm kinda annoyed.@Shit.", "");
+		満足度加減(0, bb);
+		return;
+	}
+	if (aa == 5023)
+	{
+		汎用１(1000, 999);
+		cg = gs[ii][1].ＣＧ;
+		効果音(121, false);
+		ＰＳＭ(cg, "You can now take more actions per turn.", "Heheheh, when I get motivated, I'm the king of strategy.", "");
+		◆コマンド実行数最大++;
+		return;
+	}
+	if (aa == 5059)
+	{
+		汎用１(1048, 999);
+		cg = gs[ii][1].ＣＧ;
+		ＧＦ[114] += bb;
+		文字列 = "Mhm...@Nice.";
+		効果音(121, false);
+		ＰＳＭ(cg, "Imperial Race: +%s Points@\t%s Points" % string(bb) % string(ＧＦ[114]), 文字列, "");
+		if (EV("謙信／帝", -2147483648) == false && ＧＦ[114] >= 100)
+		{
+			謙信が帝になる();
+			for (loop = 1; loop < 11; loop++)
+			{
+				帝レース[loop] = 0;
+			}
+			return;
+		}
+		return;
+	}
+	if (aa == 5068)
+	{
+		ＧＦ[112] += bb;
+		文字列 = "Heheheh...";
+		ＰＳＭ(38, "Imperial Race: +%s Points@\t%s Points" % string(bb) % string(ＧＦ[112]), 文字列, "");
+		if (EV("謙信／帝", -2147483648) == false && ＧＦ[112] > 99)
+		{
+			ＴＶ(2);
+			Ｐ地図マーク表示(2);
+			信長／帝();
+			ＧＡＭＥＯＶＥＲ(1);
+			return;
+		}
+		return;
+	}
+	if (aa == 5058)
+	{
+		汎用１(1001, 999);
+		cg = gs[ii][1].ＣＧ;
+		効果音(121, false);
+		ＰＳＭ(cg, "Now able to heal %s troops in battle." % string(bb), "Master Rance, I can do this.", "");
+		return;
+	}
+	if (aa == 5080)
+	{
+		効果音(116, false);
+		ＰＳＭ(396, "%s: Ordered followers to start an uprising." % 勢力[ii2].名前, "Rise up and fight.", "");
+		return;
+	}
+	if (aa == 5079)
+	{
+		文字列 = ＴＸ(20, キャラ番号, 0, 0, 0);
+		if (文字列 == "")
+		{
+			文字列 = "That's great.";
+		}
+		効果音(116, false);
+		ＰＳＭ(cg, "%s enlisted." % gs[0][1].名前, 文字列, "");
+		return;
+	}
+	if (aa == 5078)
+	{
+		文字列 = ＴＸ(20, キャラ番号, 0, 0, 0);
+		if (文字列 == "")
+		{
+			文字列 = "That's great.";
+		}
+		効果音(116, false);
+		ＰＳＭ(cg, "Barriers were placed at the border of %s, making it harder for enemy states to invade." % 国[iix].名前, 文字列, "");
+		return;
+	}
+	if (aa == 5014)
+	{
+		文字列 = ＴＸ(20, キャラ番号, 0, 0, 0);
+		if (文字列 == "")
+		{
+			文字列 = "That's great.";
+		}
+		効果音(116, false);
+		if (国[iix].国力 > 29)
+		{
+			ＰＳＭ(cg, "%s's national power reached its maximum level." % 国[iix].名前, "", "");
+			return;
+		}
+		ＰＳＭ(cg, "%s's national power is now %s." % 国[iix].名前 % string(国[iix].国力 + bb), 文字列, "");
+		国[iix].国力 += bb;
+		if (国[iix].国力 > 29)
+		{
+			国[iix].国力 = 30;
+		}
+		return;
+	}
+	if (aa == 5015)
+	{
+		文字列 = ＴＸ(22, キャラ番号, 0, 0, 0);
+		if (文字列 == "")
+		{
+			文字列 = "...Aaah...";
+		}
+		効果音(122, false);
+		ＰＳＭ(cg, "%s's national power is now %s." % 国[iix].名前 % string(国[iix].国力 - bb), 文字列, "");
+		国[iix].国力--;
+		return;
+	}
+	if (aa == 5019)
+	{
+		if (bb >= 91)
+		{
+			LOG_TADA("ＥＲＲＯＲ　アイテム取得(" + string(bb) + "）\n");
+			return;
+		}
+		文字列 = ＴＸ(20, キャラ番号, 0, 0, 0);
+		if (文字列 == "")
+		{
+			文字列 = "Let's make it a national treasure.";
+		}
+		効果音(115, false);
+		ＰＳＭ(cg, "Acquired %s." % アイテム[bb].名前, 文字列, "");
+		アイテム[bb].個数++;
+		LOG_TADA("　アイテム取得　\n");
+		return;
+	}
+	if (aa == 5062)
+	{
+		if (bb >= 91)
+		{
+			LOG_TADA("ＥＲＲＯＲ　アイテム取得(" + string(bb) + "）\n");
+			return;
+		}
+		文字列 = ＴＸ(20, キャラ番号, 0, 0, 0);
+		if (文字列 == "")
+		{
+			文字列 = "Here you are...";
+		}
+		効果音(121, false);
+		ＰＳＭ(cg, "Acquired %s from the released prisoners." % アイテム[bb].名前, 文字列, "");
+		アイテム[bb].個数++;
+		return;
+	}
+	if (aa == 5020)
+	{
+		if (bb >= 999)
+		{
+			LOG_TADA("ＥＲＲＯＲ　宝取得(" + string(bb) + "）\n");
+			return;
+		}
+		▲文字列 = "Treasure? Acquired?";
+		if (bb == 39)
+		{
+			▲文字列 = "Acquired Tengu Mask@Placed in Rance's Treasure Chest";
+		}
+		if (bb == 40)
+		{
+			▲文字列 = "Acquired Sex Candle@Placed in Rance's Treasure Chest";
+		}
+		if (bb == 41)
+		{
+			▲文字列 = "Acquired Death Hallucinogen@Placed in Rance's Treasure Chest";
+		}
+		if (bb == 89)
+		{
+			▲文字列 = "Acquired Slutification Drug@Placed in Rance's Treasure Chest";
+		}
+		if (bb == 91)
+		{
+			▲文字列 = "Acquired Kanami Sex Coupon@Placed in Rance's Treasure Chest";
+		}
+		if (bb == 49)
+		{
+			▲文字列 = "Acquired Nautilus Shell@Placed in Rance's Treasure Chest";
+		}
+		if (bb == 50)
+		{
+			▲文字列 = "Acquired Broken China Shell@Placed in Rance's Treasure Chest";
+		}
+		if (bb == 51)
+		{
+			▲文字列 = "Acquired JAPAN Shell@Placed in Rance's Treasure Chest";
+		}
+		if (bb == 175)
+		{
+			▲文字列 = "Acquired Ukiyo-e Painting@Placed in Rance's Treasure Chest";
+		}
+		if (bb == 54)
+		{
+			▲文字列 = "Acquired Takuan@Placed in the Supply Chest";
+		}
+		if (bb == 57)
+		{
+			▲文字列 = "Acquired Astringent Persimmon@Placed in the Supply Chest";
+		}
+		if (bb == 58)
+		{
+			▲文字列 = "Acquired Marimo@Placed in the Supply Chest";
+		}
+		if (bb == 59)
+		{
+			▲文字列 = "Acquired Crab@Placed in the Supply Chest";
+		}
+		if (bb == 60)
+		{
+			▲文字列 = "Acquired Melon@Placed in the Supply Chest";
+		}
+		if (bb == 61)
+		{
+			▲文字列 = "Acquired Jingisukan@Placed in the Supply Chest";
+		}
+		if (bb == 98)
+		{
+			▲文字列 = "Acquired Twenty Pearls@Placed in the Supply Chest";
+		}
+		if (bb == 99)
+		{
+			▲文字列 = "Acquired Testicles@Placed in the Supply Chest";
+		}
+		if (bb == 139)
+		{
+			▲文字列 = "Acquired Rice Coupon@Placed in the Supply Chest";
+		}
+		if (bb == 38)
+		{
+			▲文字列 = "Acquired Takauji Folding Screen@Placed in the Important (?) Chest";
+		}
+		if (bb == 103)
+		{
+			▲文字列 = "Acquired Coil@Placed in the Important (?) Chest";
+		}
+		if (bb == 104)
+		{
+			▲文字列 = "Acquired Iron Pipe@Placed in the Important (?) Chest";
+		}
+		if (bb == 105)
+		{
+			▲文字列 = "Acquired Cellophane Tape@Placed in the Important (?) Chest";
+		}
+		if (bb == 122)
+		{
+			▲文字列 = "Acquired one of the Six Great Treasures, the Echizen Crab@Placed in the Important (?) Chest";
+		}
+		if (bb == 121)
+		{
+			▲文字列 = "Acquired one of the Six Great Treasures, the Lone Fear@Placed in the Important (?) Chest";
+		}
+		if (bb == 120)
+		{
+			▲文字列 = "Acquired one of the Six Great Treasures, the Giant Pearl@Placed in the Important (?) Chest";
+		}
+		if (bb == 119)
+		{
+			▲文字列 = "Acquired one of the Six Great Treasures, the Hiragumo@Placed in the Important (?) Chest";
+		}
+		if (bb == 118)
+		{
+			▲文字列 = "Acquired one of the Six Great Treasures, the Gold Seal@Placed in the Important (?) Chest";
+		}
+		if (bb == 117)
+		{
+			▲文字列 = "Acquired of the Six Great Treasures, the Cola Bottle@Placed in the Important (?) Chest";
+		}
+		文字列 = ＴＸ(20, キャラ番号, 0, 0, 0);
+		if (文字列 == "")
+		{
+			文字列 = "I did it.";
+		}
+		効果音(115, false);
+		ＰＳＭ(cg, ▲文字列, 文字列, "");
+		ＧＦ[bb] = 1;
+		フラグ調整();
+		return;
+	}
+	if (aa == 5016)
+	{
+		文字列 = ＴＸ(21, キャラ番号, 0, 0, 0);
+		if (文字列 == "")
+		{
+			文字列 = "I can do this.";
+		}
+		効果音(116, false);
+		ＰＳＭ(cg, "%s: Preparing for the next battle.@Battlefield Bonus: %s→%s" % 国[iix].名前 % string(国[iix].合戦準備) % string(国[iix].合戦準備 + bb), 文字列, "");
+		国[iix].合戦準備 += bb;
+		return;
+	}
+	if (aa == 5070)
+	{
+		文字列 = ＴＸ(20, キャラ番号, 0, 0, 0);
+		if (文字列 == "")
+		{
+			文字列 = "%s@Aaah... So dreamy..." % 名前;
+		}
+		効果音(121, false);
+		ＰＳＭ(cg, "%s is happy.@◆Character Clears +1◆" % gs[0][1].名前, 文字列, "");
+		return;
+	}
+	if (aa == 5006)
+	{
+		文字列 = ＴＸ(5051, キャラ番号, 0, 0, 0);
+		if (文字列 == "")
+		{
+			文字列 = "%s@...Rance-dono..." % 名前;
+		}
+		効果音(121, false);
+		ＰＳＭ(cg, "Relationship with Rance is now 'Love'.", 文字列, "");
+		return;
+	}
+	if (aa == 5005)
+	{
+		文字列 = ＴＸ(5051, キャラ番号, 0, 0, 0);
+		if (文字列 == "")
+		{
+			文字列 = "%s@...He's got my interest..." % 名前;
+		}
+		効果音(121, false);
+		ＰＳＭ(cg, "Relationship with Rance is now 'Trust'.", 文字列, "");
+		return;
+	}
+	if (aa == 5004)
+	{
+		文字列 = ＴＸ(5051, キャラ番号, 0, 0, 0);
+		if (文字列 == "")
+		{
+			文字列 = "%s@...Is this guy actually something special?" % 名前;
+		}
+		効果音(121, false);
+		ＰＳＭ(cg, "Relationship with Rance is now 'Normal'.", 文字列, "");
+		return;
+	}
+	if (aa == 5002)
+	{
+		文字列 = ＴＸ(21, キャラ番号, 0, 0, 0);
+		if (文字列 == "")
+		{
+			文字列 = "%s@I'll do what I can." % 名前;
+		}
+		効果音(121, false);
+		ＰＳＭ(cg, "%s became a retainer." % gs[0][1].名前, 文字列, "");
+		return;
+	}
+	if (aa == 5007)
+	{
+		文字列 = ＴＸ(20, キャラ番号, 0, 0, 0);
+		if (文字列 == "")
+		{
+			文字列 = "%s@Yay!" % 名前;
+		}
+		ＰＳＭ(cg, "Relationship Bonus:@%s can be powered up." % gs[0][1].名前, 文字列, "");
+		return;
+	}
+	if (aa == 5073)
+	{
+		文字列 = ＴＸ(20, キャラ番号, 0, 0, 0);
+		if (文字列 == "")
+		{
+			文字列 = "%s@Yay!" % 名前;
+		}
+		ＰＳＭ(cg, "I trained hard for this.@%s can be powered up." % gs[0][1].名前, 文字列, "");
+		return;
+	}
+	if (aa == 5075)
+	{
+		文字列 = ＴＸ(20, キャラ番号, 0, 0, 0);
+		if (文字列 == "")
+		{
+			文字列 = "%s@Yay!" % 名前;
+		}
+		ＰＳＭ(cg, "★Bonus★@%s can be powered up." % gs[0][1].名前, 文字列, "");
+		return;
+	}
+	if (aa == 5051)
+	{
+		文字列 = ＴＸ(5051, キャラ番号, 0, 0, 0);
+		if (文字列 == "")
+		{
+			文字列 = "%s@...Huh?" % 名前;
+		}
+		if (キャラ番号 == 1000)
+		{
+			Ｐ好感度アップ(bb, "Rance is living each day@to the fullest.", 文字列, "");
+			return;
+		}
+		Ｐ好感度アップ(bb, "%s came to like Rance." % gs[0][1].名前, 文字列, "");
+		return;
+	}
+	if (aa == 5052)
+	{
+		Ｐ好感度アップ(bb, "%s came to like Rance after listening to Yoshikage." % gs[0][1].名前, "", "");
+		return;
+	}
+	if (aa == 5024)
+	{
+		文字列 = ＴＸ(20, キャラ番号, 0, 0, 0);
+		if (文字列 == "")
+		{
+			文字列 = "%s@Heheh." % 名前;
+		}
+		効果音(121, false);
+		ＰＳＭ(0, "%s's unit's Construction is now %s." % gs[0][1].名前 % string(bb), 文字列, "");
+		return;
+	}
+	if (aa == 5025)
+	{
+		文字列 = ＴＸ(20, キャラ番号, 0, 0, 0);
+		if (文字列 == "")
+		{
+			文字列 = "%s@Now I can negotiate more." % 名前;
+		}
+		効果音(121, false);
+		ＰＳＭ(0, "%s's unit's Negotiation is now %s." % gs[0][1].名前 % string(bb), 文字列, "");
+		return;
+	}
+	if (aa == 5026)
+	{
+		文字列 = ＴＸ(20, キャラ番号, 0, 0, 0);
+		if (文字列 == "")
+		{
+			文字列 = "%s@Now I can search more." % 名前;
+		}
+		効果音(121, false);
+		ＰＳＭ(0, "%s's unit's Search is now %s." % gs[0][1].名前 % string(bb), 文字列, "");
+		return;
+	}
+	if (aa == 5027)
+	{
+		文字列 = ＴＸ(20, キャラ番号, 0, 0, 0);
+		if (文字列 == "")
+		{
+			文字列 = "%s@Now I can fight better." % 名前;
+		}
+		効果音(121, false);
+		ＰＳＭ(0, "%s's unit's Attack is now %s." % gs[0][1].名前 % string(gs[0][1].攻撃), 文字列, "");
+		return;
+	}
+	if (aa == 5028)
+	{
+		文字列 = ＴＸ(20, キャラ番号, 0, 0, 0);
+		if (文字列 == "")
+		{
+			文字列 = "%s@You have my protection." % 名前;
+		}
+		効果音(121, false);
+		ＰＳＭ(0, "%s's unit's Defense is now %s." % gs[0][1].名前 % string(gs[0][1].防御), 文字列, "");
+		return;
+	}
+	if (aa == 5029)
+	{
+		文字列 = ＴＸ(20, キャラ番号, 0, 0, 0);
+		if (文字列 == "")
+		{
+			文字列 = "%s@Please, let me help you." % 名前;
+		}
+		効果音(121, false);
+		ＰＳＭ(0, "%s's unit's Intelligence is now %s." % gs[0][1].名前 % string(gs[0][1].知力), 文字列, "");
+		return;
+	}
+	if (aa == 5030)
+	{
+		文字列 = ＴＸ(20, キャラ番号, 0, 0, 0);
+		if (文字列 == "")
+		{
+			文字列 = "%s@I feel more nimble." % 名前;
+		}
+		効果音(121, false);
+		ＰＳＭ(0, "%s's unit's Speed is now %s." % gs[0][1].名前 % string(gs[0][1].早さ), 文字列, "");
+		return;
+	}
+	if (aa == 5055)
+	{
+		文字列 = ＴＸ(20, キャラ番号, 0, 0, 0);
+		if (文字列 == "")
+		{
+			文字列 = "%s@I'll make use of this in battle." % 名前;
+		}
+		効果音(121, false);
+		ＰＳＭ(0, "%s's unit's total moves is now %s." % gs[0][1].名前 % string(bb), 文字列, "");
+		return;
+	}
+	if (aa == 5048)
+	{
+		文字列 = ＴＸ(20, キャラ番号, 0, 0, 0);
+		if (文字列 == "")
+		{
+			文字列 = "%s@I found some new allies." % 名前;
+		}
+		効果音(121, false);
+		ＰＳＭ(0, "%s's unit recruited %s more troops." % gs[0][1].名前 % string(bb), 文字列, "");
+		return;
+	}
+	if (aa == 5049)
+	{
+		文字列 = ＴＸ(20, キャラ番号, 0, 0, 0);
+		if (文字列 == "")
+		{
+			文字列 = "%s@We can do this, everyone." % 名前;
+		}
+		効果音(121, false);
+		ＰＳＭ(0, "%s's squad recovered %s troops." % gs[0][1].名前 % string(bb), 文字列, "");
+		return;
+	}
+	if (aa == 5022)
+	{
+		文字列 = ＴＸ(20, キャラ番号, 0, 0, 0);
+		if (文字列 == "")
+		{
+			文字列 = "%s@I'll try." % 名前;
+		}
+		効果音(121, false);
+		ＰＳＭ(0, "%s can now use %s." % gs[0][1].名前 % 行動名前[bb], 文字列, "");
+		return;
+	}
+	if (aa == 5050)
+	{
+		文字列 = ＴＸ(21, キャラ番号, 0, 0, 0);
+		if (文字列 == "")
+		{
+			文字列 = "%s@Understood." % 名前;
+		}
+		効果音(121, false);
+		ＰＳＭ(0, "%s's squad can take action." % gs[0][1].名前, 文字列, "");
+		return;
+	}
+	if (aa == 5008)
+	{
+		文字列 = ＴＸ(5008, キャラ番号, 0, 0, 0);
+		if (文字列 == "")
+		{
+			文字列 = "Good.";
+		}
+		bb = gs[0][1].Ｓレベル;
+		効果音(121, false);
+		ＰＳＭ(0, "%s improved and reached Level %s." % gs[0][1].名前 % string(bb), 文字列, "");
+		return;
+	}
+	if (aa == 5009)
+	{
+		文字列 = ＴＸ(22, キャラ番号, 0, 0, 0);
+		if (文字列 == "")
+		{
+			文字列 = "%s@...Goodbye..." % 名前;
+		}
+		効果音(136, false);
+		ＰＳＭ(0, "%s was dismissed." % gs[0][1].名前, 文字列, "");
+		return;
+	}
+	if (aa == 5056)
+	{
+		文字列 = ＴＸ(21, キャラ番号, 0, 0, 0);
+		if (文字列 == "")
+		{
+			文字列 = "%s@Here I go." % 名前;
+		}
+		効果音(127, false);
+		ＰＳＭ(0, "%s decided to engage in battle at %s." % gs[0][1].名前 % 国[bb].名前, 文字列, "");
+		return;
+	}
+	if (aa == 5057)
+	{
+		ＰＳＭ(0, "In the violent conflict,@%s's unit lost@%s troops." % gs[0][1].名前 % string(bb), "", "");
+		return;
+	}
+	if (aa == 5053)
+	{
+		文字列 = ＴＸ(20, キャラ番号, 0, 0, 0);
+		if (文字列 == "")
+		{
+			文字列 = "%s@I'll go have a look." % 名前;
+		}
+		効果音(121, false);
+		ＰＳＭ(0, "Learned about the enemy's forces.", 文字列, "");
+		return;
+	}
+	if (aa == 5077)
+	{
+		文字列 = ＴＸ(20, キャラ番号, 0, 0, 0);
+		if (文字列 == "")
+		{
+			文字列 = "%s@I can make this work, you'll see." % 名前;
+		}
+		効果音(121, false);
+		ＰＳＭ(0, "%s took a neutral position toward the clan." % 勢力[iix].名前, 文字列, "");
+		return;
+	}
+	if (aa == 5033)
+	{
+		文字列 = ＴＸ(20, キャラ番号, 0, 0, 0);
+		if (文字列 == "")
+		{
+			文字列 = "%s@I can make this work, you'll see." % 名前;
+		}
+		効果音(121, false);
+		ＰＳＭ(0, "%s was instigated into political chaos." % 勢力[iix].名前, 文字列, "");
+		勢力[iix].混乱状態 = 1;
+		return;
+	}
+	if (aa == 5034)
+	{
+		文字列 = ＴＸ(20, キャラ番号, 0, 0, 0);
+		if (文字列 == "")
+		{
+			文字列 = "%s@I'm off." % 名前;
+		}
+		aa1 = 勢力兵数削減(iix, 20);
+		効果音(121, false);
+		ＰＳＭ(0, "%s was hit with a rebellion and lost %s troops." % 勢力[iix].名前 % string(aa1), 文字列, "");
+		for (iim = 1; iim < 33; iim++)
+		{
+			if (国[iim].支配国 == iix)
+			{
+				for (loop = 1; loop < 8; loop++)
+				{
+					if (国[iim].要害[loop] > 40)
+					{
+						国[iim].要害[loop] -= 10;
+					}
+				}
+			}
+		}
+		return;
+	}
+	if (aa == 5035)
+	{
+		文字列 = ＴＸ(20, キャラ番号, 0, 0, 0);
+		if (文字列 == "")
+		{
+			文字列 = "%s@It's time for a stealth mission." % 名前;
+		}
+		ii2 = iix;
+		iic = bb;
+		if (gs[ii2][iic].番号 != 999)
+		{
+			効果音(121, false);
+			ＰＳＭ(cg, "%s attacked %s and inflicted serious injuries." % gs[0][1].名前 % gs[ii2][iic].名前, 文字列, "");
+			gs[ii2][iic].兵数 = 10;
+			gs[ii2][iic].行動 = 1;
+			return;
+		}
+		効果音(121, false);
+		ＰＳＭ(cg, "%s attacked %s and carried out the assassination successfully." % gs[0][1].名前 % gs[ii2][iic].名前, 文字列, "");
+		キャラ消去(iic, ii2);
+		return;
+	}
+	if (aa == 5046)
+	{
+		効果音(136, false);
+		ＰＳＭ(0, "%s died in a freak accident." % gs[0][1].名前, "", "");
+		return;
+	}
+	if (aa == 5047)
+	{
+		ＰＳＭ(0, "%s can only use a higher ranking textbook." % gs[0][1].名前, "...", "");
+		return;
+	}
+	if (aa == 5076)
+	{
+		ＰＳＭ(0, "%s can't use this item." % gs[0][1].名前, "...", "");
+		return;
+	}
+	if (aa == 5036)
+	{
+		文字列 = ＴＸ(22, キャラ番号, 0, 0, 0);
+		if (文字列 == "")
+		{
+			文字列 = "%s@Guh..." % 名前;
+		}
+		ＰＳＭ(0, "%s was released." % gs[0][1].名前, 文字列, "");
+		return;
+	}
+	if (aa == 5032)
+	{
+		効果音(127, false);
+		ＰＳＭ(0, "Skill (Pursuit Battle) activated.@Advanced further into enemy territory.", "", "");
+		return;
+	}
+	if (aa == 5067)
+	{
+		文字列 = ＴＸ(22, キャラ番号, 0, 0, 0);
+		if (文字列 == "")
+		{
+			文字列 = "%s@Guh..." % 名前;
+		}
+		ＰＳＭ(cg, "%s was imprisoned." % gs[0][1].名前, 文字列, "");
+		return;
+	}
+	if (aa == 5013)
+	{
+		文字列 = ＴＸ(20, キャラ番号, 0, 0, 0);
+		if (文字列 == "")
+		{
+			文字列 = "We succeeded.";
+		}
+		効果音(121, false);
+		ＰＳＭ(cg, "★Success★", 文字列, "");
+		return;
+	}
+	if (aa == 5012)
+	{
+		文字列 = ＴＸ(22, キャラ番号, 0, 0, 0);
+		if (文字列 == "")
+		{
+			文字列 = "%s@...I'm sorry..." % 名前;
+		}
+		効果音(122, false);
+		ＰＳＭ(cg, "★Failure★@Insufficient manpower", 文字列, "");
+		return;
+	}
+	if (aa == 5054)
+	{
+		cg = bb;
+		ＰＳＭ(cg, ▲文字列, ▲文字列２, "");
+		return;
+	}
+	ch = 1180;
+	cg = 100;
+	if (キャラ確認(1053, 0, 0, 0) == 1 && RAND(2) == 1)
+	{
+		ch = 1053;
+		汎用１(ch, 999);
+		cg = gs[0][1].ＣＧ;
+	}
+	if (キャラ確認(1049, 0, 0, 0) == 1 && RAND(2) == 1)
+	{
+		ch = 1049;
+		汎用１(ch, 999);
+		cg = gs[0][1].ＣＧ;
+	}
+	if (キャラ確認(1008, 0, 0, 0) == 1 && RAND(2) == 1)
+	{
+		ch = 1008;
+		汎用１(ch, 999);
+		cg = gs[0][1].ＣＧ;
+	}
+	if (キャラ確認(1050, 0, 0, 0) == 1 && RAND(2) == 1)
+	{
+		ch = 1050;
+		汎用１(ch, 999);
+		cg = gs[0][1].ＣＧ;
+	}
+	if (aa == 5017)
+	{
+		if (ch == 1180)
+		{
+			文字列 = "Let us put this away for safekeeping.×3";
+		}
+		if (ch == 1053)
+		{
+			文字列 = "We should use this wisely.";
+		}
+		if (ch == 1049)
+		{
+			文字列 = "Remember not to waste it, okay?";
+		}
+		if (ch == 1008)
+		{
+			文字列 = "Let's try and use this right.";
+		}
+		if (ch == 1050)
+		{
+			文字列 = "I'll put this somewhere you can't get it.";
+		}
+		効果音(115, false);
+		ＰＳＭ(cg, "Acquired %s Gold@Total: %s" % string(bb) % string(◆金 + bb), 文字列, "");
+		お金＋(bb);
+		return;
+	}
+	if (aa == 5018)
+	{
+		if (ch == 1180)
+		{
+			文字列 = "I will go pay.×3";
+		}
+		if (ch == 1053)
+		{
+			文字列 = "Let's pay for this.";
+		}
+		if (ch == 1049)
+		{
+			文字列 = "Here you go.";
+		}
+		if (ch == 1008)
+		{
+			文字列 = "I'll pay for this now.";
+		}
+		if (ch == 1050)
+		{
+			文字列 = "Done paying.";
+		}
+		効果音(128, false);
+		ＰＳＭ(cg, "Paid %s Gold@Remaining: %s" % string(bb) % string(◆金 - bb), 文字列, "");
+		お金－(bb);
+		return;
+	}
+	if (aa == 5041)
+	{
+		if (ch == 1180)
+		{
+			文字列 = "Victory!×3";
+		}
+		if (ch == 1053)
+		{
+			文字列 = "Congratulations.";
+		}
+		if (ch == 1049)
+		{
+			文字列 = "Well, I knew we'd do it.";
+		}
+		if (ch == 1008)
+		{
+			文字列 = "All done for now.";
+		}
+		if (ch == 1050)
+		{
+			文字列 = "Alright, did it.";
+		}
+		効果音(123, false);
+		ＰＳＭ(cg, "%s fell under the Oda clan's control." % 国[iix].名前, 文字列, "");
+		return;
+	}
+	if (aa == 5042)
+	{
+		if (ch == 1180)
+		{
+			文字列 = "Fiddlesticks!×3";
+		}
+		if (ch == 1053)
+		{
+			文字列 = "This is only just beginning.";
+		}
+		if (ch == 1049)
+		{
+			文字列 = "I'm a bit vexed, admittedly.";
+		}
+		if (ch == 1008)
+		{
+			文字列 = "We can just take it back again.";
+		}
+		if (ch == 1050)
+		{
+			文字列 = "Let's take our time.";
+		}
+		効果音(122, false);
+		ＰＳＭ(cg, "%s: Lost some territory." % 国[iix].名前, 文字列, "");
+		国[iix].支配土地 += bb;
+		return;
+	}
+	if (aa == 5038)
+	{
+		if (ch == 1180)
+		{
+			文字列 = "Huhohoh, huhohoh.×3";
+		}
+		if (ch == 1053)
+		{
+			文字列 = "I think we got lucky.";
+		}
+		if (ch == 1049)
+		{
+			文字列 = "I'm almost disappointed.";
+		}
+		if (ch == 1008)
+		{
+			文字列 = "Thank goodness nobody@had to get hurt.";
+		}
+		if (ch == 1050)
+		{
+			文字列 = "Alright.@That's one.";
+		}
+		if (◆予備０１ == 1)
+		{
+			cg = 勢力[◆Ｐｉｉ].国主ＣＧ;
+			文字列 = "...";
+		}
+		ＰＳＭ(cg, "The enemy didn't fight back.", 文字列, "");
+		return;
+	}
+	if (aa == 5039)
+	{
+		if (ch == 1180)
+		{
+			文字列 = "Aaaaaaaaaaaaah!×3";
+		}
+		if (ch == 1053)
+		{
+			文字列 = "This is a valid strategy.@Let's tolerate it for now.";
+		}
+		if (ch == 1049)
+		{
+			文字列 = "Hm... That's a bit annoying.";
+		}
+		if (ch == 1008)
+		{
+			文字列 = "So it goes.";
+		}
+		if (ch == 1050)
+		{
+			文字列 = "This is just one step back.@Now we turn the tables.";
+		}
+		if (◆予備０１ == 1)
+		{
+			cg = 勢力[◆Ｐｉｉ].国主ＣＧ;
+			文字列 = "...";
+		}
+		ＰＳＭ(cg, "Didn't fight back.", 文字列, "");
+		return;
+	}
+	if (aa == 5010)
+	{
+		if (ch == 1180)
+		{
+			文字列 = "Excellent!×3";
+		}
+		if (ch == 1053)
+		{
+			文字列 = "Nice victory.";
+		}
+		if (ch == 1049)
+		{
+			文字列 = "Good work.";
+		}
+		if (ch == 1008)
+		{
+			文字列 = "We did it,@Rance.";
+		}
+		if (ch == 1050)
+		{
+			文字列 = "Alright!";
+		}
+		ＰＳＭ(cg, "%s retreated." % 勢力[iix].名前, 文字列, "");
+		return;
+	}
+	if (aa == 5011)
+	{
+		if (ch == 1180)
+		{
+			文字列 = "Ah... Aaah... Aaaaah...×3";
+		}
+		if (ch == 1053)
+		{
+			文字列 = "We're only getting started.";
+		}
+		if (ch == 1049)
+		{
+			文字列 = "Hm...";
+		}
+		if (ch == 1008)
+		{
+			文字列 = "Haaah... It's not over yet.";
+		}
+		if (ch == 1050)
+		{
+			文字列 = "Hrm...@What went wrong?";
+		}
+		if (bb == 1)
+		{
+			ＰＳＭ(cg, "%s won the battle@The enemy's defensive facilities were damaged" % 勢力[iix].名前, 文字列, "");
+			return;
+		}
+		ＰＳＭ(cg, "%s won the battle." % 勢力[iix].名前, 文字列, "");
+		return;
+	}
+	if (aa == 5043)
+	{
+		if (ch == 1180)
+		{
+			文字列 = "Splendid!×3";
+		}
+		if (ch == 1053)
+		{
+			文字列 = "It's part of our state@for now.";
+		}
+		if (ch == 1049)
+		{
+			文字列 = "Now things should calm down a little.";
+		}
+		if (ch == 1008)
+		{
+			文字列 = "Looks like we did it.";
+		}
+		if (ch == 1050)
+		{
+			文字列 = "One step closer.";
+		}
+		if (◆予備０１ == 1)
+		{
+			cg = 勢力[◆Ｐｉｉ].国主ＣＧ;
+			文字列 = "...";
+		}
+		効果音(123, false);
+		ＰＳＭ(cg, "%s was conquered." % 勢力[iix].名前, 文字列, "");
+		return;
+	}
+	if (aa == 5044)
+	{
+		if (ch == 1180)
+		{
+			文字列 = "This is war.@We must take it seriously.×3";
+		}
+		if (ch == 1053)
+		{
+			文字列 = "Let's attack.";
+		}
+		if (ch == 1049)
+		{
+			文字列 = "Now...@Where to attack from?";
+		}
+		if (ch == 1008)
+		{
+			文字列 = "I hope we can limit the casualties.";
+		}
+		if (ch == 1050)
+		{
+			文字列 = "We're left no choice.@Let's fight.";
+		}
+		ＰＳＭ(cg, "%s entered a state of war with the Oda clan." % 勢力[iix].名前, 文字列, "");
+		return;
+	}
+	if (aa == 5045)
+	{
+		if (ch == 1180)
+		{
+			文字列 = "We did it,@for now.×3";
+		}
+		if (ch == 1053)
+		{
+			文字列 = "That's another state for us.";
+		}
+		if (ch == 1049)
+		{
+			文字列 = "Looks like we did it.";
+		}
+		if (ch == 1008)
+		{
+			文字列 = "Whew...@I feel like things'll only get harder.";
+		}
+		if (ch == 1050)
+		{
+			文字列 = "Alright.@Good job, everyone.";
+		}
+		効果音(123, false);
+		ＰＳＭ(cg, "%s was placed under the Oda clan's control." % 勢力[iix].名前, 文字列, "");
+		return;
+	}
+	if (aa == 5064)
+	{
+		if (ch == 1180)
+		{
+			文字列 = "Goody.×3";
+		}
+		if (ch == 1053)
+		{
+			文字列 = "Take good care of it.";
+		}
+		if (ch == 1049)
+		{
+			文字列 = "This is easy to lose.@You have to be careful with it.";
+		}
+		if (ch == 1008)
+		{
+			文字列 = "Let's use this wisely.";
+		}
+		if (ch == 1050)
+		{
+			文字列 = "Good for you.";
+		}
+		効果音(121, false);
+		ＰＳＭ(cg, "Score +%s Points" % string(bb), 文字列, "");
+		プレイ得点(bb, 0);
+		return;
+	}
+	if (aa == 5065)
+	{
+		if (ch == 1180)
+		{
+			文字列 = "Aaah... What a waste.×3";
+		}
+		if (ch == 1053)
+		{
+			文字列 = "We can get it back.";
+		}
+		if (ch == 1049)
+		{
+			文字列 = "Oh dear...";
+		}
+		if (ch == 1008)
+		{
+			文字列 = "There's plenty of time left.";
+		}
+		if (ch == 1050)
+		{
+			文字列 = "What?@Were you hungry?";
+		}
+		効果音(122, false);
+		ＰＳＭ(cg, "Score -%s Points" % string(bb), 文字列, "");
+		プレイ得点(0, bb);
+		return;
+	}
+	ch = 1001;
+	cg = 16;
+	if (◆ルート == 1 && キャラ確認(1078, 0, 0, 0) == 1)
+	{
+		ch = 1078;
+		cg = 46;
+		if (EV("香姫／出陣", -2147483648) == true)
+		{
+			cg = 49;
+		}
+	}
+	if (◆ルート == 10)
+	{
+		ch = 1048;
+		cg = 76;
+	}
+	if (◆ルート == 20)
+	{
+		ch = 1026;
+		cg = 216;
+	}
+	if (◆ルート == 30)
+	{
+		ch = 1051;
+		cg = 186;
+	}
+	if (aa == 5061)
+	{
+		if (ch == 1001)
+		{
+			文字列 = "Everyone seems to love you now, Master Rance.";
+		}
+		if (ch == 1078)
+		{
+			文字列 = "Heheheh.@Good for you.";
+		}
+		if (ch == 1048)
+		{
+			文字列 = "Mhm...@This is good.";
+		}
+		if (ch == 1026)
+		{
+			文字列 = "I think everyone's starting@to understand you better.";
+		}
+		if (ch == 1051)
+		{
+			文字列 = "...Inconceivable!";
+		}
+		効果音(121, false);
+		ＰＳＭ(cg, "All commanders' Relationship Points +3", 文字列, "");
+		return;
+	}
+	if (aa == 5066)
+	{
+		if (ch == 1001)
+		{
+			文字列 = "Everyone's nice and healthy.";
+		}
+		if (ch == 1078)
+		{
+			文字列 = "Let's show them what we've got.";
+		}
+		if (ch == 1048)
+		{
+			文字列 = "Alright.@I can still fight.";
+		}
+		if (ch == 1026)
+		{
+			文字列 = "I'm thankful for good health.";
+		}
+		if (ch == 1051)
+		{
+			文字列 = "Whew... That's good.";
+		}
+		if (◆予備０１ == 1)
+		{
+			文字列 = "...";
+			cg = 勢力[◆Ｐｉｉ].国主ＣＧ;
+		}
+		効果音(121, false);
+		ＰＳＭ(cg, "All commanders replenished %s troops." % string(bb), 文字列, "");
+		return;
+	}
+	if (aa == 5060 || aa == 5063 || aa == 5069)
+	{
+		if (ch == 1001)
+		{
+			文字列 = "Wah... Wow...@Amazing.";
+		}
+		if (ch == 1078)
+		{
+			文字列 = "Everyone worked hard@for this.";
+		}
+		if (ch == 1048)
+		{
+			文字列 = "Thank you,@Bishamonten.";
+		}
+		if (ch == 1026)
+		{
+			文字列 = "It was worth the effort.";
+		}
+		if (ch == 1051)
+		{
+			文字列 = "Hm...@Congrats.";
+		}
+		効果音(121, false);
+		if (aa == 5060)
+		{
+			ＰＳＭ(cg, "Dungeon Clear Bonus:@All commanders leveled up.@(Unless they were at their talent cap)", 文字列, "");
+		}
+		if (aa == 5063)
+		{
+			ＰＳＭ(cg, "Onislaying Bonus:@All commanders leveled up.@(Unless they were at their talent cap)", 文字列, "");
+		}
+		if (aa == 5069)
+		{
+			ＰＳＭ(cg, "Pandaslaying Bonus:@All commanders leveled up.@(Unless they were at their talent cap)", 文字列, "");
+		}
+		return;
+	}
+	if (aa == 5037)
+	{
+		gs[0][1].名前 = "Warden";
+		ＰＳＭ(5261, "There are no prisoners.", "C'mon, catch some prisoners@for me!@I've got nothing to do!", "");
+		return;
+	}
+	if (aa == 5071)
+	{
+		ＰＳＭ(100, "Keikoku's selfishness threw the Oda clan into chaos. You can take only one action this turn.", "I know she's the successor's mother, but still...", "");
+		return;
+	}
+	if (aa == 5072)
+	{
+		if (◆コマンド実行数 == 0)
+		{
+			return;
+		}
+		ＰＳＭ(100, "The cleanup after this incident threw the Oda clan into chaos.@You can't act this turn.", "This is no time for military action.", "");
+		◆コマンド実行数 = 0;
+		return;
+	}
+	if (aa == 5074)
+	{
+		if (◆コマンド実行数 == 0)
+		{
+			return;
+		}
+		ＰＳＭ(100, "Due to the cleanup after this operation,@you can't act this turn.", "Busy,@busy.@Dreadfully busy.", "");
+		◆コマンド実行数 = 0;
+		return;
+	}
+	LOG_TADA("ＥＲＲＯＲ　ＳＭ(" + string(aa) + "）　【" + system.GetFuncStackName(1) + "】\n");
+	return;
+}

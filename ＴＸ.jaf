@@ -198,7 +198,7 @@ string ＴＸ(lint aa, lint キャラ, lint ターゲット, lint bb, lint Ｃ�
 			if (◆特定戦闘 == 10 && BOSS[1] == false)
 			{
 				BOSS[1] = true;
-				Ｐ合戦会話２(1, ＣＧＸ, "You will regret not waiting to die with the rest of Nippon...");
+				Ｐ合戦会話２(1, ＣＧＸ, "You will regret not waiting to die with the rest of JAPAN...");
 				Ｐ合戦会話２(1, ＣＧＸ, "You dolts...@You came here solely to be killed...@Who wants to be...@the first to perish?!");
 				return "";
 			}
@@ -246,7 +246,7 @@ string ＴＸ(lint aa, lint キャラ, lint ターゲット, lint bb, lint Ｃ�
 				BOSS[1] = true;
 				Ｐ合戦会話２(1, ＣＧＸ, "How dare you chase me down here...@You damn, dirty Japanese!");
 				Ｐ合戦会話２(1, ＣＧＸ, "I will kill you personally!@All of you must die!");
-				Ｐ合戦会話２(1, ＣＧＸ, "And then I will awaken Orochi, and Nippon will meet its demise!");
+				Ｐ合戦会話２(1, ＣＧＸ, "And then I will awaken Orochi, and JAPAN will meet its demise!");
 				return "";
 			}
 			if (BOSS[2] == false && ターゲット == 1048)
@@ -572,7 +572,7 @@ string ＴＸ(lint aa, lint キャラ, lint ターゲット, lint bb, lint Ｃ�
 			{
 				FG[9008] = true;
 				Ｐ合戦会話２(0, 8, "Die!@Your death is imminent!!!");
-				Ｐ合戦会話２(1, 766, "Hahahaha!@Perish, people of Nippon!@Your time is at an end!@Hahahahahaha!");
+				Ｐ合戦会話２(1, 766, "Hahahaha!@Perish, people of JAPAN!@Your time is at an end!@Hahahahahaha!");
 				Ｐ合戦会話２(0, 16, "Master Rance,@we need to hurry, or Isoroku--");
 				Ｐ合戦会話２(0, 8, "I know, I know!@Kill him!");
 				Ｐ合戦会話２(0, 596, "Yeah!");
@@ -1175,7 +1175,7 @@ string ＴＸ(lint aa, lint キャラ, lint ターゲット, lint bb, lint Ｃ�
 				}
 				if (rr == 3)
 				{
-					Ｐ合戦会話(zz, ＣＧＸ, "The Tulip's taking Nippon by storm!");
+					Ｐ合戦会話(zz, ＣＧＸ, "The Tulip's taking JAPAN by storm!");
 				}
 			}
 		}
@@ -2023,7 +2023,7 @@ string ＴＸ(lint aa, lint キャラ, lint ターゲット, lint bb, lint Ｃ�
 				}
 				if (rr == 2)
 				{
-					Ｐ合戦会話(zz, ＣＧＸ, "Little schoolgirls of Nippon!@Behold my gallant display!");
+					Ｐ合戦会話(zz, ＣＧＸ, "Little schoolgirls of JAPAN!@Behold my gallant display!");
 				}
 				if (rr == 3)
 				{
@@ -3441,7 +3441,7 @@ string ＴＸ(lint aa, lint キャラ, lint ターゲット, lint bb, lint Ｃ�
 					}
 					if (rr == 2)
 					{
-						Ｐ合戦会話(zz, ＣＧＸ, "Tanegashima has the best tech in Nippon!");
+						Ｐ合戦会話(zz, ＣＧＸ, "Tanegashima has the best tech in JAPAN!");
 					}
 					if (rr == 3)
 					{
@@ -3537,7 +3537,7 @@ string ＴＸ(lint aa, lint キャラ, lint ターゲット, lint bb, lint Ｃ�
 				}
 				if (rr == 3)
 				{
-					Ｐ合戦会話(zz, ＣＧＸ, "This is for Nippon.@Survive if you can.");
+					Ｐ合戦会話(zz, ＣＧＸ, "This is for JAPAN.@Survive if you can.");
 				}
 			}
 		}
@@ -5089,7 +5089,7 @@ string ＴＸ(lint aa, lint キャラ, lint ターゲット, lint bb, lint Ｃ�
 			if (FG[697] == false)
 			{
 				FG[697] = true;
-				Ｐ合戦会話(1, ＣＧＸ, "For Nippon...@Allow me to do battle.");
+				Ｐ合戦会話(1, ＣＧＸ, "For JAPAN...@Allow me to do battle.");
 				return "";
 			}
 		}
@@ -5104,7 +5104,7 @@ string ＴＸ(lint aa, lint キャラ, lint ターゲット, lint bb, lint Ｃ�
 			if (◆特定戦闘 == 60 && FG[691] == false)
 			{
 				FG[691] = true;
-				Ｐ合戦会話(0, ＣＧＸ, "For Nippon!@We can pull through!");
+				Ｐ合戦会話(0, ＣＧＸ, "For JAPAN!@We can pull through!");
 				return "";
 			}
 			if (◆特定戦闘 == 60 && FG[692] == false)
@@ -5122,7 +5122,7 @@ string ＴＸ(lint aa, lint キャラ, lint ターゲット, lint bb, lint Ｃ�
 			if (◆特定戦闘 == 60 && FG[694] == false)
 			{
 				FG[694] = true;
-				Ｐ合戦会話(0, ＣＧＸ, "The legendary holy beast...@This is one of Nippon's greatest misfortunes.@Let's do away with it.");
+				Ｐ合戦会話(0, ＣＧＸ, "The legendary holy beast...@This is one of JAPAN's greatest misfortunes.@Let's do away with it.");
 				return "";
 			}
 			if (◆特定戦闘 == 10 && FG[695] == false)
@@ -6330,7 +6330,7 @@ string ＴＸ(lint aa, lint キャラ, lint ターゲット, lint bb, lint Ｃ�
 			if (◆特定戦闘 == 16 && FG[873] == false)
 			{
 				FG[873] = true;
-				Ｐ合戦会話(0, ＣＧＸ, "This is for Nippon.@Holy beast though you may be,@you must die.");
+				Ｐ合戦会話(0, ＣＧＸ, "This is for JAPAN.@Holy beast though you may be,@you must die.");
 				return "";
 			}
 			if (ターゲット == 1054 && FG[874] == false)
@@ -8941,7 +8941,7 @@ string ＴＸ(lint aa, lint キャラ, lint ターゲット, lint bb, lint Ｃ�
 			if (◆特定戦闘 == 60 && FG[1271] == false)
 			{
 				FG[1271] = true;
-				Ｐ合戦会話(0, ＣＧＸ, "I hate you people.@Get out of Nippon.@Dummies.");
+				Ｐ合戦会話(0, ＣＧＸ, "I hate you people.@Get out of JAPAN.@Dummies.");
 				return "";
 			}
 			if (ターゲット == 1013 && FG[1275] == false)
@@ -8965,7 +8965,7 @@ string ＴＸ(lint aa, lint キャラ, lint ターゲット, lint bb, lint Ｃ�
 			if (◆特定戦闘 == 14 && FG[1278] == false)
 			{
 				FG[1278] = true;
-				Ｐ合戦会話(0, ＣＧＸ, "I hate you.@Get out of Nippon.@Dummy.");
+				Ｐ合戦会話(0, ＣＧＸ, "I hate you.@Get out of JAPAN.@Dummy.");
 				return "";
 			}
 			if (◆特定戦闘 == 15 && FG[1279] == false)
@@ -8977,7 +8977,7 @@ string ＴＸ(lint aa, lint キャラ, lint ターゲット, lint bb, lint Ｃ�
 			if (◆特定戦闘 == 10 && FG[1280] == false)
 			{
 				FG[1280] = true;
-				Ｐ合戦会話(0, ＣＧＸ, "I hate you.@Get out of Nippon.@Dummy.");
+				Ｐ合戦会話(0, ＣＧＸ, "I hate you.@Get out of JAPAN.@Dummy.");
 				return "";
 			}
 			if (◆特定戦闘 == 12 && FG[1281] == false)
@@ -10699,7 +10699,7 @@ string ＴＸ(lint aa, lint キャラ, lint ターゲット, lint bb, lint Ｃ�
 		}
 		if (aa == 5008)
 		{
-			return "Eheh.@One day, I'm gonna be Nippon's strongest.";
+			return "Eheh.@One day, I'm gonna be JAPAN's strongest.";
 		}
 		if (aa == 5051)
 		{

@@ -1,0 +1,245 @@
+void UpdateEroDiary()
+{
+	int aa = 0;
+	int bb = 0;
+	int ii = 0;
+	int iic = 0;
+	int loop = 0;
+	string desc = "";
+	array@string list;
+	ＧＦ[143] = aa;
+	for (loop = 1; loop < 50; ++loop)
+	{
+		if (エロＦ[loop] == 1)
+		{
+			list.PushBack(エロＳ[loop]);
+			++aa;
+		}
+	}
+	for (iic = 1; iic < 31; ++iic)
+	{
+		if (gs[ii][iic].番号 == 999 && gs[ii][iic].性別 == 1 && gs[ii][iic].関係 == 5)
+		{
+			list.PushBack(gs[ii][iic].名前);
+			++aa;
+		}
+	}
+	if (EV("京／公家の娘", -2147483648) == true)
+	{
+		list.PushBack("Madeno and Momo");
+		aa += 2;
+	}
+	if (EV("上杉／ボーナスエロ", -2147483648) == true)
+	{
+		list.PushBack("Katsuko and Torako");
+		aa += 2;
+	}
+	if (EV("明石／ボーナスエロ", -2147483648) == true)
+	{
+		list.PushBack("widow from Akashi");
+		++aa;
+	}
+	if (EV("性眼／作戦の提案", -2147483648) == true)
+	{
+		list.PushBack("Manmaru/Sankaku/Shikaku");
+		aa += 3;
+	}
+	if (EV("竜宮城エロ３", -2147483648) == true)
+	{
+		list.PushBack("Otohime");
+		++aa;
+	}
+	if (EV("五十六／傾国のじらし", -2147483648) == true)
+	{
+		list.PushBack("Gakuha");
+		++aa;
+	}
+	if (EV("あんこ／奴隷大奥１回目", -2147483648) == true)
+	{
+		list.PushBack("Anko");
+		++aa;
+	}
+	if (EV("ランス／傍若無人１", -2147483648) == true)
+	{
+		list.PushBack("Nekohime");
+		++aa;
+	}
+	if (EV("ランス／傍若無人２", -2147483648) == true)
+	{
+		list.PushBack("Nonohime");
+		++aa;
+	}
+	if (EV("ランス／傍若無人３", -2147483648) == true)
+	{
+		list.PushBack("Iwashihime");
+		++aa;
+	}
+	if (EV("ウルザ／青姦", -2147483648) == true)
+	{
+		list.PushBack("Urza");
+		++aa;
+	}
+	bb = ＧＦ[83];
+	if (bb == 1)
+	{
+		list.PushBack("the girl inside that monster");
+	}
+	else if (bb > 1)
+	{
+		list.PushBack("%d girls inside those monsters" % bb);
+	}
+	aa += bb;
+	bb = ＧＦ[69];
+	if (bb == 1)
+	{
+		list.PushBack("a poster girl");
+	}
+	else if (bb > 1)
+	{
+		list.PushBack("%d poster girls" % bb);
+	}
+	aa += bb;
+	bb = ＧＦ[70];
+	if (bb == 1)
+	{
+		list.PushBack("a village girl");
+	}
+	else if (bb > 1)
+	{
+		list.PushBack("%d village girls" % bb);
+	}
+	aa += bb;
+	bb = ＧＦ[71];
+	if (bb == 1)
+	{
+		list.PushBack("a merchant's daughter");
+	}
+	else if (bb > 1)
+	{
+		list.PushBack("%d merchant's daughters" % bb);
+	}
+	aa += bb;
+	bb = ＧＦ[72];
+	if (bb == 1)
+	{
+		list.PushBack("an artisan's daughter");
+	}
+	else if (bb > 1)
+	{
+		list.PushBack("%d artisan's daughters" % bb);
+	}
+	aa += bb;
+	bb = ＧＦ[73];
+	if (bb == 1)
+	{
+		list.PushBack("a samurai's daughter");
+	}
+	else if (bb > 1)
+	{
+		list.PushBack("%d samurai's daughters" % bb);
+	}
+	aa += bb;
+	bb = ＧＦ[74];
+	if (bb == 1)
+	{
+		list.PushBack("a student");
+	}
+	else if (bb > 1)
+	{
+		list.PushBack("%d students" % bb);
+	}
+	aa += bb;
+	bb = ＧＦ[75];
+	if (bb == 1)
+	{
+		list.PushBack("a female commander");
+	}
+	else if (bb > 1)
+	{
+		list.PushBack("%d female commanders" % bb);
+	}
+	aa += bb;
+	bb = ＧＦ[76];
+	if (bb == 1)
+	{
+		list.PushBack("a ninja girl");
+	}
+	else if (bb > 1)
+	{
+		list.PushBack("%d ninja girls" % bb);
+	}
+	aa += bb;
+	bb = ＧＦ[77];
+	if (bb == 1)
+	{
+		list.PushBack("a miko");
+	}
+	else if (bb > 1)
+	{
+		list.PushBack("%d mikos" % bb);
+	}
+	aa += bb;
+	bb = ＧＦ[78];
+	if (bb == 1)
+	{
+		list.PushBack("a female monastic");
+	}
+	else if (bb > 1)
+	{
+		list.PushBack("%d female monastics" % bb);
+	}
+	aa += bb;
+	bb = ＧＦ[79];
+	if (bb == 1)
+	{
+		list.PushBack("a martial artist girl");
+	}
+	else if (bb > 1)
+	{
+		list.PushBack("%d martial artist girls" % bb);
+	}
+	aa += bb;
+	bb = ＧＦ[80];
+	if (bb == 1)
+	{
+		list.PushBack("an onmyouji girl");
+	}
+	else if (bb > 1)
+	{
+		list.PushBack("%d onmyouji girls" % bb);
+	}
+	aa += bb;
+	bb = ＧＦ[95];
+	if (bb == 1)
+	{
+		list.PushBack("a Takuga girl");
+	}
+	else if (bb > 1)
+	{
+		list.PushBack("%d Takuga girls" % bb);
+	}
+	aa += bb;
+	bb = ＧＦ[81];
+	if (bb == 1)
+	{
+		list.PushBack("a princess");
+	}
+	else if (bb > 1)
+	{
+		list.PushBack("%d princesses" % bb);
+	}
+	aa += bb;
+	bb = ＧＦ[82];
+	if (bb == 1)
+	{
+		list.PushBack("a samurai woman");
+	}
+	else if (bb > 1)
+	{
+		list.PushBack("%d samurai women" % bb);
+	}
+	aa += bb;
+	ＧＦ[143] = aa;
+	desc = "I've fucked a total of %d women in JAPAN:\n" % aa;
+	アイテム[1].説明 = desc + CombineWithCommas(list) + ".";
+}

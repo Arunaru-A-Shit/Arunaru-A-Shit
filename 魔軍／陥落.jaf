@@ -38,8 +38,8 @@ void 魔軍／陥落()
 	顔(766, "", 1, 100);
 	'This is the only land I have left...' A;
 	'Still, it matters not...' A;
-	'Nippon will soon be dropped into darkness...' A;
-	'All who associate with Nippon... All those with Japanese blood... Die...' A;
+	'JAPAN will soon be dropped into darkness...' A;
+	'All who associate with JAPAN... All those with Japanese blood... Die...' A;
 	'Haha... Hahahaha!' A;
 	顔(0, "", 1, 100);
 	枠閉じ(0, 0);

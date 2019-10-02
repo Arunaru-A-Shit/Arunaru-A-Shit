@@ -1,0 +1,44 @@
+void 北条／和睦交渉Ａ()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(116, 0, false);
+	全部(0, 0, 9310, 4, 10020, "Houjou Estate", 1, 500, 0);
+	ＳＰ(161, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(166, "", 1, 100);
+	'This new foe was certainly unexpected...' A;
+	顔(0, "", 1, 100);
+	ト書き枠(0, 0);
+	'Souun sighed and looked at a map of JAPAN.' A;
+	'Sitting on the map, there were game pieces representing the Oda Army, the Houjou Army, and the Monster Army.' A;
+	思考枠(0, 0, 0);
+	顔(166, "", 1, 100);
+	'If the fiend is back and attacking humans, then this is no time for us to be fighting amongst ourselves.' A;
+	'I\'m sure the foreigner would agree...' R;
+	'Let\'s see if we can negotiate a truce.' A;
+	顔(0, "", 1, 100);
+	ト書き枠(0, 0);
+	'Souun picked up his ink brush.' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	黒転換();
+	音楽(101, 0, false);
+	全部(0, 0, 9455, 1, 10020, "Oda Castle", 1, 500, 0);
+	ＳＰ(1, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(6, "", 1, 100);
+	'A truuuuuuce???' A;
+	顔(97, "", 1, 100);
+	'Yes.' R;
+	'A messenger from the lord of Houjou, Souun-dono, is here to negotiate one.' A;
+	顔(98, "", 1, 100);
+	'Now that the fiend is against us, it does seem silly for humans to fight each other.' A;
+	顔(96, "", 1, 100);
+	'We can save those fights for after the fiend is dealt with.' A;
+	顔(6, "", 1, 100);
+	'Hmmm...' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+}

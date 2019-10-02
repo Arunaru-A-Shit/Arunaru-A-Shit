@@ -1,0 +1,19 @@
+void 商店／屏風を買う()
+{
+	EV("", -2147483648);
+	イベント("");
+	台詞枠(0, 0, 0);
+	顔(796, "", 1, 100);
+	'You want this? I thought it was worth something, so I bought it off of Choushin Ashikaga for cheap.' A;
+	'But then when I got it appraised, it turned out to be fairly worthless. Probably because it\'s so ugly.' A;
+	'So I\'m trading it away.' R;
+	'Take it, please!' A;
+	顔(6, "", 1, 100);
+	'Ugly?' A;
+	'Wow, that is ugly!' A;
+	顔(796, "", 1, 100);
+	'Takauji Ashikaga started the Ashikaga clan, united JAPAN, and even became emperor, but he evidently didn\'t have much taste in art.' A;
+	'Anyway, thank you, come again!' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+}
