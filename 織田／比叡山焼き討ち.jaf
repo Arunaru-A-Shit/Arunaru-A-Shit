@@ -21,7 +21,7 @@ void 織田／比叡山焼き討ち()
 	'But to Tenshiists, Mount Hiei is sacred ground.' R;
 	'They wouldn\'t get up and leave so easily.' A;
 	顔(96, "", 1, 100);
-	'Nobunaga-sama evidently didn\'t offer and explanation for why he demanded their departure.' A;
+	'Nobunaga-sama evidently didn\'t offer an explanation for why he demanded their departure.' A;
 	顔(98, "", 1, 100);
 	'And when no response came from the Tenshiists, the Mikasa Squad surrounded Mount Hiei a few days ago. And the Tenshiists, of course, prepared for battle as well.' A;
 	顔(97, "", 1, 100);
