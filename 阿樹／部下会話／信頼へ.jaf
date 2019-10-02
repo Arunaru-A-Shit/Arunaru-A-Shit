@@ -69,7 +69,7 @@ void 阿樹／部下会話／信頼へ()
 	顔(6, "", 1, 100);
 	'What\'s that?' A;
 	顔(97, "", 1, 100);
-	'A folding screen made by Takauji Ashikaga, former the ruler of JAPAN. It features a picture of three squidmen.' A;
+	'A folding screen made by Takauji Ashikaga, the former ruler of JAPAN. It features a picture of three squidmen.' A;
 	顔(96, "", 1, 100);
 	'Nobody knows its current whereabouts.' A;
 	顔(98, "", 1, 100);
