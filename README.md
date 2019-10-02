@@ -16,7 +16,7 @@ Open Rance7.ain with AinDecompile
 
 Select File, Quick Compile Code Patch
 
-Then highlight all the files and select Open.
+Then highlight all the files and select Open. NOTE: I'm not 100% certain that highlighting all of them imports all off them. It might be nessiary to do it one by one
 
 # How to contribute
 >Implying I know how to manage a project that others can work on
