@@ -23,6 +23,8 @@ Then highlight all the files and select Open.
 
 >Implying I care enough to do this
 
+TODO: Fix the instrutions
+
 Open Rance7.ain with AinDecomile
 
 Next Select Tools, Find, then any of the options.
