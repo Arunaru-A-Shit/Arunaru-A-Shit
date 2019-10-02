@@ -1,0 +1,36 @@
+void 上杉／全国クリア()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(108, 0, false);
+	全部(0, 0, 9495, 5, 10020, "Uesugi Castle", 1, 500, 0);
+	ＳＰ(71, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(76, "", 1, 100);
+	'I did it...' A;
+	'Ai, I did it.' A;
+	顔(86, "", 1, 100);
+	'Congratulations.' A;
+	顔(876, "", 1, 100);
+	'I knew you could do it, Kenshin-sama!' A;
+	顔(877, "", 1, 100);
+	'I love you!' A;
+	顔(76, "", 1, 100);
+	'Mhm...' R;
+	'Now JAPAN will be at peace.' A;
+	顔(86, "", 1, 100);
+	'I suppose so.' A;
+	顔(76, "", 1, 100);
+	'Ai, inform everyone that starting fights will get you exiled from JAPAN.' A;
+	顔(86, "", 1, 100);
+	'Understood.' A;
+	顔(76, "", 1, 100);
+	'...Mhm.' A;
+	顔(0, "", 1, 100);
+	ト書き枠(0, 0);
+	'Thus, Kenshin brought peace to the country.' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

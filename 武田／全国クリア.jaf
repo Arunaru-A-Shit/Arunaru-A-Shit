@@ -1,0 +1,33 @@
+void 武田／全国クリア()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(106, 0, false);
+	全部(0, 0, 9170, 3, 10020, "Takeda Castle", 1, 500, 0);
+	ＳＰ(661, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(666, "", 1, 100);
+	'At last... We\'ve done it!' A;
+	顔(646, "", 1, 100);
+	'Yes.' A;
+	顔(656, "", 1, 100);
+	'Oooh... I\'m moved to tears! Takeda has conquered JAPAN!' A;
+	顔(636, "", 1, 100);
+	'That\'s right!' R;
+	'But this is just the start!' A;
+	顔(666, "", 1, 100);
+	'Yes indeed.' A;
+	'We\'ll only get more busy.' A;
+	顔(646, "", 1, 100);
+	'It\'s nothing compared to war.' A;
+	顔(656, "", 1, 100);
+	'True.' A;
+	顔(636, "", 1, 100);
+	'I\'ve got plenty of fight left in me!' A;
+	顔(666, "", 1, 100);
+	'Mhm.' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

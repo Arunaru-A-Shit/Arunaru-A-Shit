@@ -78,7 +78,7 @@ void 黒姫／信長と対面()
 	顔(777, "", 1, 100);
 	'...' A;
 	顔(766, "", 1, 100);
-	'My plan to eradicate the people of Nippon will require you to break some seals...' A;
+	'My plan to eradicate the people of JAPAN will require you to break some seals...' A;
 	顔(777, "", 1, 100);
 	'Huh?' A;
 	顔(766, "", 1, 100);

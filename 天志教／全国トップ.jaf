@@ -1,0 +1,47 @@
+void 天志教／全国トップ()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(116, 0, false);
+	全部(0, 0, 9090, 14, 10020, "Tenshiism HQ", 1, 500, 0);
+	台詞枠(0, 0, 0);
+	顔(561, "Masanobu Honda", 1, 100);
+	'I wuv Tenshiism!' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	ＳＰ(391, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(396, "", 1, 100);
+	'Mhm.' A;
+	顔(561, "Masanobu Honda", 1, 100);
+	'But not all of JAPAN is Tenshiist.' A;
+	'This is a crisis!' A;
+	'So!' A;
+	'We have to unite JAPAN and make everyone Tenshiist!' A;
+	顔(396, "", 1, 100);
+	'I don\'t think that\'s necessary.' A;
+	顔(561, "Masanobu Honda", 1, 100);
+	効果音(1046, false);
+	'But I alweady decwared war!' A;
+	顔(396, "", 1, 100);
+	'...' A;
+	'Huh?' A;
+	顔(561, "Masanobu Honda", 1, 100);
+	'Fight!' R;
+	'For our bewiefs!' A;
+	'This is a cwusade!' A;
+	顔(396, "", 1, 100);
+	'You should have asked first.' A;
+	顔(561, "Masanobu Honda", 1, 100);
+	'Attaaack!' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	ＳＰ(401, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(406, "", 1, 100);
+	'Aww... This has gotten ugly.' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

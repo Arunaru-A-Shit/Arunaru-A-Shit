@@ -1,0 +1,38 @@
+void 独眼流／全国クリア()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(102, 0, false);
+	全部(0, 0, 9350, 16, 10020, "Youkai Castle", 1, 500, 0);
+	ＳＰ(501, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(506, "", 1, 100);
+	'We did it...' A;
+	顔(516, "", 1, 100);
+	'Mhm.' A;
+	顔(506, "", 1, 100);
+	'Now we have the peaceful JAPAN I always dreamed of.' A;
+	顔(536, "", 1, 100);
+	'Good job, Masa-san.' R;
+	'The bath is ready!' A;
+	顔(506, "", 1, 100);
+	'Thanks.' A;
+	顔(546, "", 1, 100);
+	'I\'ll wash you.' A;
+	顔(526, "", 1, 100);
+	'Ahn, it\'s my turn next!' A;
+	顔(516, "", 1, 100);
+	'Shut up.' R;
+	'I\'ll do it.' A;
+	'Now, Botenmaru.' R;
+	'Undress for your bath.' A;
+	顔(536, "", 1, 100);
+	'I\'ll soap you up!' A;
+	顔(506, "", 1, 100);
+	'Hahaha.' R;
+	'Get along, girls.' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

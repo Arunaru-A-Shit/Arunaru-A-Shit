@@ -40,7 +40,7 @@ void 伊達／妖怪帝国について聞く()
 	顔(6, "", 1, 100);
 	'That\'s surprisingly recent.' A;
 	顔(98, "", 1, 100);
-	'Youkai lived all over Nippon before that, but...' A;
+	'Youkai lived all over JAPAN before that, but...' A;
 	顔(96, "", 1, 100);
 	'There was a war, after which the Youkai King led the youkai to establish their own territory in Oshu.' A;
 	顔(99, "", 1, 100);
@@ -55,7 +55,7 @@ void 伊達／妖怪帝国について聞く()
 	'"Youkai, be free."' R;
 	'This triggered the war.' A;
 	顔(97, "", 1, 100);
-	'Nearly all the youkai in Nippon joined in.' A;
+	'Nearly all the youkai in JAPAN joined in.' A;
 	顔(6, "", 1, 100);
 	'Why?' R;
 	'Because the queen ordered them to?' A;

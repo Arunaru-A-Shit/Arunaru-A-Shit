@@ -1,0 +1,34 @@
+void 島津／合戦初めて()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(101, 0, false);
+	全部(0, 0, 9456, 1, 10020, "Oda Camp", 1, 500, 0);
+	ＳＰ(1, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(6, "", 1, 100);
+	'So we\'re fighting Shimazu now?' R;
+	'What are they like?' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	ＳＰ(41, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(46, "", 1, 100);
+	'They rule a lot of territory on the west end of JAPAN.' A;
+	'Their clan controls Africa, a land home to countless warrior tribes.' A;
+	'It\'s also the location of Tenma Bridge, which links JAPAN to the Continent, so they have a lot of trade and plenty of wealth.' A;
+	'But neither their lord, Yoshihisa Shimazu, or his brothers were interested in expanding their territory, from what I heard. They\'re supposed to hedonists, more than anything.' A;
+	'I wonder what happened.' A;
+	顔(186, "", 1, 100);
+	'Didn\'t they declare war on everyone in JAPAN, not just Oda?' A;
+	顔(46, "", 1, 100);
+	'Yes, that\'s right.' R;
+	'It came entirely out of nowhere.' A;
+	顔(6, "", 1, 100);
+	'...Well, not like it matters.' R;
+	'We\'ll just crush them.' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

@@ -1,0 +1,38 @@
+void 今川／全国トップ()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(104, 0, false);
+	全部(0, 0, 9130, 17, 10020, "Hanny Castle", 1, 500, 0);
+	ＳＰ(983, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(987, "Haniho 1", 1, 100);
+	'Let\'s fill JAPAN with hannies!' A;
+	顔(987, "Haniho 2", 1, 100);
+	'Yeah!' A;
+	顔(987, "Haniho 3", 1, 100);
+	'I want that place!' A;
+	顔(987, "Haniho 4", 1, 100);
+	'I\'ll take this place!' A;
+	顔(987, "Haniho 5", 1, 100);
+	'Hey, we all have to be on the same page!' A;
+	顔(987, "Haniho 6", 1, 100);
+	'Rock paper scissors it!' A;
+	顔(987, "Haniho 3", 1, 100);
+	'Rock!' A;
+	顔(987, "Haniho 4", 1, 100);
+	'Paper!' A;
+	顔(987, "Haniho 3 and 4", 1, 100);
+	'Scissors!' A;
+	顔(987, "Haniho 3", 1, 100);
+	'Yay, I won!' A;
+	顔(987, "Haniho 4", 1, 100);
+	'Waaah, I\'m a loser!' A;
+	顔(987, "Haniho 3", 1, 100);
+	'Then we\'ll start from there!' R;
+	'Toooh!' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

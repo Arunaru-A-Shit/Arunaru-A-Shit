@@ -1,0 +1,43 @@
+void 巫女機関／全国クリア()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(116, 0, false);
+	全部(0, 0, 9070, 7, 10020, "Peach Blossom Shrine", 1, 500, 0);
+	台詞枠(0, 0, 0);
+	顔(5193, "Hayate Souma", 1, 100);
+	'Gh...' R;
+	'Good lord...' A;
+	'We united the whole country, but didn\'t find the culprit!' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	ＳＰ(371, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(376, "", 1, 100);
+	'Now all of JAPAN knows my underwear was stolen, though...' A;
+	顔(5193, "Hayate Souma", 1, 100);
+	'Shit! Where\'s the culprit! Let\'s search and unite JAPAN again!' A;
+	顔(376, "", 1, 100);
+	'Enough!' R;
+	'Stop it!' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	ＳＰ(0, 1, 500);
+	ト書き枠(0, 0);
+	'Meanwhile...' A;
+	'Beneath the floorboards of the shrine...' A;
+	台詞枠(0, 0, 0);
+	顔(626, "Doggy", 1, 100);
+	'Woof.' A;
+	顔(0, "", 1, 100);
+	ト書き枠(0, 0);
+	'A doggy was licking another doggy that just hatched from its egg.' A;
+	'Their next was made of Natori\'s underwear.' A;
+	台詞枠(0, 0, 0);
+	顔(626, "Doggy", 1, 100);
+	'Woof, woof.' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

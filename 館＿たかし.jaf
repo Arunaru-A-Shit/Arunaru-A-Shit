@@ -1,0 +1,42 @@
+void 館＿たかし()
+{
+	ＳＰ(0, 1, 500);
+	ト書き枠(0, 0);
+	'I can\'t remember the Shimazu brothers\' names or faces.' R;
+	'This is CG artist Takashi Saeki.' A;
+	'This game\'s set in a fantasy Sengoku era, so from a design perspective, my coloring on this game was unique in a few ways.' A;
+	'I found myself pondering to myself a lot while working on the CGs.' A;
+	R();
+	'Hopefully my CGs stick in players\' minds.' A;
+	'Here are a few of the graphics I worked on.' A;
+	'"Rengoku\'s Portrait"' R;
+	'The coloring on that gun looks nice, if I may say so myself.' A;
+	'"Houjou and Shimazu\'s Group CGs"' R;
+	'These were hard because of all the people... Also, is Shimazu\'s territory really supposed to be JAPAN?' A;
+	'"Hibachi\'s Blowjob CG"' R;
+	'Rance\'s dick is colored beautifully!' A;
+	'And now, without the mosaics, you can see it!' A;
+	'"Daidouji Strip Show"' R;
+	'The minor change are almost like producing animation.' A;
+	'I also swapped some parts and secretly made a totally naked version that\'s not in the game.' A;
+	枠閉じ(0, 0);
+	ビジュアル(6006, 1, 1000);
+	ト書き枠(0, 0);
+	'Like this.' A;
+	枠閉じ(0, 0);
+	全部(0, 0, 9650, 0, 10020, "Alice's Mansion", 1, 500, 0);
+	ト書き枠(0, 0);
+	'"Chinu Flower Field Sex"' R;
+	'If I had extra lives in real life, I would\'ve lost one working on this CG.' A;
+	'Also, it\'s sexy.' A;
+	'"Official History Route Moongazing Ending"' R;
+	'When Chiibou handed me the artwork for this one, he said...' A;
+	'"This CG\'ll be remembered as one of the greatest in Rance history, so good luck with that," and put immense pressure on me.' A;
+	'I took Orion\'s specifications for how to do the ice and changed it around a bit. I think it came out well... Maybe.' A;
+	'If this gets put in books or something soon, I think I\'ll look at it and grin like a dork.' A;
+	'I colored a lot more than this, but I\'ve written enough.' A;
+	'A lot happened, but when you have fun, it makes all the hard work worth it.' A;
+	'Let\'s meet again in the next game!' A;
+	枠閉じ(0, 0);
+	アリスＣＧ();
+}

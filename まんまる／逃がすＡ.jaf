@@ -1,0 +1,47 @@
+void まんまる／逃がすＡ()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(102, 0, false);
+	全部(0, 0, 9280, 1, 10020, "Oda Castle", 1, 500, 0);
+	ＳＰ(1, 1, 500);
+	ト書き枠(0, 0);
+	'Rance came to visit Souun while he was lying in bed.' A;
+	台詞枠(0, 0, 0);
+	顔(169, "", 1, 100);
+	'I see...' R;
+	'So Seigan-sama of the Tenshiists has gone missing...' A;
+	顔(6, "", 1, 100);
+	'I did capture this girl named Manmaru who was with him.' A;
+	'She\'s one of a set of triplets or something.' A;
+	顔(169, "", 1, 100);
+	'A triplet... Who was with Seigan-sama...' A;
+	'Ah...!' A;
+	'Rance, you should return her to Seigan-sama.' A;
+	顔(6, "", 1, 100);
+	'Huh???' A;
+	顔(169, "", 1, 100);
+	'This Manmaru girl is one of the catalysts for Geppei\'s technique.' A;
+	顔(6, "", 1, 100);
+	'The hell is that?' A;
+	顔(169, "", 1, 100);
+	'It\'s the Tenshiist technique for dividing fiends into pieces.' A;
+	'It requires either a large number of monks, or female triplets.' A;
+	顔(6, "", 1, 100);
+	'Dividing fiends into pieces???' A;
+	顔(169, "", 1, 100);
+	'Yes, and the only ones in JAPAN who can do it are the Head Monk and the catalysts.' A;
+	'We\'re in no position to gather enough monks who would work with Geppei\'s technique, so we need the triplets to be together.' A;
+	'Rance... Return Manmaru to Seigan-sama.' R;
+	'For the sake of JAPAN... Please!' A;
+	顔(6, "", 1, 100);
+	'I have Chaos, a weapon made for beating fiends,' R;
+	'so I don\'t really see the need.' A;
+	顔(169, "", 1, 100);
+	'You never know what might happen.' R;
+	'I\'d like if you returned her.' A;
+	顔(6, "", 1, 100);
+	'Hmmmmmmmmmmmmmmmmmm...' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+}

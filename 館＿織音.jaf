@@ -1,0 +1,32 @@
+void 館＿織音()
+{
+	ビジュアル(6018, 1, 1000);
+	ト書き枠(0, 0);
+	'Sup! Nice to meet you, new people! And good to see you again, old people. I\'m Orion, Sengoku Rance\'s artist and contributor of some setting details.' A;
+	'Isn\'t JAPAN nice?' R;
+	'It has armored samurai and youkai and stuff.' A;
+	'I was excited about the project in that sense, but damn, there was four times as much work as I expected.' A;
+	'Nothing quite proceeded as planned. Sometimes I felt like things weren\'t going well. It was a hell of a struggle.' A;
+	'I wish I had the chance to draw some other things...' A;
+	'So, I said there were armored samurai, but there really weren\'t that many in full armor. The only one that comes to mind is Masamune Dokuganryu.' A;
+	'Well, real Japanese armor wouldn\'t fit well in the Rance setting. Thinking back on the armored samurai in Kichikuou now, they came off kind of weird.' A;
+	'I took a step back and said, this is how Rance\'s JAPAN is. I referred back to Otome Senki for the design sense. That was a cool game we released.' A;
+	'So I ended up drawing samurai with somewhat different armor than our real Japanese armor. But a lot of them use similar parts, like on the shoulders.' A;
+	'Aside from some characters where I deliberately removed them, every fighter has those. It gives them a samurai feel.' A;
+	'I love those parts.' A;
+	'I\'m glad I got to work on some youkai. Rance VI was almost all humans, so getting the chance to work on some non-humans fired me up.' A;
+	'Masamune\'s team goes without saying, so I want to make special mention of Stone Geezer. That\'s one youkai-ish youkai.' A;
+	'When I got the instructions from TADA, it sounded like just an old man crying like a baby. I went in a bit of a different direction while still making it an old man youkai.' A;
+	'I won\'t have much chance to draw more youkai in the future, so I\'m delighted I got to do a few different ones here. That kept me going through all the tough work.' A;
+	'I also got to put in a one-eyed girl, as well as one of my beloved nine-tailed foxes. I hope Masamune shows up again someday.' A;
+	'Youkai aren\'t supposed to be able to leave JAPAN in this setting, but maybe if we just never mention that detail, it\'d be okay? But that wouldn\'t be right.' A;
+	'Hmmm. It\'s something to think about.' A;
+	'This is going a bit long,' R;
+	'so I\'ll end this here.' R;
+	'Let\'s meet again in the next game.' A;
+	'It was November, I had no idea for what to draw, and I was mentally exhausted, so I was going to skip the Alice\'s Mansion for this one.' A;
+	'But Tori insisted I at least put something.' R;
+	'　　　　　　　　　　　　　　　　\t\t-Orion' A;
+	枠閉じ(0, 0);
+	アリスＣＧ();
+}

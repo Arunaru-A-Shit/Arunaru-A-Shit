@@ -1,0 +1,45 @@
+void 猿殺し／クリア()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(101, 0, false);
+	全部(0, 0, 9455, 1, 10020, "Oda Castle", 1, 500, 0);
+	ＳＰ(1, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(7, "", 1, 100);
+	'Alright, I\'ve finally united JAPAN.' R;
+	'Gahahahaha, like there was ever any doubt.' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	ＳＰ(31, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(36, "", 1, 100);
+	'All I wanted was some land where Kou could live in peace.' A;
+	顔(6, "", 1, 100);
+	'Yeah, so? You can\'t have that without beating everyone else up.' A;
+	'So now you have peace.' R;
+	'There\'s nobody left to attack you.' A;
+	顔(36, "", 1, 100);
+	'Hm...' A;
+	'Well...' R;
+	'Guess so.' R;
+	'Right, Hiyoshimaru?' A;
+	顔(851, "Hiyoshimaru", 1, 100);
+	'Ook.' A;
+	顔(6, "", 1, 100);
+	'Huh? Um... Isn\'t that (the replacement for the dead) Toukichirou?' A;
+	顔(36, "", 1, 100);
+	'...' A;
+	顔(6, "", 1, 100);
+	'...' A;
+	顔(36, "", 1, 100);
+	効果音(1046, false);
+	'...Did you think you tricked me?' A;
+	顔(6, "", 1, 100);
+	効果音(1025, false);
+	'...Oh.' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

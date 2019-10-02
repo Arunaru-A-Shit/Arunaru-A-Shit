@@ -1,0 +1,19 @@
+void 館＿なかじー()
+{
+	ビジュアル(6000, 1, 1000);
+	ト書き枠(0, 0);
+	'Whassup!' R;
+	'This is Nakajii!' A;
+	'It\'s Rance! It\'s JAPAN!' R;
+	'It\'s Maria♪ (What\'s really important)' A;
+	'I had to work on other games on and off during this project, so I hardly had time to play the game! Dang work!' A;
+	'At the time I\'m writing this, I haven\'t even gotten to the end! I\'ve gone too far in a few places and got beaten half to death by Asakura.' A;
+	'Then the Tenshiists attacked and I lost a bunch of troops, and then aaaah, Motonari came! And I lost.' A;
+	'I haven\'t even seen Maria yet!' R;
+	'I at least have to make it that far.' A;
+	'Tori saw me playing and said, \'Hmmm, you\'re screwed with that few units. Start over♪\'' A;
+	'Gwah... Mariaaa! Farewell!' R;
+	'And see you later, everyone!' A;
+	枠閉じ(0, 0);
+	アリスＣＧ();
+}

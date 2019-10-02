@@ -1,0 +1,23 @@
+void 館＿千夜()
+{
+	ＳＰ(0, 1, 500);
+	顔(912, "Senya Kirishima", 1, 100);
+	台詞枠(0, 0, 0);
+	'Hello, everyone.' R;
+	'This is Senya Kirishima.' A;
+	'I took a few different jobs once again.' A;
+	'I only knew the general story of the game itself, so...' A;
+	'When I was testing it, I got to play it like a regular consumer and be surprised by the twists.' A;
+	'It also got me killed a lot.' A;
+	'This JAPAN chapter of the story is based around the Sengoku era.' A;
+	'It\'s set in Rance\'s world, so it\'s a fictional take on it, but there are plenty of familiar names if you know your history.' A;
+	'You can think about how such and such commander would act in this world to find a new way to play, maybe.' A;
+	'Don\'t assume the game is over after you finish it once.' A;
+	'Try every possible route through the game.' A;
+	'There\'s a ton of hidden content to find.' A;
+	'Goodbye, now. Run like a gust of wind on an island nation, together with Rance!' A;
+	'This has been real life Mitsuhide Akechi fan, Senya!' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	ＳＰ(901, 1, 500);
+}
