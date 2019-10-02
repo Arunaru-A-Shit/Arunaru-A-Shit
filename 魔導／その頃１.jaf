@@ -1,0 +1,42 @@
+void 魔導／その頃１()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(105, 0, false);
+	全部(0, 0, 9155, 2, 10020, "Monster Army Base", 1, 500, 0);
+	ＳＰ(141, 1, 500);
+	ト書き枠(0, 0);
+	'Madou returned from Genbu Castle filled with rage.' A;
+	台詞枠(0, 0, 0);
+	顔(146, "", 1, 100);
+	'Mwoooh... Mwooooooh...' A;
+	'After I put Waka\'s soul in a dododoll for her... After I made her hahahahappy...' A;
+	'Why didididididid she fall in love with another man?! My Wawawawawaka...' A;
+	'I was so mamamamad, I wasn\'t thinking when I destroyed her. Wewewewewelp... She\'s just smithereens now...' A;
+	'And there was a one armed mamamaman there too. He attack me when I crushed the dododoll, so I kicked him away.' A;
+	'Might\'ve broken some bobobobones, but not my problem!' A;
+	'Mwooooooh... Mwoooooooooh!' A;
+	顔(777, "", 1, 100);
+	'Madou?' R;
+	'What\'s wrong?' A;
+	顔(146, "", 1, 100);
+	'Mwoh... Mwoooooooooh!' A;
+	顔(777, "", 1, 100);
+	'Huh?' A;
+	顔(146, "", 1, 100);
+	'Dododon\'t come near me right now!' R;
+	'I\'m in the momomomood to punch everything!' A;
+	'Yoyoyoyou\'re Master Xaxaxavier\'s daughter.' A;
+	'And you\'ll also be the lalalast living Japanese, a very important specimen.' A;
+	'I cacacan\'t kill you, or punch you, or leave any sort of wound! Sososo stay baaaaaack!' A;
+	顔(777, "", 1, 100);
+	'...' A;
+	顔(146, "", 1, 100);
+	'Mwooooooh... Mwoooh, mwoooh...' A;
+	顔(0, "", 1, 100);
+	ト書き枠(0, 0);
+	'Madou stomped his feet all night.' A;
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

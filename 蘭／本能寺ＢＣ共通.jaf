@@ -1,0 +1,44 @@
+void 蘭／本能寺ＢＣ共通()
+{
+	音楽(106, 0, false);
+	全部(0, 0, 9100, 1, 10020, "Honnoji Temple", 1, 500, 0);
+	ＳＰ(33, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(38, "", 1, 100);
+	'Is that all...?' A;
+	顔(6, "", 1, 100);
+	'Guh...' A;
+	顔(26, "", 1, 100);
+	'Eeek...' A;
+	顔(18, "", 1, 100);
+	'Haaah... Haaah...' A;
+	顔(596, "", 1, 100);
+	'Things aren\'t looking so hot.' A;
+	顔(6, "", 1, 100);
+	'Nah, it\'s not over yet!' A;
+	顔(38, "", 1, 100);
+	'Yes, struggle if you wish...' A;
+	'Hm... I have an idea...' A;
+	'You helped me collected the gourds, so... I will let you die painlessly...' A;
+	'But the same does not go for the rest of you...' A;
+	'For the women... One of you is foreign, but I shall include you with the Japanese and have you raped incessantly by men, then tortured to death...' A;
+	'As for the Lightblade\'s counterpart... I will grind you into dust like the trash you are, then pour you into a river...' A;
+	'Now... Submit...' A;
+	音楽(0, 500, false);
+	'...' A;
+	顔(6, "", 1, 100);
+	'Hm?' A;
+	顔(0, "", 1, 100);
+	音楽(116, 0, false);
+	ト書き枠(0, 0);
+	R();
+	'　　*Jangle*' A;
+	'They heard some beads clatter.' A;
+	台詞枠(0, 0, 0);
+	顔(38, "", 1, 100);
+	'Gh...' A;
+	'Bastaaaaaard!!!' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	ＳＰ(391, 1, 500);
+}

@@ -1,0 +1,35 @@
+void ランス／貝塚でうはうは３()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(103, 0, false);
+	全部(0, 0, 9700, 1, 10020, "Dungeon", 1, 500, 0);
+	ＳＰ(1, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(7, "", 1, 100);
+	'Gahahahahahaha.' A;
+	顔(0, "", 1, 100);
+	ト書き枠(0, 0);
+	'The Shell Heap put Rance in a good mood.' A;
+	台詞枠(0, 0, 0);
+	顔(6, "", 1, 100);
+	'Oooooooooh...' R;
+	'Wh-What\'s this?!' A;
+	'It\'s the legendary Nippon shell.' R;
+	'Rad!' A;
+	'Look at this amazing thing.' R;
+	'See how it\'s like it has the Japanese flag on it?' R;
+	'Beautiful.' A;
+	顔(16, "", 1, 100);
+	'Neat...' A;
+	顔(6, "", 1, 100);
+	'Guheheh... A Nippon shell...' R;
+	'Wonderful... Heheh... Heheheh...' A;
+	顔(0, "", 1, 100);
+	ト書き枠(0, 0);
+	'Sill was dumbfounded by Rance\'s show of joy.' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

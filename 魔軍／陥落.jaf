@@ -1,0 +1,48 @@
+void 魔軍／陥落()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(101, 0, false);
+	全部(0, 0, 9455, 1, 10020, "Oda Castle", 1, 500, 0);
+	ＳＰ(1, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(6, "", 1, 100);
+	'There we go.' R;
+	'All of Xavier\'s land has been conquered. Now they can\'t function as an organization anymore.' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	ＳＰ(91, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(97, "", 1, 100);
+	'But we have yet to find Xavier himself.' A;
+	顔(96, "", 1, 100);
+	'Until he is defeated...' A;
+	顔(98, "", 1, 100);
+	'This will never end.' A;
+	顔(99, "", 1, 100);
+	'And we must deal with Stone Geezer as well.×3' A;
+	顔(46, "", 1, 100);
+	'Right.' A;
+	顔(6, "", 1, 100);
+	'True.' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	黒転換();
+	全部(0, 0, 9270, 2, 10020, "Tenma Bridge", 1, 500, 0);
+	音楽(105, 0, false);
+	ＳＰ(761, 1, 500);
+	ト書き枠(0, 0);
+	'Xavier was standing by Stone Geezer.' A;
+	台詞枠(0, 0, 0);
+	顔(766, "", 1, 100);
+	'This is the only land I have left...' A;
+	'Still, it matters not...' A;
+	'Nippon will soon be dropped into darkness...' A;
+	'All who associate with Nippon... All those with Japanese blood... Die...' A;
+	'Haha... Hahahaha!' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

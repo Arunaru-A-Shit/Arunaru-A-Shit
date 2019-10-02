@@ -1,0 +1,48 @@
+void 五十六／ザビエル出る()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(105, 0, false);
+	全部(0, 0, 9155, 2, 10020, "Monster Army Base", 1, 500, 0);
+	ＳＰ(761, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(766, "", 1, 100);
+	'I despise them...' A;
+	顔(146, "", 1, 100);
+	'Whawhat is it?' A;
+	顔(766, "", 1, 100);
+	'Rance...' R;
+	'Oda... They are rather strong...' A;
+	'As first, I wanted to kill the Japanese slowly... But they have become an eyesore...' A;
+	顔(146, "", 1, 100);
+	'Yep...' A;
+	顔(766, "", 1, 100);
+	'I will go fight...' A;
+	顔(146, "", 1, 100);
+	'Huh?' A;
+	顔(766, "", 1, 100);
+	'I cannot wait any longer...' A;
+	顔(146, "", 1, 100);
+	'Bububububut Master Xavier, they don\'t just have Rararararance, they have Little Princess...' A;
+	'And they hahahahave Nikkou, too.' R;
+	'It\'s dadadadangerous.' A;
+	顔(766, "", 1, 100);
+	'YOu have said as much...' R;
+	'That is why I waited...' A;
+	'But where has that gotten us...?' A;
+	顔(146, "", 1, 100);
+	'Urgh...' A;
+	顔(766, "", 1, 100);
+	'If I kill the biggest eyesore, the man who wields Chaos, then the rest will fall...' A;
+	'An incomplete Archfiend and a new and inexperienced fiend are no real threat...' A;
+	'Once I vanquish Rance, Oda\'s territory will be mine...' A;
+	'Then I can take a seat and enjoy slaughtering the Japanese...' A;
+	'Yes... I should have done this from the start...' A;
+	'Let us leave right away...' A;
+	顔(146, "", 1, 100);
+	'Yeyeyeyes, Master.' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

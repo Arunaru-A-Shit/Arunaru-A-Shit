@@ -1,0 +1,24 @@
+void 五十六／傾国追放後Ｃ()
+{
+	EV("", -2147483648);
+	イベント("");
+	台詞枠(0, 0, 0);
+	顔(6, "", 1, 100);
+	'Hmmm, maybe Sill.' A;
+	顔(16, "", 1, 100);
+	'Uh... Whaaat?' R;
+	'Really?' R;
+	'Oh dear...' A;
+	顔(97, "", 1, 100);
+	'I\'m sorry, but please pick someone who isn\'t a foreigner.' A;
+	顔(98, "", 1, 100);
+	'You must pick a Japanese princess.' A;
+	顔(96, "", 1, 100);
+	'Now, pick again.' A;
+	顔(18, "", 1, 100);
+	'Sob...' A;
+	顔(6, "", 1, 100);
+	'Daaah... What a pain...' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+}

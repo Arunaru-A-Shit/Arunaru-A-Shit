@@ -1,0 +1,41 @@
+void 謙信／ランスを殺さない訳()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(105, 0, false);
+	全部(0, 0, 9155, 2, 10020, "Monster Army Base", 1, 500, 0);
+	ＳＰ(761, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(766, "", 1, 100);
+	'...' A;
+	顔(146, "", 1, 100);
+	'Whawhawhawhat\'s wrong?' R;
+	'You look annoyed about something.' A;
+	顔(766, "", 1, 100);
+	'Chaos... The Tenshiists...' A;
+	'They are eyesores...' A;
+	顔(146, "", 1, 100);
+	'Aaaaaah...' R;
+	'The Darksword and the seal...' A;
+	'They certainly are, but...' A;
+	'Coconsidering Oda\'s numbers, trying tototo do something about those now wowowouldn\'t be wise.' A;
+	顔(766, "", 1, 100);
+	'...' A;
+	顔(146, "", 1, 100);
+	'Whawhawhat if you became emperor, then had them kikikill each other?' A;
+	'With the emperor popopower, you could order the Japanese to fight to the death amongst themselves.' A;
+	顔(766, "", 1, 100);
+	'Heh heh...' R;
+	'True...' A;
+	'Japanese killing Japanese...' R;
+	'And against their own will, at that...' A;
+	'That could be fun...' A;
+	顔(146, "", 1, 100);
+	'Mhm, yep.' R;
+	'Humans have a lilimited lifespan, but we dododon\'t.' A;
+	'Lelelet\'s take our time and enjoy the slaughter.' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

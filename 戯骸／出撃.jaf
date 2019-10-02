@@ -1,0 +1,37 @@
+void 戯骸／出撃()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(105, 0, false);
+	全部(0, 0, 9155, 2, 10020, "Monster Army Base", 1, 500, 0);
+	ＳＰ(151, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(156, "", 1, 100);
+	'Masteeeeeer!' A;
+	顔(766, "", 1, 100);
+	'What, Gigai...?' A;
+	顔(156, "", 1, 100);
+	'I hear Oda\'s got a crazy strong guy.' A;
+	'I want to fight him.' A;
+	顔(766, "", 1, 100);
+	'Heh...' R;
+	'You never change...' A;
+	顔(156, "", 1, 100);
+	'So, yeah, I\'m heading out.' A;
+	顔(766, "", 1, 100);
+	'Do as you will...' A;
+	顔(156, "", 1, 100);
+	'Awesome.' R;
+	'That\'s why I like you, Master.' A;
+	'I\'ll be off, then.' A;
+	顔(766, "", 1, 100);
+	'Kill some Japanese people while you are out...' A;
+	顔(156, "", 1, 100);
+	'Heh, no need to tell me.' A;
+	'I\'d kill anyone for my beloved master.' A;
+	'Hahah!' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}
