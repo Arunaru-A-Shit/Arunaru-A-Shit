@@ -341,7 +341,7 @@ void プロローグＢ()
 	効果音(1046, false);
 	顔(36, "", 1, 100);
 	文字サイズ(72);
-	'Broski. ' 文字サイズ(-1);
+	'Ah-Chan. ' 文字サイズ(-1);
 	'Say it.' A;
 	顔(47, "", 1, 100);
 	'I-I can\'t do it...' R;
@@ -359,12 +359,12 @@ void プロローグＢ()
 	'Now, on three.' R;
 	'One, two, three.' C;
 	R();
-	'Broooski.' A;
+	'Aah-Chaan.' A;
 	顔(47, "", 1, 100);
 	'Um... Uuugh!' A;
 	顔(36, "", 1, 100);
 	'Now, Kou...' R;
-	'Call me your broski.' A;
+	'Call me your Ah-Chan.' A;
 	顔(47, "", 1, 100);
 	'I...' A;
 	'Waaaaaaaah!' R;
