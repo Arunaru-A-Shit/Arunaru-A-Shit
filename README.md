@@ -6,7 +6,7 @@ Tools Needed:
 
 AinDecompiler: https://web.archive.org/web/20160315051715/https://tlwiki.org/images/8/88/AinDecompiler.rar
 
-Instructions:
+Instructions for Patching your game:
 
 Make a backup of your Rance7.ain file
 
@@ -16,7 +16,7 @@ Open Rance7.ain with AinDecompile
 
 Select File, Quick Compile Code Patch
 
-Then highlight all the files and select Open. NOTE: I'm not 100% certain that highlighting all of them imports all off them. It might be nessiary to do it one by one
+Then highlight all the files and select Open.
 
 # How to contribute
 >Implying I know how to manage a project that others can work on
@@ -47,14 +47,16 @@ Press any letter key on the keyboard
 
 Select Yes to saving the .jar
 
-Select Yes
-
 Edit the file as you see fit.
 
-It should save it automaticaly after editing it in a folder called CodePatches in the same folder as Rance7.Ain
+Make sure to save the file after you edit it. You can do that by closing the tab
 
 Then upload it to the github I guess, fuck man, I don't know how github works. 
 
 ¯\_( ͡° ͜ʖ ͡°)_/¯
 
 While I have changed arquebus to muskets already, I think I will hold off on changing things like Onmyoji and ashigaru till I reach a point in which I think that I've fixed all other errors becuase I like Onmyoji and ashigaru, and making a fork for this would be annoying.
+
+TODO:
+
+Find the actual context of the uses of "god" becuase some of them might be positive and some might be negetive and I can't tell who is even saying what with AinDecompiler
