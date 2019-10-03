@@ -2316,7 +2316,7 @@ string ＴＸ(lint aa, lint キャラ, lint ターゲット, lint bb, lint Ｃ�
 			if (FG[90] == false)
 			{
 				FG[90] = true;
-				Ｐ合戦会話(1, ＣＧＸ, "I bare no grudge against Oda,@but this is for the Yamamoto clan...@Prepare to die!");
+				Ｐ合戦会話(1, ＣＧＸ, "I bear no grudge against Oda,@but this is for the Yamamoto clan...@Prepare to die!");
 				return "";
 			}
 			if (ターゲット == 1011 && FG[91] == false)
