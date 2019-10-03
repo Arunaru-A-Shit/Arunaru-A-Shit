@@ -1,0 +1,29 @@
+void 新撰組テロリスト１()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(101, 0, false);
+	全部(0, 0, 9485, 15, 10020, "Takuga Base", 1, 500, 0);
+	ＳＰ(461, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(5262, "Takuga's Subordinate", 1, 100);
+	'Ryouma-san, there\'s trouble!' R;
+	'The Shinsengumi... The hannies...' A;
+	顔(466, "", 1, 100);
+	'What\'d those hunks of clay do?!' A;
+	顔(5262, "Takuga's Subordinate", 1, 100);
+	'They committed terrorism!' A;
+	顔(466, "", 1, 100);
+	'Tch... So they really are being backed by Oda?!' A;
+	顔(5262, "Takuga's Subordinate", 1, 100);
+	'They suicide bombed with mini hannies in a bunch of our forts!' A;
+	'Not only that, but...' A;
+	'While we were distracted by the terrorism, the Oda Army took one unit of land in Middle-earth!' A;
+	顔(466, "", 1, 100);
+	'Seriously?' A;
+	'Shit! They don\'t think we can handle this?! I\'ll murder them both!' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

@@ -5,7 +5,7 @@ void 毛利／明石攻撃()
 	音楽(0, 500, false);
 	黒画面(1, 500, 0);
 	ト書き枠(0, 0);
-	'On the border between Chuu-earth and Himeji, an army of Mouri soldiers led by Motonari Mouri was marching forward.' A;
+	'On the border between Middle-earth and Himeji, an army of Mouri soldiers led by Motonari Mouri was marching forward.' A;
 	音楽(106, 0, false);
 	枠閉じ(0, 0);
 	全部(0, 0, 9476, 19, 10020, "Mouri Camp", 1, 500, 0);

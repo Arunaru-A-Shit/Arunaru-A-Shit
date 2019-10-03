@@ -48,7 +48,7 @@ void 伊達／妖怪帝国について聞く()
 	顔(97, "", 1, 100);
 	'Eight years ago, there was a fierce battle between youkai and humans.' A;
 	顔(98, "", 1, 100);
-	'The ruler of youkai at the time, the Wildstar Ninetails, Youkai Queen Machijoten, came from Chuu-earth and said...' ルビS;
+	'The ruler of youkai at the time, the Wildstar Ninetails, Youkai Queen Machijoten, came from Middle-earth and said...' ルビS;
 	ルビE();
 	A();
 	顔(96, "", 1, 100);
@@ -72,7 +72,7 @@ void 伊達／妖怪帝国について聞く()
 	顔(96, "", 1, 100);
 	'She also unleashed the Forbidden Youkai known as the Soul Binder to further torment humans.' A;
 	顔(97, "", 1, 100);
-	'Chuu-earth had become a land of people cursed by the Soul Binder.' A;
+	'Middle-earth had become a land of people cursed by the Soul Binder.' A;
 	顔(99, "", 1, 100);
 	'That\'s when one man rose up.' R;
 	'It was our lord, Nobunaga Oda!×3' A;
