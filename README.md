@@ -56,3 +56,5 @@ It should save it automaticaly after editing it in a folder called CodePatches i
 Then upload it to the github I guess, fuck man, I don't know how github works. 
 
 ¯\_( ͡° ͜ʖ ͡°)_/¯
+
+While I have changed arquebus to muskets already, I think I will hold off on changing things like Onmyoji and ashigaru till I reach a point in which I think that I've fixed all other errors becuase I like Onmyoji and ashigaru, and making a fork for this would be annoying.
