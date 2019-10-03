@@ -1,0 +1,38 @@
+void 種子島／全国クリア()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(101, 0, false);
+	全部(0, 0, 9320, 9, 10020, "Tanegashima", 1, 500, 0);
+	ＳＰ(321, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(326, "", 1, 100);
+	'Hell yeah!' R;
+	'We taught the whole country about the wonders of muskets!' A;
+	'Now what?' R;
+	'Hm, have a fighting tournament with just muskets, yeah.' A;
+	'Also... I\'ve got it, establish a sport that\'s like tennis, but with guns. And Pin the Tail on the Donkey, but with guns.' A;
+	顔(336, "", 1, 100);
+	'A letter...' A;
+	顔(326, "", 1, 100);
+	'Hm... From who?' R;
+	'The Patent Office???' A;
+	顔(0, "", 1, 100);
+	ト書き枠(0, 0);
+	'[The Tanegashima guns you\'re mass producing for sale are infringing on the patent held by Miss Copandon to manufacture weapons with explosive ammunition.]' A;
+	'[Either immediately dispose of all your guns, or pay a fine of 50000 Gold to Miss Copandon.]' A;
+	台詞枠(0, 0, 0);
+	顔(326, "", 1, 100);
+	'...' A;
+	顔(336, "", 1, 100);
+	'...' A;
+	顔(326, "", 1, 100);
+	効果音(1046, false);
+	'What the heeeeeell?!' A;
+	顔(336, "", 1, 100);
+	'...Meow.' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

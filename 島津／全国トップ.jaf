@@ -37,7 +37,7 @@ void 島津／全国トップ()
 	顔(690, "", 1, 100);
 	'I\'ll be the most useful!' A;
 	顔(689, "", 1, 100);
-	'Arquebus units are the strongest, I\'ll have you know.' A;
+	'Musketeer units are the strongest, I\'ll have you know.' A;
 	顔(686, "", 1, 100);
 	'The toughness of ashigaru knows no bounds.' A;
 	顔(688, "", 1, 100);

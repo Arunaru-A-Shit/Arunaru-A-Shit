@@ -1,0 +1,610 @@
+lint 全国選択グループ(lint ff, lint iim)
+{
+	lint tt = 0;
+	lint iic = 0;
+	lint rr = 0;
+	lint ch = 0;
+	lint aa = 0;
+	lint bb = 0;
+	lint cc = 0;
+	lint ss = 0;
+	lint loop = 0;
+	lint aa1 = 0;
+	lint ra = 0;
+	lint iic2 = 0;
+	lint ch2 = 0;
+	lint ii = ◆Ｐｉｉ;
+	lint ii2 = 国[iim].支配国;
+	lint ▲状態 = 0;
+	if (ii2 != ◆Ｐｉｉ)
+	{
+		▲状態 = 勢力[ii2].状態;
+	}
+	lint ▲隣接 = 0;
+	▲隣接 = 勢力[ii].国状態[iim];
+	string 文字列 = "";
+	tt = 100;
+	ss = 9;
+	if (▲状態 == 2 && ▲隣接 == 2)
+	{
+		if (織田選択(ff, tt, "%s: Attack" % 勢力[ii2].名前, 0, ss) == 1)
+		{
+			rr = 合戦メイン(1, ii2, iim);
+			if (rr == 0)
+			{
+				return 0;
+			}
+			return 1;
+		}
+	}
+	tt = 101;
+	ss = 9;
+	if (国[iim].支配国 == ◆Ｐｉｉ && 失った土地(iim) != 0 && 勢力[国[iim].進入勢力].状態 == 2)
+	{
+		if (織田選択(ff, tt, "%s: Take Back Territory" % 勢力[国[iim].進入勢力].名前, cc, ss) == 1)
+		{
+			ii2 = 国[iim].進入勢力;
+			rr = 合戦メイン(1, ii2, iim);
+			if (rr == 0)
+			{
+				return 0;
+			}
+			return 1;
+		}
+	}
+	tt = 103;
+	cc = iim + 150;
+	ss = 3;
+	Ｃ難易度[cc] = 国[iim].国力 * 3;
+	if (Ｃ難易度[cc] > 99)
+	{
+		Ｃ難易度[cc] = 99;
+	}
+	if (国[iim].支配国 == ◆Ｐｉｉ && 国[iim].国力 != 0)
+	{
+		if (織田選択(ff, tt, "%s Development (Raise National Power)" % 国[iim].名前, cc, ss) == 1)
+		{
+			rr = 成否判定(iim, cc, ss, "Develop National Power", 4, 10354);
+			if (rr != 2)
+			{
+				return rr;
+			}
+			ＳＭ(5014, 1, iim);
+			return 1;
+		}
+	}
+	tt = 104;
+	cc = 576;
+	ss = 3;
+	Ｃ難易度[cc] = 10;
+	if (国[iim].支配国 == ◆Ｐｉｉ)
+	{
+		if (織田選択(ff, tt, "Invasion-Obstructing Facility (Rank %s) Expansion" % string(国[iim].国予備２), cc, ss) == 1)
+		{
+			rr = 成否判定(iim, cc, ss, "Invasion Obstacle", 4, 10354);
+			if (rr != 2)
+			{
+				return rr;
+			}
+			ＳＭ(5078, 1, iim);
+			国[iim].国予備２++;
+			if (国[iim].国予備２ > 9)
+			{
+				国[iim].国予備２ = 9;
+			}
+			return 1;
+		}
+	}
+	tt = 200;
+	if (国[iim].支配国 == ◆Ｐｉｉ && 国[iim].建築物 == 0)
+	{
+		if (織田選択(ff, tt, "Troop Estate Construction (Natural Troop Gain +1)", 0, 0) == 1)
+		{
+			国[iim].建築物 = 1;
+			return 1;
+		}
+	}
+	tt = 201;
+	if (国[iim].支配国 == ◆Ｐｉｉ && 国[iim].建築物 == 0)
+	{
+		if (織田選択(ff, tt, "Free Market Construction (Income +3%)", 0, 0) == 1)
+		{
+			国[iim].建築物 = 2;
+			return 1;
+		}
+	}
+	tt = 202;
+	if (国[iim].支配国 == ◆Ｐｉｉ && 国[iim].建築物 == 0)
+	{
+		if (織田選択(ff, tt, "Takauchi Shop Construction (Income +200)", 0, 0) == 1)
+		{
+			国[iim].建築物 = 3;
+			return 1;
+		}
+	}
+	tt = 203;
+	if (国[iim].支配国 == ◆Ｐｉｉ && 国[iim].建築物 == 0)
+	{
+		if (織田選択(ff, tt, "Field Hospital Construction (Heals 10 Troops Per Turn)", 0, 0) == 1)
+		{
+			国[iim].建築物 = 4;
+			return 1;
+		}
+	}
+	tt = 204;
+	if (国[iim].支配国 == ◆Ｐｉｉ && 国[iim].建築物 == 0)
+	{
+		if (織田選択(ff, tt, "Buddha Statue Construction (???)", 0, 0) == 1)
+		{
+			国[iim].建築物 = 5;
+			return 1;
+		}
+	}
+	tt = 205;
+	if (国[iim].支配国 == ◆Ｐｉｉ && 国[iim].建築物 == 0)
+	{
+		if (織田選択(ff, tt, "Management Center Construction (Troop Limit +200)", 0, 0) == 1)
+		{
+			国[iim].建築物 = 6;
+			return 1;
+		}
+	}
+	tt = 206;
+	if (国[iim].支配国 == ◆Ｐｉｉ && 国[iim].建築物 != 0)
+	{
+		if (国[iim].建築物 == 1)
+		{
+			文字列 = "Troop Estate";
+		}
+		if (国[iim].建築物 == 2)
+		{
+			文字列 = "Free Market";
+		}
+		if (国[iim].建築物 == 3)
+		{
+			文字列 = "Takauchi Shop";
+		}
+		if (国[iim].建築物 == 4)
+		{
+			文字列 = "Field Hospital";
+		}
+		if (国[iim].建築物 == 5)
+		{
+			文字列 = "Buddha Statue";
+		}
+		if (国[iim].建築物 == 6)
+		{
+			文字列 = "Management Center";
+		}
+		if (国[iim].建築物 == 10)
+		{
+			文字列 = "Troop Estate 2";
+		}
+		if (国[iim].建築物 == 20)
+		{
+			文字列 = "Free Market 2";
+		}
+		if (国[iim].建築物 == 30)
+		{
+			文字列 = "Takauchi Shop 2";
+		}
+		if (国[iim].建築物 == 40)
+		{
+			文字列 = "Field Hospital 2";
+		}
+		if (織田選択(ff, tt, "%s: Dismantle" % 文字列, 0, 0) == 1)
+		{
+			国[iim].建築物 = 0;
+			return 1;
+		}
+	}
+	tt = 210;
+	if (国[iim].支配国 == ◆Ｐｉｉ && 国[iim].建築物 == 1 && 支配国数(◆Ｐｉｉ) > 9)
+	{
+		if (織田選択(ff, tt, "Troop Estate 2 Construction (Natural Troop Gain +3)", 0, 0) == 1)
+		{
+			国[iim].建築物 = 10;
+			return 1;
+		}
+	}
+	tt = 220;
+	if (国[iim].支配国 == ◆Ｐｉｉ && 国[iim].建築物 == 2 && 支配国数(◆Ｐｉｉ) > 9)
+	{
+		if (織田選択(ff, tt, "Free Market 2 Construction (Income +9%)", 0, 0) == 1)
+		{
+			国[iim].建築物 = 20;
+			return 1;
+		}
+	}
+	tt = 230;
+	if (国[iim].支配国 == ◆Ｐｉｉ && 国[iim].建築物 == 3 && 支配国数(◆Ｐｉｉ) > 9)
+	{
+		if (織田選択(ff, tt, "Takauchi Shop 2 Construction (Income +1000)", 0, 0) == 1)
+		{
+			国[iim].建築物 = 30;
+			return 1;
+		}
+	}
+	tt = 240;
+	if (国[iim].支配国 == ◆Ｐｉｉ && 国[iim].建築物 == 4 && 支配国数(◆Ｐｉｉ) > 9)
+	{
+		if (織田選択(ff, tt, "Field Hospital 2 Construction (Heals 50 Troops Per Turn)", 0, 0) == 1)
+		{
+			国[iim].建築物 = 40;
+			return 1;
+		}
+	}
+	tt = 500;
+	if (国[iim].支配国 == ◆Ｐｉｉ && ◆Ｐｉｉ == 17 && キャラ数(◆Ｐｉｉ) < 30)
+	{
+		if (織田選択(ff, tt, "Summon Hannies", 0, 0) == 1)
+		{
+			iic = 乱武将登録(◆Ｐｉｉ, 0, 0, "", 0);
+			aa = 勢力[◆Ｐｉｉ].平均兵数;
+			数値揺らぎ(aa, 30);
+			Ｃ兵数変更(aa, iic, ◆Ｐｉｉ);
+			gs[◆Ｐｉｉ][iic].関係 = 4;
+			汎用１(iic, ◆Ｐｉｉ);
+			ＳＭ(5079, 0, 0);
+			return 1;
+		}
+	}
+	tt = 500;
+	if (▲状態 == 2 && ▲隣接 == 2 && ◆Ｐｉｉ == 14 && 勢力[ii2].勢力予備７ == 0)
+	{
+		if (織田選択(ff, tt, "%s Peasant Uprising Preparation" % 勢力[ii2].名前, 0, 0) == 1)
+		{
+			ＳＭ(5080, 0, ii2);
+			勢力[ii2].勢力予備７ = 1;
+			return 1;
+		}
+	}
+	tt = 500;
+	if (国[iim].支配国 == ◆Ｐｉｉ && ◆Ｐｉｉ == 10 && ◆◆ == 1 && ◆ＴＳ == 0)
+	{
+		if (織田選択(ff, tt, "Young Kazemaru's Growth", 0, 0) == 1)
+		{
+			◆ＴＳ = 1;
+			iic = ＧＳ番号取得(1030, 999);
+			汎用１(1030, 999);
+			ra = RAND(4);
+			if (ra == 1 && gs[◆Ｐｉｉ][iic].攻撃基礎値 < 7)
+			{
+				gs[◆Ｐｉｉ][iic].攻撃基礎値++;
+				フラグ調整();
+				汎用１(iic, 999);
+				ＳＭ(5027, 0, 0);
+				return 1;
+			}
+			if (ra == 2 && gs[◆Ｐｉｉ][iic].防御基礎値 < 7)
+			{
+				gs[◆Ｐｉｉ][iic].防御基礎値++;
+				フラグ調整();
+				汎用１(iic, 999);
+				ＳＭ(5028, 0, 0);
+				return 1;
+			}
+			if (ra == 3 && gs[◆Ｐｉｉ][iic].知力基礎値 < 7)
+			{
+				gs[◆Ｐｉｉ][iic].知力基礎値++;
+				フラグ調整();
+				汎用１(iic, 999);
+				ＳＭ(5029, 0, 0);
+				return 1;
+			}
+			if (ra == 4 && gs[◆Ｐｉｉ][iic].早さ基礎値 < 7)
+			{
+				gs[◆Ｐｉｉ][iic].早さ基礎値++;
+				フラグ調整();
+				汎用１(iic, 999);
+				ＳＭ(5030, 0, 0);
+				return 1;
+			}
+			aa = 上限加算関数(50, gs[◆Ｐｉｉ][iic].兵数最大, 9999);
+			aa = 上限加算関数(50, gs[◆Ｐｉｉ][iic].兵数, 9999);
+			ＳＭ(5048, aa, 0);
+			return 1;
+		}
+	}
+	tt = 600;
+	if (国[iim].支配国 == ◆Ｐｉｉ && Ｃ確認(1056, 1043, 0, 0) == 1)
+	{
+		iic = ＧＳ番号取得(1043, 999);
+		if (gs[◆Ｐｉｉ][iic].兵種 == 1)
+		{
+			if (織田選択(ff, tt, "Give Naomasa Ii Hotwings!", 0, 0) == 1)
+			{
+				gs[◆Ｐｉｉ][iic].兵種 = 2;
+				gs[◆Ｐｉｉ][iic].所属勢力 = 3;
+				gs[◆Ｐｉｉ][iic].技１ = 25;
+				gs[◆Ｐｉｉ][iic].技２ = 0;
+				gs[◆Ｐｉｉ][iic].技３ = 13;
+				gs[◆Ｐｉｉ][iic].技４ = 89;
+				汎用１(1043, 999);
+				▲文字列 = "Old Man Yamagata@offered a hotwing unit";
+				▲文字列２ = "Lalalalaaa!@I wuv hotwings.";
+				ＳＭ(5054, 0, 0);
+				return 1;
+			}
+		}
+	}
+	tt = 1500;
+	cc = ii2 + 200;
+	ss = 2;
+	if (▲状態 == 2 && ▲隣接 == 2)
+	{
+		if (織田選択(ff, tt, "%s: Political Maneuvering" % 勢力[ii2].名前, cc, ss) == 1)
+		{
+			rr = 成否判定(iim, cc, ss, "Political Maneuvering", 4, 10355);
+			if (rr != 2)
+			{
+				return rr;
+			}
+			汎用１(乱ＦＰ取得(), 0);
+			ＳＭ(5033, 0, ii2);
+			Ｃ難易度[cc] += RAND(2);
+			if (Ｃ難易度[cc] > 99)
+			{
+				Ｃ難易度[cc] = 99;
+			}
+			return 1;
+		}
+	}
+	tt = 1501;
+	cc = 575;
+	ss = 2;
+	if (Ｃ難易度[cc] == 0)
+	{
+		Ｃ難易度[cc] = 5;
+	}
+	if (▲状態 == 2 && ▲隣接 == 2)
+	{
+		if (織田選択(ff, tt, "%s: Neutral Maneuvering" % 勢力[ii2].名前, cc, ss) == 1)
+		{
+			rr = 成否判定(iim, cc, ss, "Neutral Maneuvering", 4, 10355);
+			if (rr != 2)
+			{
+				return rr;
+			}
+			汎用１(乱ＦＰ取得(), 0);
+			ＳＭ(5077, 0, ii2);
+			if (◆Ｐｉｉ != 8)
+			{
+				Ｃ難易度[cc] += 3;
+			}
+			勢力[ii2].状態 = 1;
+			勢力[ii2].勢力予備６ = 8 + RAND(5);
+			マップ_情報更新(true);
+			return 1;
+		}
+	}
+	tt = 1502;
+	if (▲状態 == 1)
+	{
+		if (織田選択(ff, tt, "Neutral Period Extension +2 (Turns Left: %s)" % string(勢力[ii2].勢力予備６), 0, 0) == 1)
+		{
+			勢力[ii2].勢力予備６ += 2;
+			return 1;
+		}
+	}
+	tt = 1600;
+	aa = 35;
+	if (建築物数(ii, 5) > 1 && ◆予備０４ == 0)
+	{
+		if (織田選択(ff, tt, "Acquire Item [%s]" % アイテム[aa].名前, 0, 0) == 1)
+		{
+			◆予備０４ = 1;
+			アイテム取得(aa);
+			return 1;
+		}
+	}
+	aa = 36;
+	if (建築物数(ii, 5) > 3 && ◆予備０４ == 1)
+	{
+		if (織田選択(ff, tt, "Acquire Item [%s]" % アイテム[aa].名前, 0, 0) == 1)
+		{
+			◆予備０４ = 2;
+			アイテム取得(aa);
+			return 1;
+		}
+	}
+	aa = 54;
+	if (建築物数(ii, 5) > 5 && ◆予備０４ == 2)
+	{
+		if (織田選択(ff, tt, "Acquire Item [%s]" % アイテム[aa].名前, 0, 0) == 1)
+		{
+			◆予備０４ = 3;
+			アイテム取得(aa);
+			return 1;
+		}
+	}
+	aa = 58;
+	if (建築物数(ii, 5) > 7 && ◆予備０４ == 3)
+	{
+		if (織田選択(ff, tt, "Acquire Item [%s]" % アイテム[aa].名前, 0, 0) == 1)
+		{
+			◆予備０４ = 4;
+			アイテム取得(aa);
+			return 1;
+		}
+	}
+	aa = 61;
+	if (建築物数(ii, 5) > 9 && ◆予備０４ == 4)
+	{
+		if (織田選択(ff, tt, "Acquire Item [%s]" % アイテム[aa].名前, 0, 0) == 1)
+		{
+			◆予備０４ = 5;
+			アイテム取得(aa);
+			return 1;
+		}
+	}
+	aa = 63;
+	if (建築物数(ii, 5) > 10 && ◆予備０４ == 5)
+	{
+		if (織田選択(ff, tt, "Acquire Item [%s]" % アイテム[aa].名前, 0, 0) == 1)
+		{
+			◆予備０４ = 6;
+			アイテム取得(aa);
+			return 1;
+		}
+	}
+	aa = 72;
+	if (建築物数(ii, 5) > 11 && ◆予備０４ == 6)
+	{
+		if (織田選択(ff, tt, "Acquire Item [%s]" % アイテム[aa].名前, 0, 0) == 1)
+		{
+			◆予備０４ = 7;
+			アイテム取得(aa);
+			return 1;
+		}
+	}
+	aa = 77;
+	if (建築物数(ii, 5) > 12 && ◆予備０４ == 7)
+	{
+		if (織田選択(ff, tt, "Acquire Item [%s]" % アイテム[aa].名前, 0, 0) == 1)
+		{
+			◆予備０４ = 8;
+			アイテム取得(aa);
+			return 1;
+		}
+	}
+	aa = 34;
+	if (建築物数(ii, 5) > 13 && ◆予備０４ == 8)
+	{
+		if (織田選択(ff, tt, "Acquire Item [%s]" % アイテム[aa].名前, 0, 0) == 1)
+		{
+			◆予備０４ = 9;
+			アイテム取得(aa);
+			return 1;
+		}
+	}
+	aa = 38;
+	if (建築物数(ii, 5) > 15 && ◆予備０４ == 9)
+	{
+		if (織田選択(ff, tt, "Acquire Item [%s]" % アイテム[aa].名前, 0, 0) == 1)
+		{
+			◆予備０４ = 10;
+			アイテム取得(aa);
+			return 1;
+		}
+	}
+	aa = 33;
+	if (建築物数(ii, 5) > 17 && ◆予備０４ == 10)
+	{
+		if (織田選択(ff, tt, "Acquire Item [%s]" % アイテム[aa].名前, 0, 0) == 1)
+		{
+			◆予備０４ = 11;
+			アイテム取得(aa);
+			return 1;
+		}
+	}
+	tt = 2005;
+	if (平均兵数％(◆Ｐｉｉ) != 100 && 国[iim].支配国 == ◆Ｐｉｉ)
+	{
+		if (織田選択(ff, tt, "Rest Forces (All Units Recover %s Troops)" % string(◆全部隊休憩), 0, 0) == 1)
+		{
+			for (iic = 1; iic < 61; iic++)
+			{
+				if (gs[ii][iic].番号 != 0)
+				{
+					Ｃ兵数補充(◆全部隊休憩, iic, ii);
+				}
+			}
+			ＳＭ(5066, ◆全部隊休憩, 0);
+			return 1;
+		}
+	}
+	tt = 3000;
+	if (iim == 28 && キャラ数(◆Ｐｉｉ) > 7 && ＧＦ[177] == 0)
+	{
+		if (織田選択(ff, tt, "★Korean Invasion (Challenge Event - High Difficulty)", 0, 0) == 1)
+		{
+			朝鮮出兵();
+			return 1;
+		}
+	}
+	tt = 3010;
+	if (iim == 2 && Ｃ確認(1170, 0, 0, 0) == 0 && キャラ数(◆Ｐｉｉ) > 7 && ＧＦ[176] == 0)
+	{
+		if (織田選択(ff, tt, "★Russo-Japanese War (Challenge Event - High Difficulty)", 0, 0) == 1)
+		{
+			日露戦争();
+			return 1;
+		}
+	}
+	tt = 8000;
+	if (◆Ｐｉｉ == 9)
+	{
+		if (織田選択(ff, tt, "■Musket Smithy (+5 Troops Each Turn)", 0, 0) == 1)
+		{
+			◆コマンド実行数++;
+			return 1;
+		}
+	}
+	if (◆Ｐｉｉ == 11)
+	{
+		if (織田選択(ff, tt, "■Ninja Estate (+5 Troops Each Turn)", 0, 0) == 1)
+		{
+			◆コマンド実行数++;
+			return 1;
+		}
+	}
+	if (◆Ｐｉｉ == 4)
+	{
+		if (織田選択(ff, tt, "■Onmyouji School (+5 Troops Each Turn)", 0, 0) == 1)
+		{
+			◆コマンド実行数++;
+			return 1;
+		}
+	}
+	if (◆Ｐｉｉ == 5)
+	{
+		if (織田選択(ff, tt, "■Female Samurai Dojo (+5 Troops Each Turn)", 0, 0) == 1)
+		{
+			◆コマンド実行数++;
+			return 1;
+		}
+	}
+	if (◆Ｐｉｉ == 3)
+	{
+		if (織田選択(ff, tt, "■Hotwing Ranch (+5 Troops Each Turn)", 0, 0) == 1)
+		{
+			◆コマンド実行数++;
+			return 1;
+		}
+	}
+	if (◆Ｐｉｉ == 14)
+	{
+		if (織田選択(ff, tt, "■Mount Hiei (+5 Troops Each Turn)", 0, 0) == 1)
+		{
+			◆コマンド実行数++;
+			return 1;
+		}
+	}
+	if (◆Ｐｉｉ == 7)
+	{
+		if (織田選択(ff, tt, "■Battle Miko Shrine (+5 Troops Each Turn)", 0, 0) == 1)
+		{
+			◆コマンド実行数++;
+			return 1;
+		}
+	}
+	tt = 9010;
+	if (Ｃ技能総数取得(218, 999) > 1 && ▲隣接 == 2)
+	{
+		if (織田選択(ff, tt, "■View Enemy Commander Info", 0, 0) == 1)
+		{
+			ShowEnemyCommanderInfo(ii2);
+		}
+	}
+	if (system.IsDebugMode() == 1)
+	{
+		tt = 9998;
+		if (織田選択(ff, tt, "■ Debug Information ■", 0, 0) == 1)
+		{
+			デバッグ情報();
+			return 1;
+		}
+	}
+	return 0;
+}

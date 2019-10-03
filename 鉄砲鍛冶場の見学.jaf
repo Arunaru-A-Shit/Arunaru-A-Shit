@@ -1,0 +1,27 @@
+void 鉄砲鍛冶場の見学()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(101, 0, false);
+	全部(0, 0, 9325, 9, 10020, "Tamba", 1, 500, 0);
+	ト書き枠(0, 0);
+	'The workshop was filled with sounds of blazing fire and hammers on metal.' A;
+	枠閉じ(0, 0);
+	ＳＰ(1, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(6, "", 1, 100);
+	'God, it\'s hot. And loud.' R;
+	'Why\'s this place so annoying?' R;
+	'I\'m outta here!' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	ＳＰ(0, 1, 500);
+	ト書き枠(0, 0);
+	'Rance left the musket smithy right away, but the blacksmiths went about their usual work of mass producing muskets and bullets.' A;
+	'Production was still difficult, such that it was time-consuming to produce a single one.' A;
+	'Regardless, Oda\'s musketeer units grew slowly, but surely.' A;
+	'That day, new muskets were provided to each musketeer unit.' A;
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

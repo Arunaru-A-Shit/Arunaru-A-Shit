@@ -1,0 +1,143 @@
+int CGameClearData::GetSpecialConditions(int characterNumber, ref array@string messages, ref array@bool flags)
+{
+	switch (characterNumber)
+	{
+		case 0:
+			messages.PushBack("Hara Defeated");
+			flags.PushBack(ＧＳＡＶＥ[220]);
+			messages.PushBack("Hara Surrenders");
+			flags.PushBack(ＧＳＡＶＥ[221]);
+			messages.PushBack("Mochitsuke's Seppuku");
+			flags.PushBack(ＧＳＡＶＥ[222]);
+			return 50236;
+		case 1:
+			messages.PushBack("Ashikaga Defeated");
+			flags.PushBack(ＧＳＡＶＥ[200]);
+			messages.PushBack("Ashikaga Surrenders");
+			flags.PushBack(ＧＳＡＶＥ[201]);
+			return 50206;
+		case 2:
+			messages.PushBack("Iga Defeated (Suzume)");
+			flags.PushBack(ＧＳＡＶＥ[213]);
+			messages.PushBack("Iga Defeated (Without Suzume)");
+			flags.PushBack(ＧＳＡＶＥ[210]);
+			messages.PushBack("Iga Restored (Inukai)");
+			flags.PushBack(ＧＳＡＶＥ[211]);
+			messages.PushBack("Iga Surrenders");
+			flags.PushBack(ＧＳＡＶＥ[212]);
+			return 50606;
+		case 3:
+			messages.PushBack("Tanegashima Defeated");
+			flags.PushBack(ＧＳＡＶＥ[230]);
+			messages.PushBack("Tanegashima Surrenders");
+			flags.PushBack(ＧＳＡＶＥ[231]);
+			messages.PushBack("Musketeer Unit Purchased");
+			flags.PushBack(ＧＳＡＶＥ[232]);
+			return 50326;
+		case 4:
+			messages.PushBack("Azai-Asakura Defeated");
+			flags.PushBack(ＧＳＡＶＥ[240]);
+			messages.PushBack("Azai-Asakura Surrenders");
+			flags.PushBack(ＧＳＡＶＥ[241]);
+			messages.PushBack("Yukihime's Tragic Fate");
+			flags.PushBack(ＧＳＡＶＥ[242]);
+			return 50306;
+		case 5:
+			messages.PushBack("Tokugawa Defeated");
+			flags.PushBack(ＧＳＡＶＥ[250]);
+			messages.PushBack("Tokugawa Surrenders");
+			flags.PushBack(ＧＳＡＶＥ[251]);
+			messages.PushBack("Tokugawa Rebellion");
+			flags.PushBack(ＧＳＡＶＥ[252]);
+			messages.PushBack("Kill Subordinate Ieyasu");
+			flags.PushBack(ＧＳＡＶＥ[253]);
+			messages.PushBack("Ka Guya Leaves For The Skies");
+			flags.PushBack(ＧＳＡＶＥ[266]);
+			return 50556;
+		case 6:
+			messages.PushBack("Imagawa Defeated");
+			flags.PushBack(ＧＳＡＶＥ[260]);
+			messages.PushBack("Stop The March To Kyo");
+			flags.PushBack(ＧＳＡＶＥ[261]);
+			messages.PushBack("Anko Sex");
+			flags.PushBack(ＧＳＡＶＥ[262]);
+			return 50356;
+		case 7:
+			messages.PushBack("Houjou Defeated (Ran)");
+			flags.PushBack(ＧＳＡＶＥ[270]);
+			messages.PushBack("Houjou Defeated (Souun)");
+			flags.PushBack(ＧＳＡＶＥ[271]);
+			messages.PushBack("Houjou Defeated (Masako)");
+			flags.PushBack(ＧＳＡＶＥ[272]);
+			messages.PushBack("Prisoner Komatsu Rape");
+			flags.PushBack(ＧＳＡＶＥ[273]);
+			return 50166;
+		case 8:
+			messages.PushBack("Uesugi Defeated");
+			flags.PushBack(ＧＳＡＶＥ[290]);
+			messages.PushBack("Uesugi Defeated (Kensei)");
+			flags.PushBack(ＧＳＡＶＥ[291]);
+			messages.PushBack("Kenshin Rape");
+			flags.PushBack(ＧＳＡＶＥ[292]);
+			return 50076;
+		case 9:
+			messages.PushBack("Takeda Defeated");
+			flags.PushBack(ＧＳＡＶＥ[300]);
+			messages.PushBack("Shingen Assassination Plan");
+			flags.PushBack(ＧＳＡＶＥ[301]);
+			return 50676;
+		case 10:
+			messages.PushBack("Mouri Defeated (Human)");
+			flags.PushBack(ＧＳＡＶＥ[280]);
+			messages.PushBack("Mouri Defeated (Cursed)");
+			flags.PushBack(ＧＳＡＶＥ[281]);
+			messages.PushBack("All-Out Battle");
+			flags.PushBack(ＧＳＡＶＥ[282]);
+			messages.PushBack("Sister Foursome");
+			flags.PushBack(ＧＳＡＶＥ[283]);
+			return 50426;
+		case 11:
+			messages.PushBack("Takuga Defeated");
+			flags.PushBack(ＧＳＡＶＥ[310]);
+			messages.PushBack("Shikokalamity Gate Blocked Off");
+			flags.PushBack(ＧＳＡＶＥ[311]);
+			return 50466;
+		case 12:
+			messages.PushBack("Miko Union Defeated");
+			flags.PushBack(ＧＳＡＶＥ[320]);
+			messages.PushBack("Orochi Vanquished");
+			flags.PushBack(ＧＳＡＶＥ[321]);
+			return 50376;
+		case 13:
+			messages.PushBack("Akashi Defeated");
+			flags.PushBack(ＧＳＡＶＥ[330]);
+			messages.PushBack("Akashi Surrenders");
+			flags.PushBack(ＧＳＡＶＥ[331]);
+			messages.PushBack("Abe's Death");
+			flags.PushBack(ＧＳＡＶＥ[332]);
+			messages.PushBack("Asahina's Death");
+			flags.PushBack(ＧＳＡＶＥ[333]);
+			messages.PushBack("Mustache");
+			flags.PushBack(ＧＳＡＶＥ[334]);
+			return 50256;
+		case 14:
+			messages.PushBack("Tenshiism Defeated");
+			flags.PushBack(ＧＳＡＶＥ[340]);
+			messages.PushBack("Tenshiism Surrenders");
+			flags.PushBack(ＧＳＡＶＥ[341]);
+			return 50396;
+		case 15:
+			messages.PushBack("Shimazu Defeated");
+			flags.PushBack(ＧＳＡＶＥ[350]);
+			messages.PushBack("Shimazu Defeated (Gangrape)");
+			flags.PushBack(ＧＳＡＶＥ[351]);
+			return 50686;
+		case 16:
+			messages.PushBack("Dokuganryu Defeated");
+			flags.PushBack(ＧＳＡＶＥ[360]);
+			messages.PushBack("Six Great Treasures");
+			flags.PushBack(ＧＳＡＶＥ[366]);
+			return 50506;
+	}
+	return 0;
+}

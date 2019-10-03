@@ -203,7 +203,7 @@ void 全国アルゴリズム(lint ii)
 			}
 			if (ii == 9)
 			{
-				▲文字列２ = "Better learn to fear@the arquebus.";
+				▲文字列２ = "Better learn to fear@the musket.";
 			}
 			if (ii == 10)
 			{

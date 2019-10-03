@@ -1,0 +1,29 @@
+void 重彦／合戦前／汎用()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(101, 0, false);
+	全部(0, 0, 9456, 1, 10020, "Oda Camp", 1, 500, 0);
+	ＳＰ(321, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(326, "", 1, 100);
+	'Guess the fight\'s about to start.' R;
+	'Alrighty, let\'s blast them to bits!' A;
+	'What do you think about using a musket, my lord? I can make you a special one of the highest quality.' A;
+	顔(6, "", 1, 100);
+	'Not interested. In the time it takes to set up one of those, I can beat the foe to shreds with Chaos.' A;
+	顔(596, "", 1, 100);
+	'You\'ll take me over a musket? Heh heh heh, I knew you were a wise one, my kindred spirit.' A;
+	顔(6, "", 1, 100);
+	'Shut up.' A;
+	顔(596, "", 1, 100);
+	'Aww...' A;
+	顔(326, "", 1, 100);
+	'Now, we getting this started?' A;
+	顔(6, "", 1, 100);
+	'Sure.' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

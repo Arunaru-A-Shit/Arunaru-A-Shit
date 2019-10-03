@@ -3296,7 +3296,7 @@ string ＴＸ(lint aa, lint キャラ, lint ターゲット, lint bb, lint Ｃ�
 			if (FG[573] == false)
 			{
 				FG[573] = true;
-				Ｐ合戦会話(1, ＣＧＸ, "Have a faceful of the power of the arquebus!");
+				Ｐ合戦会話(1, ＣＧＸ, "Have a faceful of the power of the muskets!");
 				return "";
 			}
 			if (ターゲット == 1005 && FG[572] == false)

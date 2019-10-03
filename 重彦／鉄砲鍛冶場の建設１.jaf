@@ -1,0 +1,24 @@
+void 重彦／鉄砲鍛冶場の建設１()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(101, 0, false);
+	全部(0, 0, 9320, 1, 10020, "Smithy", 1, 500, 0);
+	ＳＰ(321, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(326, "", 1, 100);
+	'Hey, Rance-san.' R;
+	'Thanks.' A;
+	顔(6, "", 1, 100);
+	'Hm?' A;
+	顔(326, "", 1, 100);
+	'Heard you granted permission to build a new musket smithy. I appreciate it.' A;
+	'If we have a workshop just for musket production, we can pump out way more of them.' A;
+	'Now we can produce muskets by the boatload and train up some gunners.' A;
+	'That way, slowly but surely, we\'ll get more musketeers for you to put to work.' A;
+	'Speaking of which, think I\'ll go work on that right now.' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

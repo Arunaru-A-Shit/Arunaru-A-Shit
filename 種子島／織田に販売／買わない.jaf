@@ -1,0 +1,43 @@
+void 種子島／織田に販売／買わない()
+{
+	EV("", -2147483648);
+	イベント("");
+	台詞枠(0, 0, 0);
+	顔(6, "", 1, 100);
+	'Don\'t want it.' A;
+	顔(326, "", 1, 100);
+	'Oh?' A;
+	顔(6, "", 1, 100);
+	'I don\'t want it.' A;
+	顔(326, "", 1, 100);
+	'Really? Okay, too bad I couldn\'t convince you how great the Musket is.' A;
+	顔(336, "", 1, 100);
+	'...' A;
+	顔(326, "", 1, 100);
+	'We\'ll be going, then.' R;
+	'See you!' A;
+	顔(336, "", 1, 100);
+	'...Goodbye...' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	ＳＰ(0, 1, 500);
+	ト書き枠(0, 0);
+	'Shigehiko and Yuzumi left.' A;
+	枠閉じ(0, 0);
+	ＳＰ(41, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(46, "", 1, 100);
+	'Whew... That was loud.' A;
+	顔(16, "", 1, 100);
+	'Yes... My ears are still ringing.' A;
+	顔(46, "", 1, 100);
+	'Scary, though.' R;
+	'They\'re going to fight wars with those, now...' A;
+	顔(6, "", 1, 100);
+	'Hmmm...' R;
+	'Have to say, swords are better.' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

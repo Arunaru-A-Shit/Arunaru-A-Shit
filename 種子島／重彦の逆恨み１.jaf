@@ -1,0 +1,33 @@
+void 種子島／重彦の逆恨み１()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(101, 0, false);
+	全部(0, 0, 9320, 9, 10020, "Tanegashima", 1, 500, 0);
+	ＳＰ(321, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(326, "", 1, 100);
+	'Hmmm... Feeling a bit overpowered.' A;
+	顔(5155, "Tanegashima's Subordinate", 1, 100);
+	'Yeah...' A;
+	顔(326, "", 1, 100);
+	'We\'ve got the weapons,' R;
+	'but not the manpower...' R;
+	'Hmmm... What to do?' A;
+	'Hmmm...' A;
+	'Hmmmmmmmmm...' A;
+	'Alright, I\'ve got it.' R;
+	'Sell musketeer units to someone for cheap.' A;
+	S(勢力[▲ii2].名前);
+	', maybe.' R;
+	'Guess we could work with them to pincer attack Oda.' A;
+	顔(5155, "Tanegashima's Subordinate", 1, 100);
+	'Understood.' R;
+	'I\'ll make preparations at once.' A;
+	顔(326, "", 1, 100);
+	'Great, thanks.' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

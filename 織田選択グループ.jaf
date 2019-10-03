@@ -2066,7 +2066,7 @@ lint 織田選択グループ(lint ff, lint iim)
 		ss = 5;
 		if (キャラ確認(1039, 0, 0, 0) == 1 && EV("重彦／鉄砲鍛冶場の建設１", -2147483648) == false && 余り国力(999) > 4 && 織田支配確認(20, 0, 0, 0) == 1)
 		{
-			if (織田選択(ff, tt, "Build Arquebus-Specific Smithy (Costs 5 National Power)", 0, ss) == 1)
+			if (織田選択(ff, tt, "Build Musket-Specific Smithy (Costs 5 National Power)", 0, ss) == 1)
 			{
 				重彦／鉄砲鍛冶場の建設１();
 				ＧＦ[42] += 5;
@@ -2077,7 +2077,7 @@ lint 織田選択グループ(lint ff, lint iim)
 		tt = 1000;
 		if (キャラ確認(1039, 0, 0, 0) == 1 && EV("重彦／鉄砲鍛冶場の建設２", -2147483648) == false && 余り国力(999) > 4 && 織田支配確認(20, 0, 0, 0) == 1 && EV("重彦／鉄砲鍛冶場の建設１", -2147483648) == true)
 		{
-			if (織田選択(ff, tt, "Expand Arquebus-Specific Smithy (Costs 5 National Power)", 0, 0) == 1)
+			if (織田選択(ff, tt, "Expand Musket-Specific Smithy (Costs 5 National Power)", 0, 0) == 1)
 			{
 				重彦／鉄砲鍛冶場の建設２();
 				ＧＦ[42] += 5;
@@ -2088,7 +2088,7 @@ lint 織田選択グループ(lint ff, lint iim)
 		tt = 1001;
 		if (EV("重彦／鉄砲鍛冶場の建設１", -2147483648) == true)
 		{
-			if (織田選択(ff, tt, "Visit Arquebus-Specific Smithy", 0, 0) == 1)
+			if (織田選択(ff, tt, "Visit Musket-Specific Smithy", 0, 0) == 1)
 			{
 				鉄砲鍛冶場の見学();
 				for (iic = 1; iic < 61; iic++)
@@ -2782,7 +2782,7 @@ lint 織田選択グループ(lint ff, lint iim)
 		tt = 2006;
 		if (EV("種子島／初めて", -2147483648) == true && 勢力[9].状態 == 1 && キャラ確認(1078, 1001, 0, 0) == 1 && 勢力[9].活動中ターン数 > 4 && 武将追加確認(2) == 1 && ◆金 > 999 && (iim == 21 || iim == 19))
 		{
-			if (織田選択(ff, tt, "The Tanegashima Clan Is Selling Arquebus Squads", 0, 0) == 1)
+			if (織田選択(ff, tt, "The Tanegashima Clan Is Selling Musketeer Squads", 0, 0) == 1)
 			{
 				if (EV("種子島／織田に販売", -2147483648) == false)
 				{
@@ -2793,7 +2793,7 @@ lint 織田選択グループ(lint ff, lint iim)
 					種子島／織田に販売汎用();
 				}
 				選択肢(0, "Buy a squad? (1000 Gold)", -1);
-				選択肢(1, "Buy an Arquebus Squad", -1);
+				選択肢(1, "Buy an Musketeer Squad", -1);
 				選択肢(2, "Don't", -1);
 				rr = 選択(false, 0, 0);
 				if (rr == 1)
@@ -3811,7 +3811,7 @@ lint 織田選択グループ(lint ff, lint iim)
 			{
 				ss = 0;
 			}
-			文字列 = "Arquebus Girl: Yuzumi Yuzuhara" + ＩＶＤ(ch);
+			文字列 = "Musket Girl: Yuzumi Yuzuhara" + ＩＶＤ(ch);
 			if (Ｃ昆布取得(ch, 999) == 1)
 			{
 				文字列 = 文字列 + "◆";

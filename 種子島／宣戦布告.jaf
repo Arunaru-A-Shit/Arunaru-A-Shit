@@ -1,0 +1,42 @@
+void 種子島／宣戦布告()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(101, 0, false);
+	全部(0, 0, 9320, 9, 10020, "Tanegashima", 1, 500, 0);
+	台詞枠(0, 0, 0);
+	顔(5161, "Tanegashima's Subordinate 1", 1, 100);
+	'Captain!' R;
+	'Captaiiin!' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	ＳＰ(321, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(326, "", 1, 100);
+	'Hey, I\'m right here.' R;
+	'What\'s up?' A;
+	顔(5161, "Tanegashima's Subordinate 1", 1, 100);
+	'Oda declared war on us!' A;
+	顔(326, "", 1, 100);
+	'Oooh...' R;
+	'What, seriously now?' A;
+	'Well, well... They really want to get a taste of the musket, eh?' A;
+	'Alright, sounds good.' R;
+	'Use this as a chance to show off to other states.' A;
+	'Let\'s take them on!' A;
+	顔(5161, "Tanegashima's Subordinate 1", 1, 100);
+	'Yeah!' A;
+	顔(326, "", 1, 100);
+	'Hey, open up the vault!' R;
+	'Use everything we\'ve got!' A;
+	顔(5212, "Tanegashima's Subordinate 2", 1, 100);
+	'You got it!' A;
+	顔(326, "", 1, 100);
+	'Now then...' R;
+	'Don\'t chicken out, Oda.' R;
+	'Heheh.' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

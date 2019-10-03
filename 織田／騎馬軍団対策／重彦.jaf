@@ -1,0 +1,42 @@
+void 織田／騎馬軍団対策／重彦()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(101, 0, false);
+	全部(0, 0, 9320, 1, 10020, "Smithy", 1, 500, 0);
+	ＳＰ(321, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(326, "", 1, 100);
+	'There we go, done.' A;
+	顔(0, "", 1, 100);
+	ト書き枠(0, 0);
+	'Shigehiko wiped the sweat from his forehead and showed Rance a gun.' A;
+	台詞枠(0, 0, 0);
+	顔(326, "", 1, 100);
+	'Modded a musket for fighting off hotwings.' A;
+	顔(6, "", 1, 100);
+	'Looks the same as every other one.' R;
+	'How\'s it different?' A;
+	顔(326, "", 1, 100);
+	'Made it make a sound that annoys animals.' A;
+	顔(6, "", 1, 100);
+	'Hoh.' A;
+	顔(326, "", 1, 100);
+	'Won\'t know whether it actually chases them off until we try it, though.' A;
+	顔(8, "", 1, 100);
+	'What?!' A;
+	顔(326, "", 1, 100);
+	'Well, it\'ll probably work fine.' A;
+	顔(6, "", 1, 100);
+	'Hmmm... I don\'t know.' A;
+	顔(326, "", 1, 100);
+	'Look, it\'ll work.' C;
+	R();
+	'Maybe.' A;
+	顔(6, "", 1, 100);
+	'Don\'t say maybe.' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

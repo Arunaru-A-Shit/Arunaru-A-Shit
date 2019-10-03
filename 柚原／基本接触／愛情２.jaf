@@ -1,0 +1,48 @@
+void 柚原／基本接触／愛情２()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(101, 0, false);
+	全部(0, 0, 9140, 1, 10020, "Oda Castle", 1, 500, 0);
+	ト書き枠(0, 0);
+	R();
+	'　　*Bang!*' B;
+	揺れ(32, 500, 0);
+	A();
+	枠閉じ(0, 0);
+	ＳＰ(331, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(336, "", 1, 100);
+	'...' A;
+	顔(0, "", 1, 100);
+	ト書き枠(0, 0);
+	'Yuzumi was at target practice.' A;
+	台詞枠(0, 0, 0);
+	顔(6, "", 1, 100);
+	'Damn, perfect accuracy.' A;
+	顔(336, "", 1, 100);
+	'...You just suck...' A;
+	顔(6, "", 1, 100);
+	'Don\'t be ridiculous. I\'m not great with a musket, but I hit a decent number of targets.' A;
+	顔(336, "", 1, 100);
+	'...Not that...' A;
+	顔(6, "", 1, 100);
+	'Hm?' A;
+	顔(336, "", 1, 100);
+	'...Making babies... We\'ve done it a million times now... But it still hasn\'t worked...' A;
+	顔(0, "", 1, 100);
+	ト書き枠(0, 0);
+	R();
+	'　　*Bang!*' B;
+	揺れ(32, 500, 0);
+	A();
+	台詞枠(0, 0, 0);
+	顔(7, "", 1, 100);
+	'Gahahahaha. It\'s something you have to be blessed with. Just keep trying.' A;
+	顔(336, "", 1, 100);
+	'...Hrrrm...' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}
