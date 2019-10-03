@@ -7457,7 +7457,7 @@ string ＴＸ(lint aa, lint キャラ, lint ターゲット, lint bb, lint Ｃ�
 					}
 					if (rr == 3)
 					{
-						Ｐ合戦会話(zz, ＣＧＸ, "Shikokalamity women are scary!");
+						Ｐ合戦会話(zz, ＣＧＸ, "Death Country women are scary!");
 					}
 				}
 			}

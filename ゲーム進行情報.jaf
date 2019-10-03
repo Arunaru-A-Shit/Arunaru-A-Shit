@@ -201,7 +201,7 @@ void ゲーム進行情報()
 	'Shell Heap　　　　　　' R;
 	CKC(310);
 	'Takuga Defeated　　　' CKC(311);
-	'Shikokalamity Gate Blocked Off　　　' CKC(0);
+	'Death Country Gate Blocked Off　　　' CKC(0);
 	'　　　　　　　　' CKC(0);
 	'　　　　　　　　' CKC(0);
 	'　　　　　　　　' CKC(0);

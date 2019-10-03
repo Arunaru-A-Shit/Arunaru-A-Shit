@@ -34,7 +34,7 @@ void シナリオ／勢力トップ(lint ii2)
 	{
 		if (◆予備０５ == 0)
 		{
-			Ｐ勢力看板(ii2, "Locked into Shikokalamity and unable to act", iim, false);
+			Ｐ勢力看板(ii2, "Locked into Death Country and unable to act", iim, false);
 		}
 		▲行動回数 = 0;
 	}

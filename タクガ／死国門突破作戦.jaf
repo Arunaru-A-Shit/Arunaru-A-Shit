@@ -3,9 +3,9 @@ void タクガ／死国門突破作戦()
 	EV("", -2147483648);
 	イベント("");
 	音楽(101, 0, false);
-	全部(0, 0, 9240, 15, 10020, "Shikokalamity", 1, 500, 0);
+	全部(0, 0, 9240, 15, 10020, "Death Country", 1, 500, 0);
 	ト書き枠(0, 0);
-	'The Team Takuga Caravan arrived at Shikokalamity Gate.' A;
+	'The Team Takuga Caravan arrived at Death Country Gate.' A;
 	枠閉じ(0, 0);
 	ＳＰ(461, 1, 500);
 	台詞枠(0, 0, 0);
@@ -43,10 +43,10 @@ void タクガ／死国門突破作戦()
 	'we\'re not gonna survive.' A;
 	顔(0, "", 1, 100);
 	枠閉じ(0, 0);
-	全部(0, 0, 9230, 15, 10020, "Shikokalamity", 1, 500, 0);
+	全部(0, 0, 9230, 15, 10020, "Death Country", 1, 500, 0);
 	ト書き枠(0, 0);
 	'The group looked behind them.' A;
-	'The wasteland of Shikokalamity was a quarantine zone for oni, cursed ones, and criminals.' A;
+	'The wasteland of Death Country was a quarantine zone for oni, cursed ones, and criminals.' A;
 	枠閉じ(0, 0);
 	ＳＰ(461, 1, 500);
 	台詞枠(0, 0, 0);

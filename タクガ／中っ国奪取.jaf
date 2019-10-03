@@ -3,7 +3,7 @@ void タクガ／中っ国奪取()
 	EV("", -2147483648);
 	イベント("");
 	音楽(115, 0, false);
-	全部(0, 0, 9240, 15, 10020, "Shikokalamity", 1, 500, 0);
+	全部(0, 0, 9240, 15, 10020, "Death Country", 1, 500, 0);
 	ＳＰ(461, 1, 500);
 	台詞枠(0, 0, 0);
 	顔(466, "", 1, 100);
@@ -117,7 +117,7 @@ void タクガ／中っ国奪取()
 	顔(5243, "Mouri's Subordinate 1", 1, 100);
 	'Huh?!' A;
 	顔(5173, "Mouri's Subordinate 2", 1, 100);
-	'There\'s a fire on the Shikokalamity side!' A;
+	'There\'s a fire on the Death Country side!' A;
 	顔(5153, "Mouri's Subordinate 3", 1, 100);
 	'Huh? A-Are you shitting me?!' A;
 	顔(0, "", 1, 100);
@@ -127,7 +127,7 @@ void タクガ／中っ国奪取()
 	台詞枠(0, 0, 0);
 	顔(5153, "Mouri's Subordinate 3", 1, 100);
 	'I-It\'s a fiiiiiire!' R;
-	'The gate on Shikokalamity\'s side is burniiing!' A;
+	'The gate on Death Country\'s side is burniiing!' A;
 	顔(5243, "Mouri's Subordinate 1", 1, 100);
 	'Oh crap!' R;
 	'Better put that out!' A;
@@ -378,7 +378,7 @@ void タクガ／中っ国奪取()
 	'at ' 文字サイズ(-1);
 	'is it?' A;
 	顔(436, "", 1, 100);
-	'Shikokalamity\'s citizens broke through the gate and captured Middle-earth, they\'re saying.' A;
+	'Death Country\'s citizens broke through the gate and captured Middle-earth, they\'re saying.' A;
 	顔(426, "", 1, 100);
 	'Ho' 文字サイズ(70);
 	'ho' 文字サイズ(-1);

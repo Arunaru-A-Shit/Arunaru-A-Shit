@@ -1,0 +1,28 @@
+void タクガ／ピンチ美禰()
+{
+	音楽(107, 0, false);
+	全部(0, 0, 9230, 15, 10020, "Death Country", 1, 500, 0);
+	ＳＰ(461, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(466, "", 1, 100);
+	'What?' A;
+	'Oda\'s guys came all the way here?!' A;
+	顔(496, "", 1, 100);
+	'Yeah...' A;
+	顔(466, "", 1, 100);
+	'Guh...' R;
+	'What\'s the fun in stealing this hellish land?' A;
+	顔(496, "", 1, 100);
+	'I just don\'t understand what that foreigner\'s thinking.' A;
+	顔(466, "", 1, 100);
+	'Mine...' A;
+	顔(496, "", 1, 100);
+	'I know.' R;
+	'Let\'s try for just a bit longer.' A;
+	顔(466, "", 1, 100);
+	'Okay...' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

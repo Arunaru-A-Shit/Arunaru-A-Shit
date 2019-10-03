@@ -7,7 +7,7 @@ void タクガ／死国門封鎖Ａ()
 	ＳＰ(91, 1, 500);
 	台詞枠(0, 0, 0);
 	顔(97, "", 1, 100);
-	'Takuga fled back to Shikokalamity.' A;
+	'Takuga fled back to Death Country.' A;
 	顔(98, "", 1, 100);
 	'Let\'s put them in a corner...' A;
 	顔(96, "", 1, 100);
@@ -15,9 +15,9 @@ void タクガ／死国門封鎖Ａ()
 	顔(6, "", 1, 100);
 	'This is one huge gate.' A;
 	顔(97, "", 1, 100);
-	'Shikokalamity is a quarantine zone.' A;
+	'Death Country is a quarantine zone.' A;
 	顔(98, "", 1, 100);
-	'This gate used to be closed in order to separate Shikokalamity from the outside world.' A;
+	'This gate used to be closed in order to separate Death Country from the outside world.' A;
 	顔(96, "", 1, 100);
 	'It\'s a dreadful place full of oni, you see.' A;
 	顔(6, "", 1, 100);

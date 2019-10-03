@@ -1,0 +1,37 @@
+void タクガ／中っ国を追われる譲なし()
+{
+	音楽(107, 0, false);
+	全部(0, 0, 9149, 15, 10020, "Takuga Base", 1, 500, 0);
+	ト書き枠(0, 0);
+	'The castle was burning.' A;
+	枠閉じ(0, 0);
+	全部(0, 0, 9485, 15, 10020, "Takuga Base", 1, 500, 0);
+	ＳＰ(461, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(5172, "Ryouma's Subordinate", 1, 100);
+	'Ryouma-san, this is bad!' R;
+	'The castle\'s on fire!' A;
+	顔(466, "", 1, 100);
+	'Tch... Aaagh!' A;
+	顔(5172, "Ryouma's Subordinate", 1, 100);
+	'Wh-What should we do?' A;
+	顔(466, "", 1, 100);
+	'What can we do?!' A;
+	'...' A;
+	'...Go back to Death Country.' A;
+	顔(5172, "Ryouma's Subordinate", 1, 100);
+	'A-Are you serious?!' A;
+	顔(466, "", 1, 100);
+	'This is no time for jokes!' R;
+	'I\'m completely serious!' A;
+	顔(5172, "Ryouma's Subordinate", 1, 100);
+	'But...' A;
+	顔(466, "", 1, 100);
+	'We can go back, gather more allies, and build Takuga back up again!' A;
+	'Let\'s get together our surviving allies and run! Tell everyone we\'re abandoning the castle!' A;
+	'Shit... Fucking foreigner!' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

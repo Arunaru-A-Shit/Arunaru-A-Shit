@@ -2405,10 +2405,10 @@ lint 織田選択グループ(lint ff, lint iim)
 		ss = 5;
 		if (EV("タクガ／死国門封鎖Ａ", -2147483648) == false && 国[iim].支配国 == 15 && 失った土地(iim) == 0 && EV("タクガ／中っ国を追われる", -2147483648) == true && 支配国数(15) == 1 && ◆ルート != 50)
 		{
-			if (織田選択(ff, tt, "Shut Out Takuga With Shikokalamity Gate?", 0, ss) == 1)
+			if (織田選択(ff, tt, "Shut Out Takuga With Death Country Gate?", 0, ss) == 1)
 			{
 				タクガ／死国門封鎖Ａ();
-				選択肢(0, "Block Shikokalamity Gate?", -1);
+				選択肢(0, "Block Death Country Gate?", -1);
 				選択肢(1, "Yes", -1);
 				選択肢(2, "Don't Bother", -1);
 				rr = 選択(false, 0, 0);
@@ -2423,7 +2423,7 @@ lint 織田選択グループ(lint ff, lint iim)
 				iim = 24;
 				Ｄ国(iim, 5, "Middle-earth", 1, 22, 23, 26, 0, 0, 0, 0, 0);
 				iim = 25;
-				Ｄ国(iim, 2, "Shikokalamity", 15, 0, 0, 0, 0, 0, 0, 0, 0);
+				Ｄ国(iim, 2, "Death Country", 15, 0, 0, 0, 0, 0, 0, 0, 0);
 				勢力隣接状況再計算(1);
 				勢力隣接状況再計算(15);
 				return 1;
@@ -6659,7 +6659,7 @@ lint 織田選択グループ(lint ff, lint iim)
 		{
 			if (iim == 25 && EV("健太郎／大冒険／死国", -2147483648) == false)
 			{
-				if (織田選択(ff, tt, "Kentarou's Big Adventure (Shikokalamity)", 0, 5) == 1)
+				if (織田選択(ff, tt, "Kentarou's Big Adventure (Death Country)", 0, 5) == 1)
 				{
 					健太郎／大冒険／死国();
 					ＣＳレベル加算(5, ch, 999);

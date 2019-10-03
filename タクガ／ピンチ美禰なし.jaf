@@ -1,0 +1,24 @@
+void タクガ／ピンチ美禰なし()
+{
+	音楽(107, 0, false);
+	全部(0, 0, 9230, 15, 10020, "Death Country", 1, 500, 0);
+	ＳＰ(461, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(466, "", 1, 100);
+	'What?' A;
+	'Oda\'s guys came all the way here?!' A;
+	顔(5262, "Ryouma's Subordinate", 1, 100);
+	'Yes...' A;
+	顔(466, "", 1, 100);
+	'Guh...' R;
+	'Where\'s the fun in stealing this hellish land?' A;
+	顔(5262, "Ryouma's Subordinate", 1, 100);
+	'I don\'t understand what that foreigner\'s thinking at all...' A;
+	顔(466, "", 1, 100);
+	'We can still keep at it.' R;
+	'As if we\'ll let this bring us down!' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

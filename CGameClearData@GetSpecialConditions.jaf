@@ -99,7 +99,7 @@ int CGameClearData::GetSpecialConditions(int characterNumber, ref array@string m
 		case 11:
 			messages.PushBack("Takuga Defeated");
 			flags.PushBack(ＧＳＡＶＥ[310]);
-			messages.PushBack("Shikokalamity Gate Blocked Off");
+			messages.PushBack("Death Country Gate Blocked Off");
 			flags.PushBack(ＧＳＡＶＥ[311]);
 			return 50466;
 		case 12:

@@ -127,9 +127,9 @@ void タクガ／鬼の陵辱()
 	顔(5173, "Mouri's Subordinate 2", 1, 100);
 	'Bitch!' A;
 	顔(496, "", 1, 100);
-	'In Shikokalamity, we had to fight oni to survive, I\'ll have you know.' A;
+	'In Death Country, we had to fight oni to survive, I\'ll have you know.' A;
 	'You live in a world of war, so what? Have you ever even had to worry about food? And you thought you could rape me?' A;
-	'Never underestimate a Shikokalamity woman.' A;
+	'Never underestimate a Death Country woman.' A;
 	顔(0, "", 1, 100);
 	ト書き枠(0, 0);
 	'Without even drawing her katana,' R;

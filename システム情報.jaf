@@ -517,7 +517,7 @@ void システム情報()
 	}
 	if (EV("タクガ／死国門封鎖Ｂ", -2147483648) == true && 勢力[15].状態 != 9)
 	{
-		情報Ａ("Shikokalamity Gate was sealed, locking Takuga out.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
+		情報Ａ("Death Country Gate was sealed, locking Takuga out.", 文字１, 文字２, 文字３, 文字４, 文字５, 文字６);
 	}
 	if (勢力[3].状態 == 2)
 	{

@@ -1,0 +1,41 @@
+void 龍馬／ゴンなし()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(114, 0, false);
+	全部(0, 0, 9180, 1, 10020, "Oda Castle", 1, 500, 0);
+	ＳＰ(461, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(466, "", 1, 100);
+	'...' A;
+	顔(6, "", 1, 100);
+	'Hey.' A;
+	顔(466, "", 1, 100);
+	'...Hey.' A;
+	顔(6, "", 1, 100);
+	'What? You\'re usually more hyper than this.' A;
+	顔(466, "", 1, 100);
+	'...' A;
+	'So...' A;
+	'Before I went to Death Country, I never cared about anyone else.' A;
+	顔(6, "", 1, 100);
+	'Hoh.' A;
+	顔(466, "", 1, 100);
+	'...' A;
+	'Like... I learned what it meant to value someone...' A;
+	'When I lost Gon...' R;
+	'I realized...' A;
+	'Losing someone you always thought would be there... leaves a hole in your heart...' A;
+	'I sure get it now...' A;
+	'...' A;
+	顔(6, "", 1, 100);
+	'Want to get something to eat?' R;
+	'I can pay.' A;
+	顔(466, "", 1, 100);
+	'Nah... I\'m good.' R;
+	'Thanks.' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

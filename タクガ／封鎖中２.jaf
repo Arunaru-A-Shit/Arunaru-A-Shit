@@ -1,0 +1,37 @@
+void タクガ／封鎖中２()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(114, 0, false);
+	全部(0, 0, 9230, 15, 10020, "Death Country", 1, 500, 0);
+	ＳＰ(461, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(466, "", 1, 100);
+	'...' A;
+	顔(0, "", 1, 100);
+	ト書き枠(0, 0);
+	'Ryouma kneeled on the ground and took the hand of an ally who was near death.' A;
+	'His hand fell limply from hers.' A;
+	台詞枠(0, 0, 0);
+	顔(466, "", 1, 100);
+	'What the hell...?' A;
+	'Do we not deserve to live?' A;
+	'Are we just supposed to die here?' A;
+	'...' A;
+	'Ah...' A;
+	'...' A;
+	'Aaah...' A;
+	'Waaaaaah!' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	ＳＰ(0, 1, 500);
+	ト書き枠(0, 0);
+	'Ryouma cried.' A;
+	'She cried until no tears were left.' A;
+	'The dream was dead.' A;
+	'They were stuck in Death Country,' R;
+	'a living hell.' A;
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}
