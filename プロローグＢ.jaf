@@ -157,7 +157,7 @@ void プロローグＢ()
 	顔(46, "", 1, 100);
 	'Geez, please don\'t talk about my family like that, sir.' A;
 	顔(7, "", 1, 100);
-	'Thank god you don\'t look like your brother.' R;
+	'Thank fuck you don\'t look like your brother.' R;
 	'Gahahaha.' A;
 	顔(46, "", 1, 100);
 	'That\'s not true.' R;
