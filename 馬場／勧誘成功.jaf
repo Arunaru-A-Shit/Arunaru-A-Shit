@@ -1,0 +1,47 @@
+void 馬場／勧誘成功()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(103, 0, false);
+	全部(0, 0, 9250, 1, 10020, "Prison", 1, 500, 0);
+	ＳＰ(651, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(6, "", 1, 100);
+	'Guheheheh!' R;
+	'I fucking caught you!' A;
+	顔(656, "", 1, 100);
+	'You seem happy.' A;
+	顔(7, "", 1, 100);
+	'Gahahahaha.' R;
+	'This is what you get for challenging me.' R;
+	'Ha ha.' A;
+	顔(656, "", 1, 100);
+	'If it makes you that happy,' R;
+	'I\'ll be your...' A;
+	効果音(1046, false);
+	文字サイズ(80);
+	'Ally' 文字サイズ(-1);
+	'.' A;
+	顔(8, "", 1, 100);
+	'That\'s for me to decide!' A;
+	顔(656, "", 1, 100);
+	'Quiet, you!' R;
+	'I say I\'m your ally now,' R;
+	'and that\'s that!' A;
+	顔(8, "", 1, 100);
+	'Uoooooooooh!' R;
+	'Whyyyyyy?!' A;
+	顔(656, "", 1, 100);
+	'Gwahahaha!' R;
+	'Serves you right!' A;
+	顔(8, "", 1, 100);
+	'Kiiiiiiiii!' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	ＳＰ(0, 1, 500);
+	ト書き枠(0, 0);
+	'Thus, Shouen joined Rance.' A;
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

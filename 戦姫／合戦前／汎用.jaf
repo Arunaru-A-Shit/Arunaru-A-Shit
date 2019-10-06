@@ -1,0 +1,32 @@
+void 戦姫／合戦前／汎用()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(101, 0, false);
+	全部(0, 0, 9456, 1, 10020, "Oda Camp", 1, 500, 0);
+	ＳＰ(821, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(826, "", 1, 100);
+	'Hm...' A;
+	顔(6, "", 1, 100);
+	'What is it?' A;
+	顔(826, "", 1, 100);
+	'Just thinking about the battle that\'s soon to come made me quiver...' A;
+	'The solemn tension that precedes combat is to die for... Emotions are heightened. I enjoy no moment more than these.' A;
+	'...Heh... Heheh...' A;
+	顔(6, "", 1, 100);
+	'If having sex with me doesn\'t get you as excited as this, then what good am I as a man?' A;
+	顔(826, "", 1, 100);
+	'Well... That\'s too bad for you.' A;
+	顔(8, "", 1, 100);
+	'Whaaat?!' R;
+	'Fine, I\'ll just have to teach your body better!' A;
+	顔(826, "", 1, 100);
+	'Haha... Oooh, scary.' A;
+	顔(8, "", 1, 100);
+	'Kiii!' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

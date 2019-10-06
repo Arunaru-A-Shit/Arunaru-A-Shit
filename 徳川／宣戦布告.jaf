@@ -66,7 +66,7 @@ void 徳川／宣戦布告()
 	顔(563, "", 1, 100);
 	'You wascaaaaaal!' R;
 	'I was winniiiiiing!' R;
-	'Screeeeeeeeeeee!!!!!!' A;
+	'Kiiiiiiiiiiii!!!!!!' A;
 	顔(556, "", 1, 100);
 	'You\'re more mature than that,' R;
 	'Tadatsugu.' A;
@@ -75,7 +75,7 @@ void 徳川／宣戦布告()
 	顔(556, "", 1, 100);
 	'That\'s not true.' A;
 	顔(563, "", 1, 100);
-	'Screeeeeeeeeeee!!!' R;
+	'Kiiiiiiiiiiii!!!' R;
 	'Yes it is!' R;
 	'It\'s written all over your tummy!' A;
 	顔(556, "", 1, 100);

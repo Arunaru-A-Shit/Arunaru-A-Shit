@@ -182,7 +182,7 @@ void ザビエルの最後の作戦()
 	顔(36, "", 1, 100);
 	'Thanks, Rance.' A;
 	顔(8, "", 1, 100);
-	'Screeeeee!' R;
+	'Kiiiiii!' R;
 	'Why would you do that?!' A;
 	顔(36, "", 1, 100);
 	'Hahahaha.' A;

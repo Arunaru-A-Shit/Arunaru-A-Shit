@@ -22,7 +22,7 @@ void 織田／全国クリア()
 	'Nobunaga petted Rance\'s head.' A;
 	台詞枠(0, 0, 0);
 	顔(8, "", 1, 100);
-	'Screeeeee!' R;
+	'Kiiiiii!' R;
 	'Don\'t pet me!' A;
 	顔(36, "", 1, 100);
 	'Hahahaha.' A;
