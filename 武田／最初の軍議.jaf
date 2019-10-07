@@ -25,7 +25,7 @@ void 武田／最初の軍議()
 	顔(636, "", 1, 100);
 	'Much of the power in Oda is currently held by a single foreigner. They\'re trying to conquer JAPAN, from the looks of it.' A;
 	顔(656, "", 1, 100);
-	'How disgraceful!' A;
+	'What!' A;
 	顔(676, "", 1, 100);
 	'...' A;
 	顔(666, "", 1, 100);
