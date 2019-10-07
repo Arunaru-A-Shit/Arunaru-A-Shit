@@ -1,0 +1,41 @@
+void 武田／ｖｓ北条汎用()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(106, 0, false);
+	全部(0, 0, 9200, 3, 10020, "Edo", 1, 500, 0);
+	ト書き枠(0, 0);
+	'Takeda and Houjou were fighting in Edo.' A;
+	枠閉じ(0, 0);
+	ＳＰ(641, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(646, "", 1, 100);
+	'Don\'t break formation.' R;
+	'Charge to the center!' A;
+	顔(0, "", 1, 100);
+	ト書き枠(0, 0);
+	'On Tourin\'s orders, his tebasaki unit advanced toward Houjou\'s squad.' A;
+	'Houjou combated them with an ashigaru unit.' A;
+	枠閉じ(0, 0);
+	ＳＰ(661, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(666, "", 1, 100);
+	'Tourin!' R;
+	'An attack\'s coming from the back!' A;
+	顔(646, "", 1, 100);
+	'It may still be too difficult to break their formation before they finish casting.' A;
+	顔(666, "", 1, 100);
+	'So it seems.' A;
+	顔(646, "", 1, 100);
+	'Everyone pull back!' R;
+	'Houjou\'s shikigami are coming!' R;
+	'Prepare to defend!' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	ＳＰ(0, 1, 500);
+	ト書き枠(0, 0);
+	'Their evenly balanced powers clashed, ending in a draw.' A;
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

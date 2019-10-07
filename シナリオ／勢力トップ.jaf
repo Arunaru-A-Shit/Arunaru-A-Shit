@@ -431,7 +431,7 @@ void シナリオ／勢力トップ(lint ii2)
 			}
 			if (RAND(3) == 1)
 			{
-				Ｐ勢力看板(ii2, "A quality hotwing was born", 0, false);
+				Ｐ勢力看板(ii2, "A quality tebasaki was born", 0, false);
 				continue;
 			}
 			Ｐ勢力看板(ii2, "Under heaven and earth, I alone am feared", 0, false);

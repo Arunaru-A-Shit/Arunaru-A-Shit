@@ -91,8 +91,8 @@ void 徳川／初めて()
 	'If there\'s a thweat,' R;
 	'you gotta fight it.' A;
 	'Oh, I know.' R;
-	'I want one of those hotwing squads.' A;
-	'A red hotwing squad.' R;
+	'I want one of those tebasaki squads.' A;
+	'A red tebasaki squad.' R;
 	'Leave Oda for later.' R;
 	'Let\'s go Takeda first!' A;
 	顔(569, "", 1, 100);

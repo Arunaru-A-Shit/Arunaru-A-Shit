@@ -4638,7 +4638,7 @@ string ＴＸ(lint aa, lint キャラ, lint ターゲット, lint bb, lint Ｃ�
 			rr = RAND(分岐);
 			if (rr == 1)
 			{
-				return "Whaaa?@I want a hotwing unit.@Gimme something else.";
+				return "Whaaa?@I want a tebasaki unit.@Gimme something else.";
 			}
 			if (rr == 2)
 			{
@@ -6533,7 +6533,7 @@ string ＴＸ(lint aa, lint キャラ, lint ターゲット, lint bb, lint Ｃ�
 				rr = RAND(分岐);
 				if (rr == 1)
 				{
-					Ｐ合戦会話(zz, ＣＧＸ, "Face the power of the hotwing army!");
+					Ｐ合戦会話(zz, ＣＧＸ, "Face the power of the tebasaki army!");
 				}
 				if (rr == 2)
 				{
@@ -6897,7 +6897,7 @@ string ＴＸ(lint aa, lint キャラ, lint ターゲット, lint bb, lint Ｃ�
 					}
 					if (rr == 3)
 					{
-						Ｐ合戦会話(zz, ＣＧＸ, "Behold the power of hotwings!");
+						Ｐ合戦会話(zz, ＣＧＸ, "Behold the power of tebasaki!");
 					}
 				}
 				if (gs[0][1].性別 == 1)

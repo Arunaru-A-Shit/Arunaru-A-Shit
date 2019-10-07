@@ -1,0 +1,24 @@
+void 武田／信玄隊１()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(106, 0, false);
+	全部(0, 0, 9200, 3, 10020, "Battleground", 1, 500, 0);
+	ＳＰ(671, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(676, "", 1, 100);
+	'Hmph...' A;
+	顔(0, "", 1, 100);
+	ト書き枠(0, 0);
+	'Shingen sat upon his tebasaki and looked down on Oda\'s troops.' A;
+	台詞枠(0, 0, 0);
+	顔(676, "", 1, 100);
+	'Let\'s teach them how Takeda fights.' A;
+	'All forces... Advance!' A;
+	顔(0, "", 1, 100);
+	ト書き枠(0, 0);
+	'When Shingen pointed his war fan at Oda, his tebasaki unit charged forward.' A;
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

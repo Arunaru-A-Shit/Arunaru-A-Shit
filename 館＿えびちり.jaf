@@ -1,0 +1,15 @@
+void 館＿えびちり()
+{
+	全部(0, 0, 9410, 3, 10020, "Tebasaki Ranch", 1, 500, 0);
+	ＳＰ(6019, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(6020, "Ebichiri", 1, 100);
+	'Hello from the tebasaki ranch.' A;
+	'Hi, this is Ebichiri.' A;
+	'Tebasaki sure are strong.' A;
+	'Capture some to experience their strength firsthand.' A;
+	'That\'s all, bye.' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	アリスＣＧ();
+}

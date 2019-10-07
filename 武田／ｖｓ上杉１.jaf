@@ -133,7 +133,7 @@ void 武田／ｖｓ上杉１()
 	'What!' A;
 	顔(0, "", 1, 100);
 	ト書き枠(0, 0);
-	'Shouen frantically headed south on his two hotwings.' A;
+	'Shouen frantically headed south on his two tebasaki.' A;
 	台詞枠(0, 0, 0);
 	顔(656, "", 1, 100);
 	'I\'ll handle Houjou!' R;

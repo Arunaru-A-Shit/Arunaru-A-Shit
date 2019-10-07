@@ -11,7 +11,7 @@ void 武田／初登場()
 	ビジュアル(1502, 1, 1000);
 	ト書き枠(0, 0);
 	'It was the Takeda clan, considered by many to be JAPAN\'s current strongest.' A;
-	'Their spear-wielding, heavily armored soldiers rode large birds called hotwings that could charge forward at unthinkable speeds.' A;
+	'Their spear-wielding, heavily armored soldiers rode large birds called tebasaki that could charge forward at unthinkable speeds.' A;
 	'These cavalry troops had both strength and maneuverability. They were Takeda\'s main resource for overpowering other states.' A;
 	枠閉じ(0, 0);
 	全部(0, 0, 9170, 3, 10020, "Takeda Castle", 1, 500, 0);
@@ -61,7 +61,7 @@ void 武田／初登場()
 	'Shouen Baba, too, led a clan that served Shingen.' ルビS;
 	ルビE();
 	A();
-	'This samurai rode his massive body into battle on two hotwings.' A;
+	'This samurai rode his massive body into battle on two tebasaki.' A;
 	顔(0, "", 1, 100);
 	枠閉じ(0, 0);
 	ＳＰ(671, 1, 500);

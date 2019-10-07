@@ -1,0 +1,26 @@
+void 武田／山県隊１()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(106, 0, false);
+	全部(0, 0, 9200, 3, 10020, "Battleground", 1, 500, 0);
+	ＳＰ(661, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(666, "", 1, 100);
+	'You\'ll regret challenging us, Oda.' A;
+	'Line up!' A;
+	顔(0, "", 1, 100);
+	ト書き枠(0, 0);
+	'At Masakage\'s command, his unit\'s tebasaki organized themselves.' A;
+	台詞枠(0, 0, 0);
+	顔(666, "", 1, 100);
+	'Circle formation!' R;
+	'Break Oda\'s defenses!' R;
+	'Everybody march!' A;
+	顔(0, "", 1, 100);
+	ト書き枠(0, 0);
+	'Masakage\'s tebasaki unit charged at Oda\'s army.' A;
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

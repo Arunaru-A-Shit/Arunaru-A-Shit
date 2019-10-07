@@ -32,7 +32,7 @@ void 謙信ｖｓ馬場Ａ()
 	音楽(108, 0, false);
 	全部(0, 0, 9301, 1, 10020, "Plain", 1, 500, 0);
 	ト書き枠(0, 0);
-	'Shouen answered Kenshin\'s challenge and came to a grassy field with his hotwing unit.' A;
+	'Shouen answered Kenshin\'s challenge and came to a grassy field with his tebasaki unit.' A;
 	枠閉じ(0, 0);
 	ＳＰ(651, 1, 500);
 	台詞枠(0, 0, 0);

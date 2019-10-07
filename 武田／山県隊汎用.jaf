@@ -1,0 +1,19 @@
+void 武田／山県隊汎用()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(106, 0, false);
+	全部(0, 0, 9200, 3, 10020, "Battleground", 1, 500, 0);
+	ＳＰ(661, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(666, "", 1, 100);
+	'Hah... Still haven\'t learned?' A;
+	'Yamagata Unit, advance!' R;
+	'Scatter Oda!' A;
+	顔(0, "", 1, 100);
+	ト書き枠(0, 0);
+	'Masakage\'s tebasaki unit formed around him and charged at Oda.' A;
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

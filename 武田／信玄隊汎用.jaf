@@ -13,7 +13,7 @@ void 武田／信玄隊汎用()
 	'All forces, begin the attack!' A;
 	顔(0, "", 1, 100);
 	ト書き枠(0, 0);
-	'At Shingen\'s orders, his hotwing unit attacked the Oda Army.' A;
+	'At Shingen\'s orders, his tebasaki unit attacked the Oda Army.' A;
 	枠閉じ(0, 0);
 	音楽(0, 500, false);
 	全部(0, 0, 0, 0, 0, "", 1, 500, 0);

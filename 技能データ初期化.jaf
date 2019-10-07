@@ -1232,7 +1232,7 @@ void 技能データ初期化()
 	行動技数[aa] = 99;
 	aa = 210;
 	行動名前[aa] = "S Cavalry Charge";
-	行動説明[aa] = "Ride a hotwing and attack the enemy";
+	行動説明[aa] = "Ride a tebasaki and attack the enemy";
 	行動タイプ[aa] = 1;
 	行動ターゲット[aa] = 2;
 	行動ダメージ率[aa] = 100;
@@ -1241,7 +1241,7 @@ void 技能データ初期化()
 	行動技数[aa] = 1;
 	aa = 211;
 	行動名前[aa] = "S Strong Cavalry Charge";
-	行動説明[aa] = "Ride a hotwing and attack the enemy (Damage x1.5)";
+	行動説明[aa] = "Ride a tebasaki and attack the enemy (Damage x1.5)";
 	行動タイプ[aa] = 1;
 	行動ターゲット[aa] = 2;
 	行動ダメージ率[aa] = 150;

@@ -312,7 +312,7 @@ lint 全国選択グループ(lint ff, lint iim)
 		iic = ＧＳ番号取得(1043, 999);
 		if (gs[◆Ｐｉｉ][iic].兵種 == 1)
 		{
-			if (織田選択(ff, tt, "Give Naomasa Ii Hotwings!", 0, 0) == 1)
+			if (織田選択(ff, tt, "Give Naomasa Ii Tebasaki!", 0, 0) == 1)
 			{
 				gs[◆Ｐｉｉ][iic].兵種 = 2;
 				gs[◆Ｐｉｉ][iic].所属勢力 = 3;
@@ -321,8 +321,8 @@ lint 全国選択グループ(lint ff, lint iim)
 				gs[◆Ｐｉｉ][iic].技３ = 13;
 				gs[◆Ｐｉｉ][iic].技４ = 89;
 				汎用１(1043, 999);
-				▲文字列 = "Old Man Yamagata@offered a hotwing unit";
-				▲文字列２ = "Lalalalaaa!@I wuv hotwings.";
+				▲文字列 = "Old Man Yamagata@offered a tebasaki unit";
+				▲文字列２ = "Lalalalaaa!@I wuv tebasaki.";
 				ＳＭ(5054, 0, 0);
 				return 1;
 			}
@@ -567,7 +567,7 @@ lint 全国選択グループ(lint ff, lint iim)
 	}
 	if (◆Ｐｉｉ == 3)
 	{
-		if (織田選択(ff, tt, "■Hotwing Ranch (+5 Troops Each Turn)", 0, 0) == 1)
+		if (織田選択(ff, tt, "■Tebasaki Ranch (+5 Troops Each Turn)", 0, 0) == 1)
 		{
 			◆コマンド実行数++;
 			return 1;

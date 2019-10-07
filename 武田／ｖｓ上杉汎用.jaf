@@ -1,0 +1,36 @@
+void 武田／ｖｓ上杉汎用()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(106, 0, false);
+	全部(0, 0, 9200, 3, 10020, "Sado", 1, 500, 0);
+	ト書き枠(0, 0);
+	'Takeda and Uesugi were clashing in Sado.' A;
+	枠閉じ(0, 0);
+	ＳＰ(651, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(656, "", 1, 100);
+	'Bwahahaha!' R;
+	'Those of you who want to die,' R;
+	'come before me!' A;
+	'My name is Shouen Baba!' R;
+	'Is anyone brave enough to challenge me?!' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	ＳＰ(631, 1, 500);
+	ト書き枠(0, 0);
+	'As Shouen rode off on his two tebasaki, Yoshikaze zoomed by, sitting cross-legged on a tebasaki behind him.' A;
+	台詞枠(0, 0, 0);
+	顔(636, "", 1, 100);
+	'Please, your back is wide open!' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	ＳＰ(0, 1, 500);
+	ト書き枠(0, 0);
+	'Shouen ploughed through enemies.' R;
+	'Kousaka protected him from the back.' A;
+	'However, Uesugi took advantage of the terrain and fought defensively, resulting in a draw.' A;
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

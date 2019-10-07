@@ -1,0 +1,33 @@
+void 武田／開戦準備()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(101, 0, false);
+	全部(0, 0, 9455, 1, 10020, "Oda Castle", 1, 500, 0);
+	ＳＰ(91, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(97, "", 1, 100);
+	'We received a report that Takeda is preparing to declare war on us.' A;
+	顔(6, "", 1, 100);
+	'Takeda?' A;
+	顔(98, "", 1, 100);
+	'Yes.' A;
+	顔(96, "", 1, 100);
+	'The samurai clan that uses tebasaki as steeds.' R;
+	'They\'re our enemy, but their determination is rather admirable.' A;
+	顔(6, "", 1, 100);
+	'Are there any cute girls there?' A;
+	顔(97, "", 1, 100);
+	'All their notable samurai are men.' A;
+	顔(6, "", 1, 100);
+	'Wow, that\'s the worst.' R;
+	'I don\'t even feel like fighting them, then.' A;
+	顔(99, "", 1, 100);
+	効果音(1046, false);
+	'Don\'t whine!' R;
+	'Come up with a countermeasure!×3' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

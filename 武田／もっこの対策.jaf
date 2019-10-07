@@ -1,0 +1,42 @@
+void 武田／もっこの対策()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(106, 0, false);
+	全部(0, 0, 9410, 3, 10020, "Tebasaki Ranch", 1, 500, 0);
+	ＳＰ(661, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(666, "", 1, 100);
+	'You\'ve thought of a way to prevent the tebasaki from being frightened, you say?' A;
+	顔(816, "", 1, 100);
+	'Y-Yes...' A;
+	顔(666, "", 1, 100);
+	'What is it?' A;
+	顔(816, "", 1, 100);
+	'Um, so...' A;
+	顔(0, "", 1, 100);
+	ト書き枠(0, 0);
+	'Mokko took out some cotton.' A;
+	台詞枠(0, 0, 0);
+	顔(816, "", 1, 100);
+	'Stuff this in their ears.' A;
+	'If it\'s sound that scares them away,' R;
+	'I think this should fix the problem.' A;
+	'They\'ll probably still hear it to some extent, but I think it\'ll be much better than before.' A;
+	顔(666, "", 1, 100);
+	'I see, so earplugs.' A;
+	顔(816, "", 1, 100);
+	'Yes.' A;
+	顔(666, "", 1, 100);
+	'Alright, let\'s try it.' R;
+	'Nice suggestion, girl.' A;
+	顔(816, "", 1, 100);
+	'Oh, thank you!' A;
+	'Yamagata-sama, have the tebasaki fight to their fullest, please!' A;
+	顔(666, "", 1, 100);
+	'Roger.' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}
