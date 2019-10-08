@@ -33,7 +33,7 @@ void 北条／早雲の疲労()
 	顔(187, "", 1, 100);
 	'Souun...' A;
 	顔(5411, "Nanny Kiwa", 1, 100);
-	'Geez... You shouldn\'t be passing out from fatigue as his age, no matter how much you care about the good of JAPAN or what have you.' A;
+	'Geez... You shouldn\'t be passing out from fatigue at his age, no matter how much you care about the good of JAPAN or what have you.' A;
 	'He ought to care more about himself first.' A;
 	顔(0, "", 1, 100);
 	ト書き枠(0, 0);
