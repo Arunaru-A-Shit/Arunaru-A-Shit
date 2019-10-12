@@ -1,0 +1,222 @@
+void 元就／信頼()
+{
+	EV("", -2147483648);
+	イベント("");
+	音楽(112, 0, false);
+	全部(0, 0, 9455, 1, 10020, "Oda Castle", 1, 500, 0);
+	ＳＰ(91, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(97, "", 1, 100);
+	'Th-There\'s trouble!' A;
+	顔(96, "", 1, 100);
+	'Motonari-dono...' A;
+	顔(98, "", 1, 100);
+	'He\'s in critical condition!' A;
+	顔(6, "", 1, 100);
+	'Huh?' A;
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	すだれ転換();
+	全部(0, 0, 9280, 1, 10020, "Oda Castle", 1, 500, 0);
+	台詞枠(0, 0, 0);
+	顔(427, "", 1, 100);
+	'...' A;
+	if (キャラ確認(1036, 0, 0, 0) == 1)
+	{
+		顔(436, "", 1, 100);
+		'Motonari...' A;
+	}
+	if (キャラ確認(1037, 0, 0, 0) == 1)
+	{
+		顔(446, "", 1, 100);
+		'...Hic...' A;
+	}
+	if (キャラ確認(1038, 0, 0, 0) == 1)
+	{
+		顔(456, "", 1, 100);
+		'Daddyyyyyy...' A;
+	}
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	ＳＰ(1, 1, 500);
+	台詞枠(0, 0, 0);
+	顔(6, "", 1, 100);
+	'Hey, did he die?' A;
+	顔(427, "", 1, 100);
+	'...' A;
+	'Don\'t assume I\'m dead just yet...' A;
+	顔(6, "", 1, 100);
+	'Can\'t be much longer, anyway.' A;
+	顔(427, "", 1, 100);
+	'True...' A;
+	'So I\'m going to die...' A;
+	'There\'s so much...' R;
+	'I still want to do...' A;
+	'I never held a grandchild in my arms...' A;
+	'I haven\'t drank enough sake...' A;
+	'And women... If I found a decent woman... I would\'ve liked to get close with her...' A;
+	'I... I...' A;
+	'I still want to fight...!' A;
+	顔(6, "", 1, 100);
+	'Whatever, just die already.' A;
+	顔(427, "", 1, 100);
+	'...' A;
+	if (キャラ確認(1036, 0, 0, 0) == 1)
+	{
+		顔(436, "", 1, 100);
+		'Ah...!' A;
+	}
+	if (キャラ確認(1037, 0, 0, 0) == 1)
+	{
+		顔(446, "", 1, 100);
+		'Ah!' A;
+	}
+	if (キャラ確認(1038, 0, 0, 0) == 1)
+	{
+		顔(456, "", 1, 100);
+		'Aaah!' A;
+	}
+	顔(99, "", 1, 100);
+	'...×3' A;
+	'He\'s passed away...×3' A;
+	if (キャラ確認(1036, 0, 0, 0) == 1)
+	{
+		顔(436, "", 1, 100);
+		'Motonariiiiiiiii!!!' A;
+	}
+	if (キャラ確認(1037, 0, 0, 0) == 1)
+	{
+		顔(446, "", 1, 100);
+		'Waaaaaah!' A;
+	}
+	if (キャラ確認(1038, 0, 0, 0) == 1)
+	{
+		顔(456, "", 1, 100);
+		'Daddy... Daddy, Daddyyy!' R;
+		'Waaaaaaaaah!' A;
+	}
+	顔(6, "", 1, 100);
+	'So he\'s dead?' R;
+	'He was an annoying old man,' R;
+	'but let\'s give him a proper burial.' A;
+	顔(18, "", 1, 100);
+	'Yes... Master Rance...' A;
+	顔(999, "???", 1, 100);
+	'Can you leave gentian flowers at my grave?' A;
+	顔(6, "", 1, 100);
+	'Alright, gentians, got it.' A;
+	'...' A;
+	'Huh?' A;
+	顔(16, "", 1, 100);
+	'???' A;
+	顔(6, "", 1, 100);
+	'Who said that?' A;
+	顔(16, "", 1, 100);
+	'...' A;
+	音楽(0, 1500, false);
+	'Ah...' A;
+	'Aaah...' A;
+	'Aaah... Aaah... Aaah...' A;
+	顔(6, "", 1, 100);
+	'Hm?' A;
+	顔(0, "", 1, 100);
+	ト書き枠(0, 0);
+	'Opening and closing her mouth like a fish out of water, Sill pointed and directed everyone else to look.' A;
+	枠閉じ(0, 0);
+	音楽(103, 0, false);
+	ＳＰ(423, 1, 3000);
+	台詞枠(0, 0, 0);
+	顔(428, "", 1, 100);
+	'Yo.' A;
+	顔(6, "", 1, 100);
+	'...' A;
+	顔(16, "", 1, 100);
+	'...' A;
+	if (キャラ確認(1036, 0, 0, 0) == 1)
+	{
+		顔(436, "", 1, 100);
+		'...' A;
+	}
+	if (キャラ確認(1037, 0, 0, 0) == 1)
+	{
+		顔(446, "", 1, 100);
+		'...' A;
+	}
+	if (キャラ確認(1038, 0, 0, 0) == 1)
+	{
+		顔(456, "", 1, 100);
+		'...' A;
+	}
+	顔(6, "", 1, 100);
+	'Uh...' A;
+	顔(8, "", 1, 100);
+	'Waaaaaaaaaaaah!' R;
+	'A-A ghoooooost!' A;
+	顔(18, "", 1, 100);
+	'M-Master Raaance!' A;
+	顔(428, "", 1, 100);
+	'Hmmm...' A;
+	顔(0, "", 1, 100);
+	ト書き枠(0, 0);
+	'Motonari scratched his head in confusion.' A;
+	台詞枠(0, 0, 0);
+	顔(428, "", 1, 100);
+	'I don\'t seem to have passed on.' A;
+	顔(6, "", 1, 100);
+	'W-Why?' A;
+	顔(428, "", 1, 100);
+	'I still want to fight...' A;
+	'I wished to fight hard enough, and...' A;
+	顔(0, "", 1, 100);
+	ト書き枠(0, 0);
+	'Motonari spun around to show himself off.' A;
+	台詞枠(0, 0, 0);
+	顔(428, "", 1, 100);
+	'Well, this happened...' A;
+	'This must be some sort of fate.' A;
+	'It means I can still fight!' A;
+	顔(6, "", 1, 100);
+	'No, go to Hell!' A;
+	顔(428, "", 1, 100);
+	'I\'m an all new Motonari Mouri!' R;
+	'Why not let me fight for you as a ghost?!' ルビE;
+	ルビE();
+	A();
+	顔(6, "", 1, 100);
+	'I\'d really rather any ghosts go away.' A;
+	顔(428, "", 1, 100);
+	'I refuse!' R;
+	'Nobody can stop me now!' R;
+	'Gahah hahahahaha!!!' A;
+	顔(16, "", 1, 100);
+	'But why are you big again???' A;
+	顔(428, "", 1, 100);
+	'...' A;
+	顔(16, "", 1, 100);
+	'...' A;
+	顔(428, "", 1, 100);
+	'Because bigger is better!' A;
+	顔(8, "", 1, 100);
+	'I don\'t understand!' A;
+	if (キャラ確認(1036, 0, 0, 0) == 1)
+	{
+		顔(436, "", 1, 100);
+		'That\'s my Motonari!' R;
+		'I\'m falling in love all over again!' A;
+	}
+	if (キャラ確認(1037, 0, 0, 0) == 1)
+	{
+		顔(446, "", 1, 100);
+		'Man... This dad, I swear... Heheh...' A;
+	}
+	if (キャラ確認(1038, 0, 0, 0) == 1)
+	{
+		顔(456, "", 1, 100);
+		'Aaah, thank goodness.' R;
+		'You\'ll always be with me, Daddy☆' A;
+	}
+	顔(0, "", 1, 100);
+	枠閉じ(0, 0);
+	音楽(0, 500, false);
+	全部(0, 0, 0, 0, 0, "", 1, 500, 0);
+}
