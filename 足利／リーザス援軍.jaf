@@ -1,19 +1,19 @@
-void è¶³åˆ©ï¼ãƒªãƒ¼ã‚¶ã‚¹æ´è»()
+void ‘«—˜^ƒŠ[ƒUƒX‰‡ŒR()
 {
 	EV("", -2147483648);
-	ã‚¤ãƒ™ãƒ³ãƒˆ("");
-	éŸ³æ¥½(103, 0, false);
-	å…¨éƒ¨(0, 0, 9465, 13, 10020, "Nijou Castle", 1, 500, 0);
-	ï¼³ï¼°(201, 1, 500);
-	å°è©æ (0, 0, 0);
-	é¡”(206, "", 1, 100);
-	'Wh-Wh-Wh-Wh-Wh-Whaaaaaat?!' R;
+	ƒCƒxƒ“ƒg("");
+	‰¹Šy(103, 0, false);
+	‘S•”(0, 0, 9465, 13, 10020, "Nijou Castle", 1, 500, 0);
+	‚r‚o(201, 1, 500);
+	‘äŒ˜g(0, 0, 0);
+	Šç(206, "", 1, 100);
+	'W-W-W-W-W-Whaaaaaat?!' R;
 	'Leazas sent the Oda clan reinforcements from the Continent?!' A;
 	'That cannot be!' R;
 	'Inconceivable!' A;
-	é¡”(5249, "Ashikaga's Subordinate", 1, 100);
+	Šç(5249, "Ashikaga's Subordinate", 1, 100);
 	'But it\'s true...' A;
-	é¡”(206, "", 1, 100);
+	Šç(206, "", 1, 100);
 	'Pu...' A;
 	'Pupeeeeeeeeeeee!!!' R;
 	'Pupeeepeeepupeeeeee!' A;
@@ -21,11 +21,11 @@ void è¶³åˆ©ï¼ãƒªãƒ¼ã‚¶ã‚¹æ´è»()
 	'Unforgivable!' A;
 	'Somebody send a letter to Leazas!' A;
 	'Tell them that the Ashikaga are the rightful rulers of JAPAN, and they should send reinforcements to me!' A;
-	æ€è€ƒæ (0, 0, 0);
-	é¡”(5249, "Ashikaga's Subordinate", 1, 100);
+	vl˜g(0, 0, 0);
+	Šç(5249, "Ashikaga's Subordinate", 1, 100);
 	'That\'s rather unrealistic to expect...' A;
-	é¡”(0, "", 1, 100);
-	æ é–‰ã˜(0, 0);
-	éŸ³æ¥½(0, 500, false);
-	å…¨éƒ¨(0, 0, 0, 0, 0, "", 1, 500, 0);
+	Šç(0, "", 1, 100);
+	˜g•Â‚¶(0, 0);
+	‰¹Šy(0, 500, false);
+	‘S•”(0, 0, 0, 0, 0, "", 1, 500, 0);
 }

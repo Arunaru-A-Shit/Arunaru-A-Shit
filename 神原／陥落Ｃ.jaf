@@ -1,0 +1,36 @@
+void _Œ´^Š×—‚b()
+{
+	EV("", -2147483648);
+	ƒCƒxƒ“ƒg("");
+	‘äŒ˜g(0, 0, 0);
+	Šç(6, "", 1, 100);
+	'Work for me.' A;
+	Šç(246, "", 1, 100);
+	'Whaaa?!' A;
+	Šç(6, "", 1, 100);
+	'I\'m telling you to become a commander and lead a squad in battle.' A;
+	Šç(246, "", 1, 100);
+	'That\'s a job for men!' R;
+	'I shouldn\'t have to do that.' A;
+	Šç(6, "", 1, 100);
+	'Quit whining.' R;
+	'Just do it.' A;
+	Šç(246, "", 1, 100);
+	'W-Why make me do that?!' A;
+	Šç(6, "", 1, 100);
+	'Hmmmm, I dunno,' R;
+	'just feel like it.' A;
+	Šç(246, "", 1, 100);
+	'No, I refuse!' A;
+	Šç(6, "", 1, 100);
+	'...Would you rather die?' A;
+	Šç(246, "", 1, 100);
+	'...Huh?' A;
+	Šç(6, "", 1, 100);
+	'If not, then do what I tell you,' R;
+	'selfish little princess.' A;
+	Šç(0, "", 1, 100);
+	˜g•Â‚¶(0, 0);
+	‰¹Šy(0, 500, false);
+	‘S•”(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

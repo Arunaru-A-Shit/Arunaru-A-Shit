@@ -1,37 +1,37 @@
-void ã‚¿ã‚¯ã‚¬ï¼ä¸­ã£å›½ã‚’è¿½ã‚ã‚Œã‚‹è­²ãªã—()
+void ƒ^ƒNƒK^’†‚Á‘‚ğ’Ç‚í‚ê‚é÷‚È‚µ()
 {
-	éŸ³æ¥½(107, 0, false);
-	å…¨éƒ¨(0, 0, 9149, 15, 10020, "Takuga Base", 1, 500, 0);
-	ãƒˆæ›¸ãæ (0, 0);
+	‰¹Šy(107, 0, false);
+	‘S•”(0, 0, 9149, 15, 10020, "Takuga Base", 1, 500, 0);
+	ƒg‘‚«˜g(0, 0);
 	'The castle was burning.' A;
-	æ é–‰ã˜(0, 0);
-	å…¨éƒ¨(0, 0, 9485, 15, 10020, "Takuga Base", 1, 500, 0);
-	ï¼³ï¼°(461, 1, 500);
-	å°è©æ (0, 0, 0);
-	é¡”(5172, "Ryouma's Subordinate", 1, 100);
+	˜g•Â‚¶(0, 0);
+	‘S•”(0, 0, 9485, 15, 10020, "Takuga Base", 1, 500, 0);
+	‚r‚o(461, 1, 500);
+	‘äŒ˜g(0, 0, 0);
+	Šç(5172, "Ryouma's Subordinate", 1, 100);
 	'Ryouma-san, this is bad!' R;
 	'The castle\'s on fire!' A;
-	é¡”(466, "", 1, 100);
+	Šç(466, "", 1, 100);
 	'Tch... Aaagh!' A;
-	é¡”(5172, "Ryouma's Subordinate", 1, 100);
-	'Wh-What should we do?' A;
-	é¡”(466, "", 1, 100);
+	Šç(5172, "Ryouma's Subordinate", 1, 100);
+	'W-What should we do?' A;
+	Šç(466, "", 1, 100);
 	'What can we do?!' A;
 	'...' A;
 	'...Go back to Death Country.' A;
-	é¡”(5172, "Ryouma's Subordinate", 1, 100);
+	Šç(5172, "Ryouma's Subordinate", 1, 100);
 	'A-Are you serious?!' A;
-	é¡”(466, "", 1, 100);
+	Šç(466, "", 1, 100);
 	'This is no time for jokes!' R;
 	'I\'m completely serious!' A;
-	é¡”(5172, "Ryouma's Subordinate", 1, 100);
+	Šç(5172, "Ryouma's Subordinate", 1, 100);
 	'But...' A;
-	é¡”(466, "", 1, 100);
+	Šç(466, "", 1, 100);
 	'We can go back, gather more allies, and build Takuga back up again!' A;
 	'Let\'s get together our surviving allies and run! Tell everyone we\'re abandoning the castle!' A;
 	'Shit... Fucking foreigner!' A;
-	é¡”(0, "", 1, 100);
-	æ é–‰ã˜(0, 0);
-	éŸ³æ¥½(0, 500, false);
-	å…¨éƒ¨(0, 0, 0, 0, 0, "", 1, 500, 0);
+	Šç(0, "", 1, 100);
+	˜g•Â‚¶(0, 0);
+	‰¹Šy(0, 500, false);
+	‘S•”(0, 0, 0, 0, 0, "", 1, 500, 0);
 }

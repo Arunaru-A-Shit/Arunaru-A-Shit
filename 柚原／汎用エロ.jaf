@@ -1,0 +1,37 @@
+void —MŒ´^”Ä—pƒGƒ()
+{
+	EV("", -2147483648);
+	ƒCƒxƒ“ƒg("");
+	‰¹Šy(109, 0, false);
+	ƒrƒWƒ…ƒAƒ‹(2301, 1, 1000);
+	‘äŒ˜g(1, 0, 0);
+	'"Let the bullet loading begin!"' A;
+	‘äŒ˜g(94, 0, 0);
+	'"W-What...?"' A;
+	‘äŒ˜g(1, 0, 0);
+	'"Pre-battle preparations.' R;
+	' Let\'s go, tooooooh!"' A;
+	˜g•Â‚¶(0, 0);
+	ƒrƒWƒ…ƒAƒ‹(2303, 1, 1000);
+	‘äŒ˜g(94, 0, 0);
+	'"...Guh... Nnngh...!"' A;
+	‘äŒ˜g(1, 0, 0);
+	'"Gahahahahahaha."' A;
+	˜g•Â‚¶(0, 0);
+	‘S•”(0, 0, 9456, 1, 10020, "Oda Camp", 1, 500, 0);
+	‚r‚o(331, 1, 500);
+	‘äŒ˜g(0, 0, 0);
+	Šç(336, "", 1, 100);
+	'Urgh...' A;
+	Šç(6, "", 1, 100);
+	'Good for you.' R;
+	'Now your pregnancy chances went up again.' A;
+	Šç(336, "", 1, 100);
+	'...I want to do it like normal people...' A;
+	Šç(7, "", 1, 100);
+	'Gahahahahaha.' A;
+	Šç(0, "", 1, 100);
+	˜g•Â‚¶(0, 0);
+	‰¹Šy(0, 500, false);
+	‘S•”(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

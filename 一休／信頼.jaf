@@ -1,0 +1,44 @@
+void ˆê‹x^M—Š()
+{
+	EV("", -2147483648);
+	ƒCƒxƒ“ƒg("");
+	‰¹Šy(104, 0, false);
+	‘S•”(0, 0, 9455, 1, 10020, "Oda Castle", 1, 500, 0);
+	‚r‚o(221, 1, 500);
+	‘äŒ˜g(0, 0, 0);
+	Šç(226, "", 1, 100);
+	'I have some helpful information for the shogun.' A;
+	Šç(6, "", 1, 100);
+	'Who\'s the shogun?!' A;
+	Šç(226, "", 1, 100);
+	'Isn\'t that you?' A;
+	Šç(6, "", 1, 100);
+	'Since when?' A;
+	Šç(226, "", 1, 100);
+	'So, you know about rainbows?' A;
+	Šç(6, "", 1, 100);
+	'Mhm, of course.' A;
+	Šç(226, "", 1, 100);
+	'You can walk across them.' A;
+	Šç(6, "", 1, 100);
+	'Huh...' A;
+	Šç(226, "", 1, 100);
+	'You see how they look like bridges?' A;
+	'Just remember, you have to cross the middle of the bridge. Then you can walk on it.' A;
+	Šç(6, "", 1, 100);
+	'...Wha???' A;
+	Šç(226, "", 1, 100);
+	'Oh, please, you know what I\'m talking about.' A;
+	Šç(6, "", 1, 100);
+	'No... I honestly have no idea.' A;
+	Šç(226, "", 1, 100);
+	'Heheh... Mother...' R;
+	'The new shogun is so innocent.' R;
+	'Heheh... Heheheheh...' A;
+	Šç(6, "", 1, 100);
+	'W-What the fuck???' A;
+	Šç(0, "", 1, 100);
+	˜g•Â‚¶(0, 0);
+	‰¹Šy(0, 500, false);
+	‘S•”(0, 0, 0, 0, 0, "", 1, 500, 0);
+}
