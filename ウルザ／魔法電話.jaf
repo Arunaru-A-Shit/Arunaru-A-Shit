@@ -110,7 +110,7 @@ void ウルザ／魔法電話()
 	顔(746, "", 1, 100);
 	'Yes.' A;
 	顔(999, "Chizuko Yamada", 1, 100);
-	'Alright, go head.' A;
+	'Alright, go ahead.' A;
 	顔(999, "Rocky Bank", 1, 100);
 	'Miss Urzaaaaa!' R;
 	'Haven\'t spoken to ya in ages!' A;
