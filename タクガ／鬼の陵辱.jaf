@@ -301,7 +301,7 @@ void ƒ^ƒNƒK^‹S‚Ì—ËJ()
 	'Mine!' A;
 	Šç(0, "", 1, 100);
 	ƒg‘‚«˜g(0, 0);
-	'Mine slid her hands over Ryouma\'s stiff body and locked legs with her.' C2;
+	'Mine slid her hand over Ryouma\'s stiff body and locked legs with her.' C2;
 	R();
 	‚r‚o(0, 1, 500);
 	'Then they fell to the ground together.' A;
