@@ -247,7 +247,7 @@ void 信長／ザビエルに()
 	'There you are, ghost.' A;
 	顔(596, "", 1, 100);
 	'Dang!' R;
-	'This is once nice fiend!' A;
+	'This is one nice fiend!' A;
 	顔(768, "", 1, 100);
 	'Heh heh... But now the empress\'s infuriating power cannot control me...' A;
 	音楽(109, 0, false);
