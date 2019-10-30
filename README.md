@@ -2,6 +2,15 @@
 
 Arunaru-A-Shit!
 
+WARNING:
+SOMETIMES MY .AIN FILE ENDS UP CORRUPTED OR SOMETHING AFTER WORKING FOR MONTHS
+MAKE A BACK UP OF YOUR ORIGINAL .AIN FILE
+THIS SHIT COULD EASLIY FUCK UP YOUR GAME AND I HAVE NO IDEA IF I HAVE FUCKED UP SOME OF THE GAMES MECHANICS SOMEHOW
+USE AT YOUR OWN RISK
+IF THIS HAPPENS REPATCH YOUR ORIGINAL .AIN FILE.
+
+As of 10/30/2019 I am no longer working on this and am not likely to keep this github maintained. 
+
 Tools Needed:
 
 AinDecompiler: https://web.archive.org/web/20160315051715/https://tlwiki.org/images/8/88/AinDecompiler.rar
