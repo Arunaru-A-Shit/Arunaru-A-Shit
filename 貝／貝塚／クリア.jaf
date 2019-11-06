@@ -1,0 +1,29 @@
+void ŠL^ŠL’Ë^ƒNƒŠƒA()
+{
+	EV("", -2147483648);
+	ƒCƒxƒ“ƒg("");
+	‰¹Šy(104, 0, false);
+	‘S•”(0, 0, 9700, 1, 10020, "Dungeon", 1, 500, 0);
+	‚r‚o(1, 1, 500);
+	‘äŒ˜g(0, 0, 0);
+	Šç(6, "", 1, 100);
+	'Oh...' A;
+	'Ooooooooooooh!' A;
+	Šç(0, "", 1, 100);
+	ƒg‘‚«˜g(0, 0);
+	'Rance picked up a 100 sakura shell set.' A;
+	‘äŒ˜g(0, 0, 0);
+	Šç(6, "", 1, 100);
+	'W-What a wonderful luster!' R;
+	'And a hundred of them, at that...' A;
+	'A huuuuuundreeeeeed!' A;
+	'Heheh... Haha...' C;
+	R();
+	'Ahaha... Ahahahahaha...' A;
+	Šç(0, "", 1, 100);
+	ƒg‘‚«˜g(0, 0);
+	'Rance\'s eyes shined and spun with joy.' A;
+	˜g•Â‚¶(0, 0);
+	‰¹Šy(0, 500, false);
+	‘S•”(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

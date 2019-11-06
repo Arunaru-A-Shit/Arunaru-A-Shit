@@ -350,7 +350,7 @@ void 武田／信玄の居場所()
 	顔(666, "", 1, 100);
 	'What is the meaning of this?' A;
 	顔(636, "", 1, 100);
-	'W-Who knows?' A;
+	'Wh-Who knows?' A;
 	顔(646, "", 1, 100);
 	'There are two things I do know...' A;
 	'One, we can\'t point out to everyone watching that this Shingen-sama is a fake.' A;
@@ -363,7 +363,7 @@ void 武田／信玄の居場所()
 	'Welp, they got us!' A;
 	顔(656, "", 1, 100);
 	'Th-Then...' R;
-	'W-Who is this?' A;
+	'Wh-Who is this?' A;
 	顔(666, "", 1, 100);
 	'Shhh...' A;
 	顔(656, "", 1, 100);

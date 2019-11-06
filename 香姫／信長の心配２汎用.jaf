@@ -22,7 +22,7 @@ void 香姫／信長の心配２汎用()
 	顔(6, "", 1, 100);
 	'Hoh, dango...' A;
 	'...Wait...' R;
-	'W-Who made them?' A;
+	'Wh-Who made them?' A;
 	顔(46, "", 1, 100);
 	'Me.' A;
 	顔(6, "", 1, 100);

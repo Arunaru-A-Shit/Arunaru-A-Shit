@@ -59,7 +59,7 @@ void マジック／武将初()
 	顔(6, "", 1, 100);
 	'Bwuh?' A;
 	顔(737, "", 1, 100);
-	'W-Who said they\'d... You... Th-That...' R;
+	'Wh-Who said they\'d... You... Th-That...' R;
 	'Uh, uh, uh, uh...' A;
 	'Um!' C;
 	R();

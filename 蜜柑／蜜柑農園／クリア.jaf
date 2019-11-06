@@ -1,0 +1,23 @@
+void –¨Š¹^–¨Š¹”_‰€^ƒNƒŠƒA()
+{
+	EV("", -2147483648);
+	ƒCƒxƒ“ƒg("");
+	‰¹Šy(103, 0, false);
+	‘S•”(0, 0, 9700, 1, 10020, "Dungeon", 1, 500, 0);
+	‚r‚o(1, 1, 500);
+	‘äŒ˜g(0, 0, 0);
+	Šç(6, "", 1, 100);
+	'I fucking love to eat mikans!' A;
+	'Wait... Agh... That reminds me of the level goddess... Scary... Scaryyy... Don\'t lower my leveeel...' A;
+	Šç(5172, "Rance's Subordinate", 1, 100);
+	'W-What are you so scared about?' A;
+	Šç(8, "", 1, 100);
+	'You\'d know if you ever met Mikan, idiot!' A;
+	Šç(5172, "Rance's Subordinate", 1, 100);
+	'S-Sorry!' R;
+	'I\'m sorry!' A;
+	Šç(0, "", 1, 100);
+	˜g•Â‚¶(0, 0);
+	‰¹Šy(0, 500, false);
+	‘S•”(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

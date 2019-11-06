@@ -1,0 +1,47 @@
+void –ì‹e^Š©—U¬Œ÷()
+{
+	EV("", -2147483648);
+	ƒCƒxƒ“ƒg("");
+	‰¹Šy(101, 0, false);
+	‘S•”(0, 0, 9250, 1, 10020, "Prison", 1, 500, 0);
+	‚r‚o(521, 1, 500);
+	‘äŒ˜g(0, 0, 0);
+	Šç(526, "", 1, 100);
+	'Uhn... Hic...' R;
+	'Sob... Hic...' A;
+	Šç(6, "", 1, 100);
+	'Agh, are you still crying?' A;
+	Šç(526, "", 1, 100);
+	'Uhn... Yeah, because...' R;
+	'You know...' A;
+	Šç(6, "", 1, 100);
+	'If all you\'re gonna do is cry...' A;
+	‰¹Šy(109, 0, false);
+	'Then join me.' A;
+	Šç(526, "", 1, 100);
+	'W-Whaaaaaat?!' R;
+	'Whyyy?!' A;
+	Šç(6, "", 1, 100);
+	'Because you\'ve clearly got time on your hands.' R;
+	'I\'m giving you something to do.' A;
+	Šç(10, "", 1, 100);
+	'Be thankful.' R;
+	'Gahahaha.' A;
+	Šç(526, "", 1, 100);
+	'O-Oh nooo!' A;
+	Šç(6, "", 1, 100);
+	'Anyway, that\'s settled.' R;
+	'You work for me.' A;
+	Šç(526, "", 1, 100);
+	'Waaaaaah!' A;
+	Šç(7, "", 1, 100);
+	'Gahahahahahaha.' A;
+	Šç(0, "", 1, 100);
+	˜g•Â‚¶(0, 0);
+	‚r‚o(0, 1, 500);
+	ƒg‘‚«˜g(0, 0);
+	'Thus, Nogiku joined Rance.' A;
+	˜g•Â‚¶(0, 0);
+	‰¹Šy(0, 500, false);
+	‘S•”(0, 0, 0, 0, 0, "", 1, 500, 0);
+}

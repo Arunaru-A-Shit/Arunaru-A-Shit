@@ -1,0 +1,26 @@
+void “Vu‹³^˜a–r‚Ì’ñˆÄ‚a()
+{
+	EV("", -2147483648);
+	ƒCƒxƒ“ƒg("");
+	‰¹Šy(109, 0, false);
+	‘äŒ˜g(0, 0, 0);
+	Šç(6, "", 1, 100);
+	'Nah, let\'s keep fighting.' A;
+	'After we crush and conquer the Tenshiists, then we can talk about peace.' A;
+	'If we ask for peace now, it\'ll look like it\'s us who were wrong. And that\'d suck.' A;
+	Šç(96, "", 1, 100);
+	'But no matter how you look at it, this started because of our side.' A;
+	Šç(98, "", 1, 100);
+	'That damned fiend used our lord\'s body to oppress the Tenshiists and torch Mount Hiei.' A;
+	Šç(97, "", 1, 100);
+	'But if you didn\'t know the full circumstances, it looks like we\'re at fault.' A;
+	Šç(6, "", 1, 100);
+	'Shut up. It wasn\'t me who did it, so I\'m not gonna apologize.' A;
+	'Anyway, first we\'ll beat them, then we\'ll make up!' A;
+	Šç(99, "", 1, 100);
+	'Wh-What a person...~3' A;
+	Šç(0, "", 1, 100);
+	˜g•Â‚¶(0, 0);
+	‰¹Šy(0, 500, false);
+	‘S•”(0, 0, 0, 0, 0, "", 1, 500, 0);
+}
